@@ -159,7 +159,7 @@ def split_bundle(bundle: dict, expected: list[str]) -> dict:
     return cache
 
 
-def patch_file(filename):
+def patch_file(filename, output_dir):
     if os.path.exists(filename):
         id_cache = {}
         dupes = {}
@@ -255,7 +255,7 @@ def patch_file(filename):
                            meta=dict(lastUpdated=datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')),
                            entry=entries)
 
-            with open(f"subjects/{prefix.replace('10_Patients', patient_ids.get(patient_id))}{ext}", 'w') as f:
+            with open(f"{output_dir}/{os.path.basename(prefix).replace('10_Patients', patient_ids.get(patient_id))}{ext}", 'w') as f:
                 json.dump(content, f, indent=2)
 
     else:
@@ -263,4 +263,4 @@ def patch_file(filename):
 
 
 if __name__ == "__main__":
-    patch_file(sys.argv[1])
+    patch_file(sys.argv[1], sys.argv[2])
