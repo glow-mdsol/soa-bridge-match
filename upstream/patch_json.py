@@ -25,6 +25,8 @@ STATUS = dict(Observation=dict(status="final"),
 
 SUBJECT_MAP = {}
 
+IP_ID = "H2Q-MC-LZZT-LY246708"
+
 
 def update_references(parent: dict):
     """
@@ -91,7 +93,7 @@ def patch_adverse_event(adverse_event: dict):
         for item in adverse_event['suspectEntity']:
             if 'instance' not in item:
                 # add a link to the medication (currently dangling)
-                item['instance'] = dict(reference='Medication/LY246708')
+                item['instance'] = dict(reference=f'Medication/{IP_ID}')
     if 'contained' in adverse_event:
         for item in adverse_event['contained']:
             # clone the subject from the event
@@ -230,13 +232,13 @@ def patch_file(filename):
                          ifNoneExist=f"id={_site_id}")
         )
         data['entry'].append(site_entry)
-        # add a record for the medication
+        # add a record for the medication (IP)
         medication_entry = dict(resource=dict(
             resourceType='Medication',
-            id="LY246708"),
+            id=IP_ID),
             request=dict(method='PUT',
-                         url=f'Medication/LY246708',
-                         ifNoneExist=f"id=LY246708")
+                         url=f'Medication/{IP_ID}',
+                         ifNoneExist=f"id={IP_ID}")
         )
         data['entry'].append(medication_entry)
         # check we haven't made a new subject or two
