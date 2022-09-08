@@ -118,6 +118,24 @@ def patch_observation(observation: dict):
     if 'status' not in observation:
         observation['status'] = 'final'
 
+def purge_comments(resource: dict):
+    """
+    Remove comments from the resource
+    """
+    if not isinstance(resource, (dict, list)):
+        return
+    if 'fhir_comments' in resource:
+        del resource['fhir_comments']
+    if isinstance(resource, list):
+        for child in resource.copy():
+            purge_comments(child)
+    elif isinstance(resource, dict):
+        for child_name, child in resource.copy().items():
+            # remove the 
+            if child_name.startswith('_'):
+                del resource[child_name]
+            purge_comments(child)
+
 
 def split_bundle(bundle: dict, expected: list[str]) -> dict:
     """
@@ -213,6 +231,7 @@ def patch_file(filename, output_dir):
                     elif key not in entry['resource']:
                         entry['resource'][key] = value
             update_references(resource)
+            purge_comments(resource)
             # if 'fullUrl' not in entry:
             #     # ADD THE FULL URL
             #     entry['fullUrl'] = _identifier
