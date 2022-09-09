@@ -347,7 +347,7 @@
                         ]
                     }
                 ],
-                "description": "H2Q-MC-LZZT-LY246708 2 patches transdermal daily blinded dose strength 2 (308 patches; 0 refills)",
+                "description": "H2Q-MC-LZZT-LY246708 2 patches transdermal daily blinded dose strength 1 (28 patches; 0 refills)",
                 "useContext": [
                     {
                         "code": {
@@ -713,7 +713,7 @@
                         ]
                     }
                 ],
-                "description": "H2Q-MC-LZZT-LY246708 2 patches transdermal daily blinded dose strength 1 (28 patches; 0 refills)",
+                "description": "H2Q-MC-LZZT-LY246708 2 patches transdermal daily blinded dose strength 3 (28 patches; 0 refills)",
                 "useContext": [
                     {
                         "code": {
