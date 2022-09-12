@@ -117,6 +117,9 @@ def patch_observation(observation: dict):
         print("Patched OTHER LOINC LONG NAME")
     if 'status' not in observation:
         observation['status'] = 'final'
+    if 'effectiveDateTime' in observation:
+        if 'T' not in observation['effectiveDateTime']:
+            observation['effectiveDateTime'] = observation['effectiveDateTime'] + 'T08:00:00Z'
 
 def purge_comments(resource: dict):
     """
