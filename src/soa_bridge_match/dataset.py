@@ -201,6 +201,67 @@ class Naptha:
             self.content.add_resource(record)
         print("Done")
 
+    def merge_unscheduled_visit(self, subject_id: str, visit_num: str):
+        """
+        Add an unscheduled visit for an individual
+        """
+        if subject_id not in self.get_subjects():
+            raise ValueError(f"Subject {subject_id} does not exist")
+        plan_def_id = "H2Q-MC-LZZT-Study-Unscheduled-Visit"
+        # slice the dataset
+        sv = self.get_subject_sv(subject_id)
+        prior_visit = visit_number.split(".")[0]
+        before = sv[sv.VISITNUM == prior_visit]["SVSTDTC"].values[0]     
+        visdt = before + datetime.timedelta(days=random.randint(1, 7)))   
+        # generate the careplan
+        care_plan_description = f"{patient_hash_id}-{visit_num}-CarePlan"
+        care_plan_id = hh(care_plan_description)
+        # create a care plan
+        care_plan = CarePlan(
+            id=care_plan_id,
+            status="completed",
+            intent="order",
+            subject=Reference(reference=f"Patient/{patient_hash_id}"),
+            instantiatesCanonical=[f"PlanDefinition/{plan_def_id}"],
+            title=f"Subject {record.USUBJID} {visit_num}",
+        )
+        care_plan.identifier = [Identifier(value=care_plan_description)]
+        # bind the care plan - todo!
+        # create the service request
+        service_request_description = (
+            f"{patient_hash_id}-{visit_num}-ServiceRequest"
+        )
+        service_request_id = hh(service_request_description)
+        service_request = ServiceRequest(
+            id=service_request_id,
+            status="completed",
+            intent="order",
+            subject=Reference(reference=f"Patient/{patient_hash_id}"),
+            basedOn=[Reference(reference=f"CarePlan/{care_plan_id}")],
+        )
+        service_request.identifier = [
+            Identifier(value=f"{service_request_description}")
+        ]
+        encounter = Encounter(
+            id=hh(f"{care_plan_id}-{record.VISITNUM}-Encounter"),
+            status="finished",
+            class_fhir=Coding(code="IMP", system="http://hl7.org/fhir/v3/ActCode"),
+            subject=Reference(reference=f"Patient/{patient_hash_id}"),
+            basedOn=[Reference(reference=f"ServiceRequest/{service_request_id}")],
+        )
+        encounter.identifier = [Identifier(value=f"{care_plan_id}-Encounter")]
+        period = {}
+        period["start"] = visdt
+        period["end"] = visdt
+        encounter.period = Period(**period)
+        # later
+        # encounter.serviceProvider = Reference(reference=f"Organization/{self.org_id}")
+        self.content.add_resource(care_plan)
+        self.content.add_resource(service_request)
+        self.content.add_resource(encounter)
+        # add the observations
+        
+
     def merge_sv(self, subject_id: Optional[str] = None):
         """
         Parse the SV dataset for a subject
@@ -247,7 +308,6 @@ class Naptha:
             if str(visit_num) not in pd_map:
                 print("Visit {} is unscheduled".format(visit_num))
                 plan_def_id = "H2Q-MC-LZZT-Study-Unscheduled-Visit"
-                continue
             else:
                 plan_def_id = pd_map[str(visit_num)]
             if plan_def_id is None:
