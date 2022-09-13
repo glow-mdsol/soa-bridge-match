@@ -122,6 +122,13 @@ def patch_observation(observation: dict):
             observation['effectiveDateTime'] = observation['effectiveDateTime'] + 'T08:00:00Z'
         elif not observation['effectiveDateTime'].endswith('Z'):
             observation['effectiveDateTime'] = observation['effectiveDateTime'] + 'Z'
+    if 'start' in observation:
+        if 'T' in observation['start'] and not observation['start'].endswith('Z'):
+            observation['start'] = observation['start'] + 'Z'
+    if 'end' in observation:
+        if 'T' in observation['end'] and not observation['end'].endswith('Z'):
+            observation['end'] = observation['end'] + 'Z'
+
 
 def purge_comments(resource: dict):
     """
@@ -152,7 +159,10 @@ def split_bundle(bundle: dict, expected: list[str]) -> dict:
     for entry in bundle['entry']:
         rtype = entry['resource']['resourceType']
         # maybe this should check for 'subject' or 'individual'
-        if rtype in ("ResearchStudy", "Group", "Organization", "Practitioner", "Medication") or rtype.endswith(
+        if rtype == "ObservationDefinition":
+            # ignore ObservationDefinition
+            continue
+        elif rtype in ("ResearchStudy", "Group", "Organization", "Practitioner", "Medication") or rtype.endswith(
                 "Definition"):
             # design elements
             common.append(entry)
