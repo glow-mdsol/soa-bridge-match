@@ -1,8 +1,8 @@
 {
  "resourceType": "Bundle",
- "id": "32707aa0-7ebc-49b5-895d-3a6aa95ece64",
+ "id": "81af61ec-397f-4f58-9320-588b8b6d60b8",
  "meta": {
-  "lastUpdated": "2022-09-13T09:23:16+00:00"
+  "lastUpdated": "2022-09-13T21:22:10+00:00"
  },
  "type": "transaction",
  "entry": [
@@ -1906,7 +1906,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "97660ee8-1f6f-472b-baf8-00b76cf11548",
+    "id": "9195ccef-2650-4af1-8720-2a6c76921e71",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -2333,7 +2333,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "596fa4e6-27e3-4a8f-995d-f093e37ff340",
+    "id": "bcf79e57-3566-40ea-9250-3557fa0add64",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -3858,7 +3858,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "72760a4b-70bc-4116-b960-dbe9a2503f27",
+    "id": "9e405209-473a-402d-af4d-59fe307162ec",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -4846,7 +4846,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "17d86b3e-9852-45cb-8b23-bc9059e9f82c",
+    "id": "2fd8e160-7654-4ac9-8051-f6f0e7b828e0",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -7192,7 +7192,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "1791c816-65a6-45c0-b92e-83588e6846b6",
+    "id": "3144b2e1-82f5-4324-84f7-b832b5d2449b",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -7558,7 +7558,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "e056f997-21ef-4497-abe6-26c93368b697",
+    "id": "a47bdf56-cde5-4e70-9fcd-079bf04748d8",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -8595,7 +8595,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "9b2df5a6-55a8-4dfe-b89f-89874770e487",
+    "id": "4d3af1a8-eeeb-47ac-9cc0-a60175702d35",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -9072,7 +9072,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "df3c1a79-e538-49f3-b942-d2362932938b",
+    "id": "08e1cfe0-683f-4fae-aa87-96d6918fcd75",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -9228,7 +9228,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "9bfb85af-27a1-44a7-9192-0b6c569570ea",
+    "id": "36fda45b-0ad0-41e2-a3fe-12242765b9ef",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -9592,7 +9592,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "2c0943c4-e808-4a8d-9134-bd8d9228a52b",
+    "id": "381ac030-b838-4b90-89be-6369bab147dd",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -9982,7 +9982,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 4.3,
      "unit": "g/dL",
@@ -10042,7 +10042,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 4.2,
      "unit": "g/dL",
@@ -10102,7 +10102,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 4.2,
      "unit": "g/dL",
@@ -10162,7 +10162,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 4.1,
      "unit": "g/dL",
@@ -10222,7 +10222,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 4.3,
      "unit": "g/dL",
@@ -10282,7 +10282,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 4.1,
      "unit": "g/dL",
@@ -10342,7 +10342,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 4.2,
      "unit": "g/dL",
@@ -10402,7 +10402,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 3.9,
      "unit": "g/dL",
@@ -10462,7 +10462,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 4.3,
      "unit": "g/dL",
@@ -10522,7 +10522,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 4.0,
      "unit": "g/dL",
@@ -10582,7 +10582,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 56,
      "unit": "U/L",
@@ -10642,7 +10642,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 54,
      "unit": "U/L",
@@ -10702,7 +10702,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 49,
      "unit": "U/L",
@@ -10762,7 +10762,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 48,
      "unit": "U/L",
@@ -10822,7 +10822,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 49,
      "unit": "U/L",
@@ -10882,7 +10882,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 53,
      "unit": "U/L",
@@ -10942,7 +10942,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 67,
      "unit": "U/L",
@@ -11002,7 +11002,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 50,
      "unit": "U/L",
@@ -11062,7 +11062,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 54,
      "unit": "U/L",
@@ -11122,7 +11122,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 52,
      "unit": "U/L",
@@ -11182,7 +11182,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 16,
      "unit": "U/L",
@@ -11242,7 +11242,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 24,
      "unit": "U/L",
@@ -11302,7 +11302,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 17,
      "unit": "U/L",
@@ -11362,7 +11362,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 14,
      "unit": "U/L",
@@ -11422,7 +11422,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 18,
      "unit": "U/L",
@@ -11482,7 +11482,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 14,
      "unit": "U/L",
@@ -11542,7 +11542,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 15,
      "unit": "U/L",
@@ -11602,7 +11602,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 11,
      "unit": "U/L",
@@ -11662,7 +11662,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 18,
      "unit": "U/L",
@@ -11722,7 +11722,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 15,
      "unit": "U/L",
@@ -11782,7 +11782,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 19,
      "unit": "U/L",
@@ -11842,7 +11842,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 21,
      "unit": "U/L",
@@ -11902,7 +11902,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 16,
      "unit": "U/L",
@@ -11962,7 +11962,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 19,
      "unit": "U/L",
@@ -12022,7 +12022,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 18,
      "unit": "U/L",
@@ -12082,7 +12082,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 17,
      "unit": "U/L",
@@ -12142,7 +12142,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 17,
      "unit": "U/L",
@@ -12202,7 +12202,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 16,
      "unit": "U/L",
@@ -12262,7 +12262,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 20,
      "unit": "U/L",
@@ -12322,7 +12322,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 19,
      "unit": "U/L",
@@ -12382,7 +12382,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 0.06,
      "unit": "THOU/uL"
@@ -12440,7 +12440,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 0.05,
      "unit": "THOU/uL"
@@ -12498,7 +12498,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 0.06,
      "unit": "THOU/uL"
@@ -12556,7 +12556,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 0.07,
      "unit": "THOU/uL"
@@ -12614,7 +12614,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 0.08,
      "unit": "THOU/uL"
@@ -12672,7 +12672,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 0.06,
      "unit": "THOU/uL"
@@ -12730,7 +12730,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 0.08,
      "unit": "THOU/uL"
@@ -12788,7 +12788,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 0.04,
      "unit": "THOU/uL"
@@ -12846,7 +12846,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 0.06,
      "unit": "THOU/uL"
@@ -12904,7 +12904,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 0.06,
      "unit": "THOU/uL"
@@ -12962,7 +12962,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 0.4,
      "unit": "mg/dL",
@@ -13022,7 +13022,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 0.5,
      "unit": "mg/dL",
@@ -13082,7 +13082,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 0.6,
      "unit": "mg/dL",
@@ -13142,7 +13142,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 0.5,
      "unit": "mg/dL",
@@ -13202,7 +13202,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 0.5,
      "unit": "mg/dL",
@@ -13262,7 +13262,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 0.4,
      "unit": "mg/dL",
@@ -13322,7 +13322,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 0.4,
      "unit": "mg/dL",
@@ -13382,7 +13382,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 0.3,
      "unit": "mg/dL",
@@ -13442,7 +13442,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 0.6,
      "unit": "mg/dL",
@@ -13502,7 +13502,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 0.5,
      "unit": "mg/dL",
@@ -13562,7 +13562,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 21,
      "unit": "mg/dL",
@@ -13622,7 +13622,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 24,
      "unit": "mg/dL",
@@ -13682,7 +13682,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 23,
      "unit": "mg/dL",
@@ -13742,7 +13742,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 21,
      "unit": "mg/dL",
@@ -13802,7 +13802,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 21,
      "unit": "mg/dL",
@@ -13862,7 +13862,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 22,
      "unit": "mg/dL",
@@ -13922,7 +13922,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 21,
      "unit": "mg/dL",
@@ -13982,7 +13982,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 19,
      "unit": "mg/dL",
@@ -14042,7 +14042,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 18,
      "unit": "mg/dL",
@@ -14102,7 +14102,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 19,
      "unit": "mg/dL",
@@ -14162,7 +14162,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 9.3,
      "unit": "mg/dL",
@@ -14222,7 +14222,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 9.4,
      "unit": "mg/dL",
@@ -14282,7 +14282,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 9.1,
      "unit": "mg/dL",
@@ -14342,7 +14342,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 8.9,
      "unit": "mg/dL",
@@ -14402,7 +14402,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 9.4,
      "unit": "mg/dL",
@@ -14462,7 +14462,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 9.1,
      "unit": "mg/dL",
@@ -14522,7 +14522,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 9.0,
      "unit": "mg/dL",
@@ -14582,7 +14582,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 8.7,
      "unit": "mg/dL",
@@ -14642,7 +14642,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 8.8,
      "unit": "mg/dL",
@@ -14702,7 +14702,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 9.3,
      "unit": "mg/dL",
@@ -14762,7 +14762,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 241,
      "unit": "mg/dL",
@@ -14822,7 +14822,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 237,
      "unit": "mg/dL",
@@ -14882,7 +14882,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 223,
      "unit": "mg/dL",
@@ -14942,7 +14942,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 215,
      "unit": "mg/dL",
@@ -15002,7 +15002,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 238,
      "unit": "mg/dL",
@@ -15062,7 +15062,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 219,
      "unit": "mg/dL",
@@ -15122,7 +15122,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 221,
      "unit": "mg/dL",
@@ -15182,7 +15182,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 208,
      "unit": "mg/dL",
@@ -15242,7 +15242,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 226,
      "unit": "mg/dL",
@@ -15302,7 +15302,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 205,
      "unit": "mg/dL",
@@ -15362,7 +15362,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 96,
      "unit": "U/L",
@@ -15422,7 +15422,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 84,
      "unit": "U/L",
@@ -15482,7 +15482,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 86,
      "unit": "U/L",
@@ -15542,7 +15542,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 126,
      "unit": "U/L",
@@ -15602,7 +15602,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 88,
      "unit": "U/L",
@@ -15662,7 +15662,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 63,
      "unit": "U/L",
@@ -15722,7 +15722,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 77,
      "unit": "U/L",
@@ -15782,7 +15782,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 82,
      "unit": "U/L",
@@ -15842,7 +15842,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 98,
      "unit": "U/L",
@@ -15902,7 +15902,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 86,
      "unit": "U/L",
@@ -15962,7 +15962,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 103,
      "unit": "mEq/L",
@@ -16022,7 +16022,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 104,
      "unit": "mEq/L",
@@ -16082,7 +16082,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 103,
      "unit": "mEq/L",
@@ -16142,7 +16142,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 106,
      "unit": "mEq/L",
@@ -16202,7 +16202,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 100,
      "unit": "mEq/L",
@@ -16262,7 +16262,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 102,
      "unit": "mEq/L",
@@ -16322,7 +16322,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 103,
      "unit": "mEq/L",
@@ -16382,7 +16382,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 108,
      "unit": "mEq/L",
@@ -16442,7 +16442,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 103,
      "unit": "mEq/L",
@@ -16502,7 +16502,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 108,
      "unit": "mEq/L",
@@ -16562,7 +16562,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueString": "N",
     "interpretation": [
      {
@@ -16605,7 +16605,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueString": "N",
     "interpretation": [
      {
@@ -16648,7 +16648,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueString": "N",
     "interpretation": [
      {
@@ -16691,7 +16691,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueString": "N",
     "interpretation": [
      {
@@ -16734,7 +16734,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueString": "N",
     "interpretation": [
      {
@@ -16777,7 +16777,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 1.4,
      "unit": "mg/dL",
@@ -16837,7 +16837,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -16897,7 +16897,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -16957,7 +16957,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -17017,7 +17017,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -17077,7 +17077,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -17137,7 +17137,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -17197,7 +17197,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -17257,7 +17257,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 1.4,
      "unit": "mg/dL",
@@ -17317,7 +17317,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 1.6,
      "unit": "mg/dL",
@@ -17377,7 +17377,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 0.08,
      "unit": "THOU/uL"
@@ -17435,7 +17435,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 0.08,
      "unit": "THOU/uL"
@@ -17493,7 +17493,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 0.3,
      "unit": "THOU/uL"
@@ -17551,7 +17551,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 0.39,
      "unit": "THOU/uL"
@@ -17609,7 +17609,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 0.89,
      "unit": "THOU/uL"
@@ -17667,7 +17667,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 0.87,
      "unit": "THOU/uL"
@@ -17725,7 +17725,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 0.44,
      "unit": "THOU/uL"
@@ -17783,7 +17783,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 0.56,
      "unit": "THOU/uL"
@@ -17841,7 +17841,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 0.21,
      "unit": "THOU/uL"
@@ -17899,7 +17899,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 0.3,
      "unit": "THOU/uL"
@@ -17957,7 +17957,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 18,
      "unit": "U/L",
@@ -18017,7 +18017,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 21,
      "unit": "U/L",
@@ -18077,7 +18077,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 18,
      "unit": "U/L",
@@ -18137,7 +18137,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 16,
      "unit": "U/L",
@@ -18197,7 +18197,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 19,
      "unit": "U/L",
@@ -18257,7 +18257,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 19,
      "unit": "U/L",
@@ -18317,7 +18317,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 20,
      "unit": "U/L",
@@ -18377,7 +18377,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 16,
      "unit": "U/L",
@@ -18437,7 +18437,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 20,
      "unit": "U/L",
@@ -18497,7 +18497,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 16,
      "unit": "U/L",
@@ -18557,7 +18557,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 93,
      "unit": "mg/dL",
@@ -18617,7 +18617,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 90,
      "unit": "mg/dL",
@@ -18677,7 +18677,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 97,
      "unit": "mg/dL",
@@ -18737,7 +18737,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 67,
      "unit": "mg/dL",
@@ -18797,7 +18797,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 89,
      "unit": "mg/dL",
@@ -18857,7 +18857,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 107,
      "unit": "mg/dL",
@@ -18917,7 +18917,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 90,
      "unit": "mg/dL",
@@ -18977,7 +18977,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 78,
      "unit": "mg/dL",
@@ -19037,7 +19037,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 96,
      "unit": "mg/dL",
@@ -19097,7 +19097,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 89,
      "unit": "mg/dL",
@@ -19157,7 +19157,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 42.0,
      "unit": "%",
@@ -19217,7 +19217,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 38.0,
      "unit": "%",
@@ -19277,7 +19277,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 41.0,
      "unit": "%",
@@ -19337,7 +19337,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 41.0,
      "unit": "%",
@@ -19397,7 +19397,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 42.0,
      "unit": "%",
@@ -19457,7 +19457,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 41.0,
      "unit": "%",
@@ -19517,7 +19517,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 41.0,
      "unit": "%",
@@ -19577,7 +19577,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 39.0,
      "unit": "%",
@@ -19637,7 +19637,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 41.0,
      "unit": "%",
@@ -19697,7 +19697,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 39.0,
      "unit": "%",
@@ -19757,7 +19757,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 15.1,
      "unit": "g/dL",
@@ -19817,7 +19817,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 14.4,
      "unit": "g/dL",
@@ -19877,7 +19877,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 14.2,
      "unit": "g/dL",
@@ -19937,7 +19937,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 13.8,
      "unit": "g/dL",
@@ -19997,7 +19997,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 14.8,
      "unit": "g/dL",
@@ -20057,7 +20057,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 14.8,
      "unit": "g/dL",
@@ -20117,7 +20117,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 13.9,
      "unit": "g/dL",
@@ -20177,7 +20177,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 13.7,
      "unit": "g/dL",
@@ -20237,7 +20237,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 14.6,
      "unit": "g/dL",
@@ -20297,7 +20297,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 14.1,
      "unit": "g/dL",
@@ -20357,7 +20357,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 4.6,
      "unit": "mEq/L",
@@ -20417,7 +20417,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 4.8,
      "unit": "mEq/L",
@@ -20477,7 +20477,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 4.8,
      "unit": "mEq/L",
@@ -20537,7 +20537,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 4.6,
      "unit": "mEq/L",
@@ -20597,7 +20597,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "mEq/L",
@@ -20657,7 +20657,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 4.2,
      "unit": "mEq/L",
@@ -20717,7 +20717,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 4.7,
      "unit": "mEq/L",
@@ -20777,7 +20777,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 4.2,
      "unit": "mEq/L",
@@ -20837,7 +20837,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 4.1,
      "unit": "mEq/L",
@@ -20897,7 +20897,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "mEq/L",
@@ -20957,7 +20957,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -21003,7 +21003,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -21049,7 +21049,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -21095,7 +21095,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -21141,7 +21141,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -21187,7 +21187,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 2.24,
      "unit": "THOU/uL"
@@ -21245,7 +21245,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 2.61,
      "unit": "THOU/uL"
@@ -21303,7 +21303,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 3.13,
      "unit": "THOU/uL"
@@ -21361,7 +21361,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 2.44,
      "unit": "THOU/uL"
@@ -21419,7 +21419,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 2.03,
      "unit": "THOU/uL"
@@ -21477,7 +21477,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 2.49,
      "unit": "THOU/uL"
@@ -21535,7 +21535,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 2.28,
      "unit": "THOU/uL"
@@ -21593,7 +21593,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 2.16,
      "unit": "THOU/uL"
@@ -21651,7 +21651,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 2.14,
      "unit": "THOU/uL"
@@ -21709,7 +21709,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 2.31,
      "unit": "THOU/uL"
@@ -21767,7 +21767,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 33,
      "unit": "pg",
@@ -21827,7 +21827,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 33,
      "unit": "pg",
@@ -21887,7 +21887,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 33,
      "unit": "pg",
@@ -21947,7 +21947,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 32,
      "unit": "pg",
@@ -22007,7 +22007,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 34,
      "unit": "pg",
@@ -22067,7 +22067,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 34,
      "unit": "pg",
@@ -22127,7 +22127,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 32,
      "unit": "pg",
@@ -22187,7 +22187,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 33,
      "unit": "pg",
@@ -22247,7 +22247,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 34,
      "unit": "pg",
@@ -22307,7 +22307,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 33,
      "unit": "pg",
@@ -22367,7 +22367,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 36,
      "unit": "g/dL",
@@ -22427,7 +22427,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 35,
      "unit": "g/dL",
@@ -22487,7 +22487,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 35,
      "unit": "g/dL",
@@ -22547,7 +22547,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 34,
      "unit": "g/dL",
@@ -22607,7 +22607,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 35,
      "unit": "g/dL",
@@ -22667,7 +22667,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 36,
      "unit": "g/dL",
@@ -22727,7 +22727,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 34,
      "unit": "g/dL",
@@ -22787,7 +22787,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 35,
      "unit": "g/dL",
@@ -22847,7 +22847,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 36,
      "unit": "g/dL",
@@ -22907,7 +22907,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 36,
      "unit": "g/dL",
@@ -22967,7 +22967,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 90,
      "unit": "fL",
@@ -23027,7 +23027,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 87,
      "unit": "fL",
@@ -23087,7 +23087,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 94,
      "unit": "fL",
@@ -23147,7 +23147,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 96,
      "unit": "fL",
@@ -23207,7 +23207,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 95,
      "unit": "fL",
@@ -23267,7 +23267,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 95,
      "unit": "fL",
@@ -23327,7 +23327,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 95,
      "unit": "fL",
@@ -23387,7 +23387,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 93,
      "unit": "fL",
@@ -23447,7 +23447,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 94,
      "unit": "fL",
@@ -23507,7 +23507,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 91,
      "unit": "fL",
@@ -23567,7 +23567,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 0.44,
      "unit": "THOU/uL"
@@ -23625,7 +23625,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 0.65,
      "unit": "THOU/uL"
@@ -23683,7 +23683,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 0.52,
      "unit": "THOU/uL"
@@ -23741,7 +23741,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 0.62,
      "unit": "THOU/uL"
@@ -23799,7 +23799,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 0.66,
      "unit": "THOU/uL"
@@ -23857,7 +23857,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 0.71,
      "unit": "THOU/uL"
@@ -23915,7 +23915,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 0.63,
      "unit": "THOU/uL"
@@ -23973,7 +23973,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 0.59,
      "unit": "THOU/uL"
@@ -24031,7 +24031,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 0.55,
      "unit": "THOU/uL"
@@ -24089,7 +24089,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 0.57,
      "unit": "THOU/uL"
@@ -24147,7 +24147,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 134,
      "unit": "mEq/L",
@@ -24207,7 +24207,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 139,
      "unit": "mEq/L",
@@ -24267,7 +24267,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 138,
      "unit": "mEq/L",
@@ -24327,7 +24327,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 141,
      "unit": "mEq/L",
@@ -24387,7 +24387,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 136,
      "unit": "mEq/L",
@@ -24447,7 +24447,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 139,
      "unit": "mEq/L",
@@ -24507,7 +24507,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 139,
      "unit": "mEq/L",
@@ -24567,7 +24567,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 137,
      "unit": "mEq/L",
@@ -24627,7 +24627,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 136,
      "unit": "mEq/L",
@@ -24687,7 +24687,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 141,
      "unit": "mEq/L",
@@ -24747,7 +24747,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "NO UNITS"
@@ -24805,7 +24805,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "NO UNITS"
@@ -24863,7 +24863,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "NO UNITS"
@@ -24921,7 +24921,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "NO UNITS"
@@ -24979,7 +24979,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "NO UNITS"
@@ -25037,7 +25037,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 3.2,
      "unit": "mg/dL",
@@ -25097,7 +25097,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 3.5,
      "unit": "mg/dL",
@@ -25157,7 +25157,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 3.4,
      "unit": "mg/dL",
@@ -25217,7 +25217,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 3.3,
      "unit": "mg/dL",
@@ -25277,7 +25277,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 3.4,
      "unit": "mg/dL",
@@ -25337,7 +25337,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 2.4,
      "unit": "mg/dL",
@@ -25397,7 +25397,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 3.4,
      "unit": "mg/dL",
@@ -25457,7 +25457,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 3.7,
      "unit": "mg/dL",
@@ -25517,7 +25517,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 3.2,
      "unit": "mg/dL",
@@ -25577,7 +25577,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 2.9,
      "unit": "mg/dL",
@@ -25637,7 +25637,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 270,
      "unit": "THOU/uL"
@@ -25695,7 +25695,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 252,
      "unit": "THOU/uL"
@@ -25753,7 +25753,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 284,
      "unit": "THOU/uL"
@@ -25811,7 +25811,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 266,
      "unit": "THOU/uL"
@@ -25869,7 +25869,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 261,
      "unit": "THOU/uL"
@@ -25927,7 +25927,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 260,
      "unit": "THOU/uL"
@@ -25985,7 +25985,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 293,
      "unit": "THOU/uL"
@@ -26043,7 +26043,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 222,
      "unit": "THOU/uL"
@@ -26101,7 +26101,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 230,
      "unit": "THOU/uL"
@@ -26159,7 +26159,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 283,
      "unit": "THOU/uL"
@@ -26217,7 +26217,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 7.2,
      "unit": "g/dL",
@@ -26277,7 +26277,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 7.2,
      "unit": "g/dL",
@@ -26337,7 +26337,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 6.9,
      "unit": "g/dL",
@@ -26397,7 +26397,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 6.7,
      "unit": "g/dL",
@@ -26457,7 +26457,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 6.9,
      "unit": "g/dL",
@@ -26517,7 +26517,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 6.8,
      "unit": "g/dL",
@@ -26577,7 +26577,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 7.5,
      "unit": "g/dL",
@@ -26637,7 +26637,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 6.4,
      "unit": "g/dL",
@@ -26697,7 +26697,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 7.1,
      "unit": "g/dL",
@@ -26757,7 +26757,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 6.8,
      "unit": "g/dL",
@@ -26817,7 +26817,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 4.6,
      "unit": "MILL/uL"
@@ -26875,7 +26875,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 4.4,
      "unit": "MILL/uL"
@@ -26933,7 +26933,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 4.3,
      "unit": "MILL/uL"
@@ -26991,7 +26991,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 4.3,
      "unit": "MILL/uL"
@@ -27049,7 +27049,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 4.4,
      "unit": "MILL/uL"
@@ -27107,7 +27107,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 4.4,
      "unit": "MILL/uL"
@@ -27165,7 +27165,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 4.3,
      "unit": "MILL/uL"
@@ -27223,7 +27223,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 4.2,
      "unit": "MILL/uL"
@@ -27281,7 +27281,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 4.3,
      "unit": "MILL/uL"
@@ -27339,7 +27339,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 4.3,
      "unit": "MILL/uL"
@@ -27397,7 +27397,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 1.019,
      "unit": "NO UNITS"
@@ -27455,7 +27455,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 1.022,
      "unit": "NO UNITS"
@@ -27513,7 +27513,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 1.026,
      "unit": "NO UNITS"
@@ -27571,7 +27571,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 1.025,
      "unit": "NO UNITS"
@@ -27629,7 +27629,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 1.019,
      "unit": "NO UNITS"
@@ -27687,7 +27687,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 2.75,
      "unit": "uIU/mL",
@@ -27747,7 +27747,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 4.7,
      "unit": "mg/dL",
@@ -27807,7 +27807,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 5.3,
      "unit": "mg/dL",
@@ -27867,7 +27867,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 4.8,
      "unit": "mg/dL",
@@ -27927,7 +27927,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 4.5,
      "unit": "mg/dL",
@@ -27987,7 +27987,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 5.1,
      "unit": "mg/dL",
@@ -28047,7 +28047,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 5.1,
      "unit": "mg/dL",
@@ -28107,7 +28107,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 4.1,
      "unit": "mg/dL",
@@ -28167,7 +28167,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 4.4,
      "unit": "mg/dL",
@@ -28227,7 +28227,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 4.6,
      "unit": "mg/dL",
@@ -28287,7 +28287,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 4.6,
      "unit": "mg/dL",
@@ -28347,7 +28347,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -28393,7 +28393,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -28439,7 +28439,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -28485,7 +28485,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -28531,7 +28531,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -28577,7 +28577,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 411,
      "unit": "pg/mL"
@@ -28635,7 +28635,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2013-12-23T12:30:00",
+    "effectiveDateTime": "2013-12-23T12:30:00+00:00",
     "valueQuantity": {
      "value": 8.74,
      "unit": "THOU/uL"
@@ -28693,7 +28693,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-15T10:03:00",
+    "effectiveDateTime": "2014-01-15T10:03:00+00:00",
     "valueQuantity": {
      "value": 9.33,
      "unit": "THOU/uL"
@@ -28751,7 +28751,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-01-29T14:00:00",
+    "effectiveDateTime": "2014-01-29T14:00:00+00:00",
     "valueQuantity": {
      "value": 10.42,
      "unit": "THOU/uL"
@@ -28809,7 +28809,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-11T11:16:00",
+    "effectiveDateTime": "2014-02-11T11:16:00+00:00",
     "valueQuantity": {
      "value": 9.75,
      "unit": "THOU/uL"
@@ -28867,7 +28867,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-02-26T11:10:00",
+    "effectiveDateTime": "2014-02-26T11:10:00+00:00",
     "valueQuantity": {
      "value": 9.95,
      "unit": "THOU/uL"
@@ -28925,7 +28925,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-03-26T08:55:00",
+    "effectiveDateTime": "2014-03-26T08:55:00+00:00",
     "valueQuantity": {
      "value": 9.94,
      "unit": "THOU/uL"
@@ -28983,7 +28983,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-04-23T11:14:00",
+    "effectiveDateTime": "2014-04-23T11:14:00+00:00",
     "valueQuantity": {
      "value": 10.51,
      "unit": "THOU/uL"
@@ -29041,7 +29041,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-05-21T15:06:00",
+    "effectiveDateTime": "2014-05-21T15:06:00+00:00",
     "valueQuantity": {
      "value": 8.66,
      "unit": "THOU/uL"
@@ -29099,7 +29099,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-06-18T10:41:00",
+    "effectiveDateTime": "2014-06-18T10:41:00+00:00",
     "valueQuantity": {
      "value": 9.7,
      "unit": "THOU/uL"
@@ -29157,7 +29157,7 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd",
      "display": "01-701-1097"
     },
-    "effectiveDateTime": "2014-07-09T09:39:00",
+    "effectiveDateTime": "2014-07-09T09:39:00+00:00",
     "valueQuantity": {
      "value": 8.39,
      "unit": "THOU/uL"
@@ -37106,8 +37106,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-01T07:28:00",
-     "end": "2014-01-01T19:28:00"
+     "start": "2014-01-01T07:35:00",
+     "end": "2014-01-01T19:35:00"
     }
    },
    "request": {
@@ -37128,8 +37128,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-02T07:25:00",
-     "end": "2014-01-02T19:25:00"
+     "start": "2014-01-02T07:38:00",
+     "end": "2014-01-02T19:38:00"
     }
    },
    "request": {
@@ -37150,8 +37150,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-03T07:18:00",
-     "end": "2014-01-03T19:18:00"
+     "start": "2014-01-03T07:07:00",
+     "end": "2014-01-03T19:07:00"
     }
    },
    "request": {
@@ -37172,8 +37172,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-04T07:02:00",
-     "end": "2014-01-04T19:02:00"
+     "start": "2014-01-04T07:41:00",
+     "end": "2014-01-04T19:41:00"
     }
    },
    "request": {
@@ -37194,8 +37194,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-05T07:33:00",
-     "end": "2014-01-05T19:33:00"
+     "start": "2014-01-05T07:56:00",
+     "end": "2014-01-05T19:56:00"
     }
    },
    "request": {
@@ -37216,8 +37216,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-06T07:57:00",
-     "end": "2014-01-06T19:57:00"
+     "start": "2014-01-06T07:49:00",
+     "end": "2014-01-06T19:49:00"
     }
    },
    "request": {
@@ -37238,8 +37238,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-07T07:24:00",
-     "end": "2014-01-07T19:24:00"
+     "start": "2014-01-07T07:57:00",
+     "end": "2014-01-07T19:57:00"
     }
    },
    "request": {
@@ -37260,8 +37260,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-08T07:19:00",
-     "end": "2014-01-08T19:19:00"
+     "start": "2014-01-08T07:20:00",
+     "end": "2014-01-08T19:20:00"
     }
    },
    "request": {
@@ -37282,8 +37282,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-09T07:49:00",
-     "end": "2014-01-09T19:49:00"
+     "start": "2014-01-09T07:02:00",
+     "end": "2014-01-09T19:02:00"
     }
    },
    "request": {
@@ -37304,8 +37304,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-10T07:05:00",
-     "end": "2014-01-10T19:05:00"
+     "start": "2014-01-10T07:28:00",
+     "end": "2014-01-10T19:28:00"
     }
    },
    "request": {
@@ -37326,8 +37326,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-11T07:53:00",
-     "end": "2014-01-11T19:53:00"
+     "start": "2014-01-11T07:55:00",
+     "end": "2014-01-11T19:55:00"
     }
    },
    "request": {
@@ -37348,8 +37348,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-12T07:25:00",
-     "end": "2014-01-12T19:25:00"
+     "start": "2014-01-12T07:28:00",
+     "end": "2014-01-12T19:28:00"
     }
    },
    "request": {
@@ -37370,8 +37370,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-13T07:31:00",
-     "end": "2014-01-13T19:31:00"
+     "start": "2014-01-13T07:12:00",
+     "end": "2014-01-13T19:12:00"
     }
    },
    "request": {
@@ -37392,8 +37392,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-14T07:36:00",
-     "end": "2014-01-14T19:36:00"
+     "start": "2014-01-14T07:18:00",
+     "end": "2014-01-14T19:18:00"
     }
    },
    "request": {
@@ -37414,8 +37414,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-16T07:49:00",
-     "end": "2014-01-16T19:49:00"
+     "start": "2014-01-16T07:47:00",
+     "end": "2014-01-16T19:47:00"
     }
    },
    "request": {
@@ -37436,8 +37436,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-17T07:30:00",
-     "end": "2014-01-17T19:30:00"
+     "start": "2014-01-17T07:36:00",
+     "end": "2014-01-17T19:36:00"
     }
    },
    "request": {
@@ -37458,8 +37458,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-18T07:03:00",
-     "end": "2014-01-18T19:03:00"
+     "start": "2014-01-18T07:15:00",
+     "end": "2014-01-18T19:15:00"
     }
    },
    "request": {
@@ -37480,8 +37480,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-19T07:04:00",
-     "end": "2014-01-19T19:04:00"
+     "start": "2014-01-19T07:42:00",
+     "end": "2014-01-19T19:42:00"
     }
    },
    "request": {
@@ -37502,8 +37502,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-20T07:27:00",
-     "end": "2014-01-20T19:27:00"
+     "start": "2014-01-20T07:58:00",
+     "end": "2014-01-20T19:58:00"
     }
    },
    "request": {
@@ -37524,8 +37524,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-21T07:44:00",
-     "end": "2014-01-21T19:44:00"
+     "start": "2014-01-21T07:59:00",
+     "end": "2014-01-21T19:59:00"
     }
    },
    "request": {
@@ -37546,8 +37546,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-22T07:53:00",
-     "end": "2014-01-22T19:53:00"
+     "start": "2014-01-22T07:51:00",
+     "end": "2014-01-22T19:51:00"
     }
    },
    "request": {
@@ -37568,8 +37568,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-23T07:18:00",
-     "end": "2014-01-23T19:18:00"
+     "start": "2014-01-23T07:14:00",
+     "end": "2014-01-23T19:14:00"
     }
    },
    "request": {
@@ -37590,8 +37590,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-24T07:35:00",
-     "end": "2014-01-24T19:35:00"
+     "start": "2014-01-24T07:26:00",
+     "end": "2014-01-24T19:26:00"
     }
    },
    "request": {
@@ -37612,8 +37612,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-25T07:44:00",
-     "end": "2014-01-25T19:44:00"
+     "start": "2014-01-25T07:27:00",
+     "end": "2014-01-25T19:27:00"
     }
    },
    "request": {
@@ -37634,8 +37634,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-26T07:11:00",
-     "end": "2014-01-26T19:11:00"
+     "start": "2014-01-26T07:15:00",
+     "end": "2014-01-26T19:15:00"
     }
    },
    "request": {
@@ -37656,8 +37656,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-27T07:41:00",
-     "end": "2014-01-27T19:41:00"
+     "start": "2014-01-27T07:33:00",
+     "end": "2014-01-27T19:33:00"
     }
    },
    "request": {
@@ -37678,8 +37678,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-28T07:40:00",
-     "end": "2014-01-28T19:40:00"
+     "start": "2014-01-28T07:24:00",
+     "end": "2014-01-28T19:24:00"
     }
    },
    "request": {
@@ -37700,8 +37700,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-29T07:49:00",
-     "end": "2014-01-29T19:49:00"
+     "start": "2014-01-29T07:18:00",
+     "end": "2014-01-29T19:18:00"
     }
    },
    "request": {
@@ -37722,8 +37722,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-30T07:23:00",
-     "end": "2014-01-30T19:23:00"
+     "start": "2014-01-30T07:28:00",
+     "end": "2014-01-30T19:28:00"
     }
    },
    "request": {
@@ -37744,8 +37744,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-01-31T07:54:00",
-     "end": "2014-01-31T19:54:00"
+     "start": "2014-01-31T07:26:00",
+     "end": "2014-01-31T19:26:00"
     }
    },
    "request": {
@@ -37766,8 +37766,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-01T07:46:00",
-     "end": "2014-02-01T19:46:00"
+     "start": "2014-02-01T07:44:00",
+     "end": "2014-02-01T19:44:00"
     }
    },
    "request": {
@@ -37788,8 +37788,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-02T07:41:00",
-     "end": "2014-02-02T19:41:00"
+     "start": "2014-02-02T07:38:00",
+     "end": "2014-02-02T19:38:00"
     }
    },
    "request": {
@@ -37810,8 +37810,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-03T07:48:00",
-     "end": "2014-02-03T19:48:00"
+     "start": "2014-02-03T07:57:00",
+     "end": "2014-02-03T19:57:00"
     }
    },
    "request": {
@@ -37832,8 +37832,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-04T07:41:00",
-     "end": "2014-02-04T19:41:00"
+     "start": "2014-02-04T07:29:00",
+     "end": "2014-02-04T19:29:00"
     }
    },
    "request": {
@@ -37854,8 +37854,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-05T07:11:00",
-     "end": "2014-02-05T19:11:00"
+     "start": "2014-02-05T07:33:00",
+     "end": "2014-02-05T19:33:00"
     }
    },
    "request": {
@@ -37876,8 +37876,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-06T07:06:00",
-     "end": "2014-02-06T19:06:00"
+     "start": "2014-02-06T07:59:00",
+     "end": "2014-02-06T19:59:00"
     }
    },
    "request": {
@@ -37898,8 +37898,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-07T07:14:00",
-     "end": "2014-02-07T19:14:00"
+     "start": "2014-02-07T07:25:00",
+     "end": "2014-02-07T19:25:00"
     }
    },
    "request": {
@@ -37920,8 +37920,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-08T07:02:00",
-     "end": "2014-02-08T19:02:00"
+     "start": "2014-02-08T07:18:00",
+     "end": "2014-02-08T19:18:00"
     }
    },
    "request": {
@@ -37942,8 +37942,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-09T07:15:00",
-     "end": "2014-02-09T19:15:00"
+     "start": "2014-02-09T07:05:00",
+     "end": "2014-02-09T19:05:00"
     }
    },
    "request": {
@@ -37964,8 +37964,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-10T07:40:00",
-     "end": "2014-02-10T19:40:00"
+     "start": "2014-02-10T07:26:00",
+     "end": "2014-02-10T19:26:00"
     }
    },
    "request": {
@@ -37986,8 +37986,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-11T07:24:00",
-     "end": "2014-02-11T19:24:00"
+     "start": "2014-02-11T07:20:00",
+     "end": "2014-02-11T19:20:00"
     }
    },
    "request": {
@@ -38008,8 +38008,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-12T07:11:00",
-     "end": "2014-02-12T19:11:00"
+     "start": "2014-02-12T07:56:00",
+     "end": "2014-02-12T19:56:00"
     }
    },
    "request": {
@@ -38030,8 +38030,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-13T07:02:00",
-     "end": "2014-02-13T19:02:00"
+     "start": "2014-02-13T07:23:00",
+     "end": "2014-02-13T19:23:00"
     }
    },
    "request": {
@@ -38052,8 +38052,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-14T07:17:00",
-     "end": "2014-02-14T19:17:00"
+     "start": "2014-02-14T07:37:00",
+     "end": "2014-02-14T19:37:00"
     }
    },
    "request": {
@@ -38074,8 +38074,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-15T07:53:00",
-     "end": "2014-02-15T19:53:00"
+     "start": "2014-02-15T07:05:00",
+     "end": "2014-02-15T19:05:00"
     }
    },
    "request": {
@@ -38096,8 +38096,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-16T07:36:00",
-     "end": "2014-02-16T19:36:00"
+     "start": "2014-02-16T07:20:00",
+     "end": "2014-02-16T19:20:00"
     }
    },
    "request": {
@@ -38118,8 +38118,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-17T07:02:00",
-     "end": "2014-02-17T19:02:00"
+     "start": "2014-02-17T07:49:00",
+     "end": "2014-02-17T19:49:00"
     }
    },
    "request": {
@@ -38140,8 +38140,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-18T07:11:00",
-     "end": "2014-02-18T19:11:00"
+     "start": "2014-02-18T07:59:00",
+     "end": "2014-02-18T19:59:00"
     }
    },
    "request": {
@@ -38162,8 +38162,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-19T07:18:00",
-     "end": "2014-02-19T19:18:00"
+     "start": "2014-02-19T07:11:00",
+     "end": "2014-02-19T19:11:00"
     }
    },
    "request": {
@@ -38184,8 +38184,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-20T08:00:00",
-     "end": "2014-02-20T20:00:00"
+     "start": "2014-02-20T07:08:00",
+     "end": "2014-02-20T19:08:00"
     }
    },
    "request": {
@@ -38206,8 +38206,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-21T07:36:00",
-     "end": "2014-02-21T19:36:00"
+     "start": "2014-02-21T07:22:00",
+     "end": "2014-02-21T19:22:00"
     }
    },
    "request": {
@@ -38228,8 +38228,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-22T07:42:00",
-     "end": "2014-02-22T19:42:00"
+     "start": "2014-02-22T07:15:00",
+     "end": "2014-02-22T19:15:00"
     }
    },
    "request": {
@@ -38250,8 +38250,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-23T07:30:00",
-     "end": "2014-02-23T19:30:00"
+     "start": "2014-02-23T07:39:00",
+     "end": "2014-02-23T19:39:00"
     }
    },
    "request": {
@@ -38272,8 +38272,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-24T07:46:00",
-     "end": "2014-02-24T19:46:00"
+     "start": "2014-02-24T07:49:00",
+     "end": "2014-02-24T19:49:00"
     }
    },
    "request": {
@@ -38294,8 +38294,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-25T07:39:00",
-     "end": "2014-02-25T19:39:00"
+     "start": "2014-02-25T07:40:00",
+     "end": "2014-02-25T19:40:00"
     }
    },
    "request": {
@@ -38316,8 +38316,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-26T07:10:00",
-     "end": "2014-02-26T19:10:00"
+     "start": "2014-02-26T07:29:00",
+     "end": "2014-02-26T19:29:00"
     }
    },
    "request": {
@@ -38338,8 +38338,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-27T07:50:00",
-     "end": "2014-02-27T19:50:00"
+     "start": "2014-02-27T07:38:00",
+     "end": "2014-02-27T19:38:00"
     }
    },
    "request": {
@@ -38360,8 +38360,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-02-28T07:23:00",
-     "end": "2014-02-28T19:23:00"
+     "start": "2014-02-28T07:30:00",
+     "end": "2014-02-28T19:30:00"
     }
    },
    "request": {
@@ -38382,8 +38382,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-01T07:48:00",
-     "end": "2014-03-01T19:48:00"
+     "start": "2014-03-01T07:21:00",
+     "end": "2014-03-01T19:21:00"
     }
    },
    "request": {
@@ -38404,8 +38404,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-02T07:23:00",
-     "end": "2014-03-02T19:23:00"
+     "start": "2014-03-02T07:29:00",
+     "end": "2014-03-02T19:29:00"
     }
    },
    "request": {
@@ -38426,8 +38426,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-03T07:51:00",
-     "end": "2014-03-03T19:51:00"
+     "start": "2014-03-03T07:26:00",
+     "end": "2014-03-03T19:26:00"
     }
    },
    "request": {
@@ -38448,8 +38448,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-04T07:25:00",
-     "end": "2014-03-04T19:25:00"
+     "start": "2014-03-04T07:01:00",
+     "end": "2014-03-04T19:01:00"
     }
    },
    "request": {
@@ -38470,8 +38470,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-05T07:27:00",
-     "end": "2014-03-05T19:27:00"
+     "start": "2014-03-05T07:26:00",
+     "end": "2014-03-05T19:26:00"
     }
    },
    "request": {
@@ -38492,8 +38492,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-06T07:24:00",
-     "end": "2014-03-06T19:24:00"
+     "start": "2014-03-06T07:00:00",
+     "end": "2014-03-06T19:00:00"
     }
    },
    "request": {
@@ -38514,8 +38514,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-07T07:03:00",
-     "end": "2014-03-07T19:03:00"
+     "start": "2014-03-07T07:09:00",
+     "end": "2014-03-07T19:09:00"
     }
    },
    "request": {
@@ -38536,8 +38536,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-08T07:43:00",
-     "end": "2014-03-08T19:43:00"
+     "start": "2014-03-08T07:08:00",
+     "end": "2014-03-08T19:08:00"
     }
    },
    "request": {
@@ -38558,8 +38558,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-09T07:47:00",
-     "end": "2014-03-09T19:47:00"
+     "start": "2014-03-09T07:09:00",
+     "end": "2014-03-09T19:09:00"
     }
    },
    "request": {
@@ -38580,8 +38580,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-10T07:11:00",
-     "end": "2014-03-10T19:11:00"
+     "start": "2014-03-10T07:40:00",
+     "end": "2014-03-10T19:40:00"
     }
    },
    "request": {
@@ -38602,8 +38602,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-11T07:26:00",
-     "end": "2014-03-11T19:26:00"
+     "start": "2014-03-11T07:48:00",
+     "end": "2014-03-11T19:48:00"
     }
    },
    "request": {
@@ -38624,8 +38624,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-12T07:29:00",
-     "end": "2014-03-12T19:29:00"
+     "start": "2014-03-12T07:11:00",
+     "end": "2014-03-12T19:11:00"
     }
    },
    "request": {
@@ -38646,8 +38646,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-13T07:41:00",
-     "end": "2014-03-13T19:41:00"
+     "start": "2014-03-13T07:38:00",
+     "end": "2014-03-13T19:38:00"
     }
    },
    "request": {
@@ -38668,8 +38668,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-14T07:42:00",
-     "end": "2014-03-14T19:42:00"
+     "start": "2014-03-14T07:59:00",
+     "end": "2014-03-14T19:59:00"
     }
    },
    "request": {
@@ -38690,8 +38690,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-15T07:38:00",
-     "end": "2014-03-15T19:38:00"
+     "start": "2014-03-15T07:07:00",
+     "end": "2014-03-15T19:07:00"
     }
    },
    "request": {
@@ -38712,8 +38712,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-16T07:19:00",
-     "end": "2014-03-16T19:19:00"
+     "start": "2014-03-16T07:35:00",
+     "end": "2014-03-16T19:35:00"
     }
    },
    "request": {
@@ -38734,8 +38734,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-17T07:30:00",
-     "end": "2014-03-17T19:30:00"
+     "start": "2014-03-17T07:44:00",
+     "end": "2014-03-17T19:44:00"
     }
    },
    "request": {
@@ -38756,8 +38756,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-18T07:40:00",
-     "end": "2014-03-18T19:40:00"
+     "start": "2014-03-18T07:49:00",
+     "end": "2014-03-18T19:49:00"
     }
    },
    "request": {
@@ -38778,8 +38778,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-19T07:16:00",
-     "end": "2014-03-19T19:16:00"
+     "start": "2014-03-19T07:42:00",
+     "end": "2014-03-19T19:42:00"
     }
    },
    "request": {
@@ -38800,8 +38800,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-20T07:12:00",
-     "end": "2014-03-20T19:12:00"
+     "start": "2014-03-20T07:42:00",
+     "end": "2014-03-20T19:42:00"
     }
    },
    "request": {
@@ -38822,8 +38822,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-21T07:10:00",
-     "end": "2014-03-21T19:10:00"
+     "start": "2014-03-21T07:43:00",
+     "end": "2014-03-21T19:43:00"
     }
    },
    "request": {
@@ -38844,8 +38844,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-22T07:11:00",
-     "end": "2014-03-22T19:11:00"
+     "start": "2014-03-22T07:52:00",
+     "end": "2014-03-22T19:52:00"
     }
    },
    "request": {
@@ -38866,8 +38866,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-23T07:00:00",
-     "end": "2014-03-23T19:00:00"
+     "start": "2014-03-23T07:42:00",
+     "end": "2014-03-23T19:42:00"
     }
    },
    "request": {
@@ -38888,8 +38888,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-24T07:28:00",
-     "end": "2014-03-24T19:28:00"
+     "start": "2014-03-24T07:59:00",
+     "end": "2014-03-24T19:59:00"
     }
    },
    "request": {
@@ -38910,8 +38910,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-25T07:09:00",
-     "end": "2014-03-25T19:09:00"
+     "start": "2014-03-25T07:05:00",
+     "end": "2014-03-25T19:05:00"
     }
    },
    "request": {
@@ -38932,8 +38932,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-26T07:28:00",
-     "end": "2014-03-26T19:28:00"
+     "start": "2014-03-26T07:26:00",
+     "end": "2014-03-26T19:26:00"
     }
    },
    "request": {
@@ -38954,8 +38954,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-27T07:01:00",
-     "end": "2014-03-27T19:01:00"
+     "start": "2014-03-27T07:11:00",
+     "end": "2014-03-27T19:11:00"
     }
    },
    "request": {
@@ -38976,8 +38976,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-28T08:00:00",
-     "end": "2014-03-28T20:00:00"
+     "start": "2014-03-28T07:42:00",
+     "end": "2014-03-28T19:42:00"
     }
    },
    "request": {
@@ -38998,8 +38998,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-29T07:00:00",
-     "end": "2014-03-29T19:00:00"
+     "start": "2014-03-29T07:30:00",
+     "end": "2014-03-29T19:30:00"
     }
    },
    "request": {
@@ -39020,8 +39020,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-30T07:17:00",
-     "end": "2014-03-30T19:17:00"
+     "start": "2014-03-30T07:14:00",
+     "end": "2014-03-30T19:14:00"
     }
    },
    "request": {
@@ -39042,8 +39042,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-03-31T07:35:00",
-     "end": "2014-03-31T19:35:00"
+     "start": "2014-03-31T07:00:00",
+     "end": "2014-03-31T19:00:00"
     }
    },
    "request": {
@@ -39064,8 +39064,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-01T07:54:00",
-     "end": "2014-04-01T19:54:00"
+     "start": "2014-04-01T07:38:00",
+     "end": "2014-04-01T19:38:00"
     }
    },
    "request": {
@@ -39086,8 +39086,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-02T07:33:00",
-     "end": "2014-04-02T19:33:00"
+     "start": "2014-04-02T08:00:00",
+     "end": "2014-04-02T20:00:00"
     }
    },
    "request": {
@@ -39108,8 +39108,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-03T07:40:00",
-     "end": "2014-04-03T19:40:00"
+     "start": "2014-04-03T07:39:00",
+     "end": "2014-04-03T19:39:00"
     }
    },
    "request": {
@@ -39130,8 +39130,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-04T07:12:00",
-     "end": "2014-04-04T19:12:00"
+     "start": "2014-04-04T07:22:00",
+     "end": "2014-04-04T19:22:00"
     }
    },
    "request": {
@@ -39152,8 +39152,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-05T07:55:00",
-     "end": "2014-04-05T19:55:00"
+     "start": "2014-04-05T07:05:00",
+     "end": "2014-04-05T19:05:00"
     }
    },
    "request": {
@@ -39174,8 +39174,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-06T07:43:00",
-     "end": "2014-04-06T19:43:00"
+     "start": "2014-04-06T07:33:00",
+     "end": "2014-04-06T19:33:00"
     }
    },
    "request": {
@@ -39196,8 +39196,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-07T07:18:00",
-     "end": "2014-04-07T19:18:00"
+     "start": "2014-04-07T07:30:00",
+     "end": "2014-04-07T19:30:00"
     }
    },
    "request": {
@@ -39218,8 +39218,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-08T07:26:00",
-     "end": "2014-04-08T19:26:00"
+     "start": "2014-04-08T07:59:00",
+     "end": "2014-04-08T19:59:00"
     }
    },
    "request": {
@@ -39240,8 +39240,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-09T07:19:00",
-     "end": "2014-04-09T19:19:00"
+     "start": "2014-04-09T07:21:00",
+     "end": "2014-04-09T19:21:00"
     }
    },
    "request": {
@@ -39262,8 +39262,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-10T07:04:00",
-     "end": "2014-04-10T19:04:00"
+     "start": "2014-04-10T07:51:00",
+     "end": "2014-04-10T19:51:00"
     }
    },
    "request": {
@@ -39284,8 +39284,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-11T07:07:00",
-     "end": "2014-04-11T19:07:00"
+     "start": "2014-04-11T07:17:00",
+     "end": "2014-04-11T19:17:00"
     }
    },
    "request": {
@@ -39306,8 +39306,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-12T07:50:00",
-     "end": "2014-04-12T19:50:00"
+     "start": "2014-04-12T07:19:00",
+     "end": "2014-04-12T19:19:00"
     }
    },
    "request": {
@@ -39328,8 +39328,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-13T07:44:00",
-     "end": "2014-04-13T19:44:00"
+     "start": "2014-04-13T07:09:00",
+     "end": "2014-04-13T19:09:00"
     }
    },
    "request": {
@@ -39350,8 +39350,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-14T07:09:00",
-     "end": "2014-04-14T19:09:00"
+     "start": "2014-04-14T07:26:00",
+     "end": "2014-04-14T19:26:00"
     }
    },
    "request": {
@@ -39372,8 +39372,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-15T07:56:00",
-     "end": "2014-04-15T19:56:00"
+     "start": "2014-04-15T07:51:00",
+     "end": "2014-04-15T19:51:00"
     }
    },
    "request": {
@@ -39394,8 +39394,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-16T07:46:00",
-     "end": "2014-04-16T19:46:00"
+     "start": "2014-04-16T07:45:00",
+     "end": "2014-04-16T19:45:00"
     }
    },
    "request": {
@@ -39416,8 +39416,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-17T07:38:00",
-     "end": "2014-04-17T19:38:00"
+     "start": "2014-04-17T07:11:00",
+     "end": "2014-04-17T19:11:00"
     }
    },
    "request": {
@@ -39438,8 +39438,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-18T07:00:00",
-     "end": "2014-04-18T19:00:00"
+     "start": "2014-04-18T07:58:00",
+     "end": "2014-04-18T19:58:00"
     }
    },
    "request": {
@@ -39460,8 +39460,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-19T07:44:00",
-     "end": "2014-04-19T19:44:00"
+     "start": "2014-04-19T07:02:00",
+     "end": "2014-04-19T19:02:00"
     }
    },
    "request": {
@@ -39482,8 +39482,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-20T07:07:00",
-     "end": "2014-04-20T19:07:00"
+     "start": "2014-04-20T07:00:00",
+     "end": "2014-04-20T19:00:00"
     }
    },
    "request": {
@@ -39504,8 +39504,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-21T07:00:00",
-     "end": "2014-04-21T19:00:00"
+     "start": "2014-04-21T07:49:00",
+     "end": "2014-04-21T19:49:00"
     }
    },
    "request": {
@@ -39526,8 +39526,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-22T07:13:00",
-     "end": "2014-04-22T19:13:00"
+     "start": "2014-04-22T07:31:00",
+     "end": "2014-04-22T19:31:00"
     }
    },
    "request": {
@@ -39548,8 +39548,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-23T07:19:00",
-     "end": "2014-04-23T19:19:00"
+     "start": "2014-04-23T07:17:00",
+     "end": "2014-04-23T19:17:00"
     }
    },
    "request": {
@@ -39570,8 +39570,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-24T07:15:00",
-     "end": "2014-04-24T19:15:00"
+     "start": "2014-04-24T07:52:00",
+     "end": "2014-04-24T19:52:00"
     }
    },
    "request": {
@@ -39592,8 +39592,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-25T07:04:00",
-     "end": "2014-04-25T19:04:00"
+     "start": "2014-04-25T07:36:00",
+     "end": "2014-04-25T19:36:00"
     }
    },
    "request": {
@@ -39614,8 +39614,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-26T07:15:00",
-     "end": "2014-04-26T19:15:00"
+     "start": "2014-04-26T07:55:00",
+     "end": "2014-04-26T19:55:00"
     }
    },
    "request": {
@@ -39636,8 +39636,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-27T07:34:00",
-     "end": "2014-04-27T19:34:00"
+     "start": "2014-04-27T07:23:00",
+     "end": "2014-04-27T19:23:00"
     }
    },
    "request": {
@@ -39658,8 +39658,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-28T07:31:00",
-     "end": "2014-04-28T19:31:00"
+     "start": "2014-04-28T07:54:00",
+     "end": "2014-04-28T19:54:00"
     }
    },
    "request": {
@@ -39680,8 +39680,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-29T07:29:00",
-     "end": "2014-04-29T19:29:00"
+     "start": "2014-04-29T07:08:00",
+     "end": "2014-04-29T19:08:00"
     }
    },
    "request": {
@@ -39702,8 +39702,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-04-30T07:21:00",
-     "end": "2014-04-30T19:21:00"
+     "start": "2014-04-30T07:27:00",
+     "end": "2014-04-30T19:27:00"
     }
    },
    "request": {
@@ -39724,8 +39724,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-01T07:18:00",
-     "end": "2014-05-01T19:18:00"
+     "start": "2014-05-01T07:50:00",
+     "end": "2014-05-01T19:50:00"
     }
    },
    "request": {
@@ -39746,8 +39746,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-02T07:36:00",
-     "end": "2014-05-02T19:36:00"
+     "start": "2014-05-02T07:20:00",
+     "end": "2014-05-02T19:20:00"
     }
    },
    "request": {
@@ -39768,8 +39768,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-03T07:25:00",
-     "end": "2014-05-03T19:25:00"
+     "start": "2014-05-03T07:36:00",
+     "end": "2014-05-03T19:36:00"
     }
    },
    "request": {
@@ -39812,8 +39812,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-05T07:16:00",
-     "end": "2014-05-05T19:16:00"
+     "start": "2014-05-05T07:00:00",
+     "end": "2014-05-05T19:00:00"
     }
    },
    "request": {
@@ -39834,8 +39834,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-06T07:41:00",
-     "end": "2014-05-06T19:41:00"
+     "start": "2014-05-06T07:23:00",
+     "end": "2014-05-06T19:23:00"
     }
    },
    "request": {
@@ -39856,8 +39856,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-07T07:25:00",
-     "end": "2014-05-07T19:25:00"
+     "start": "2014-05-07T07:57:00",
+     "end": "2014-05-07T19:57:00"
     }
    },
    "request": {
@@ -39878,8 +39878,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-08T07:01:00",
-     "end": "2014-05-08T19:01:00"
+     "start": "2014-05-08T07:08:00",
+     "end": "2014-05-08T19:08:00"
     }
    },
    "request": {
@@ -39900,8 +39900,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-09T07:59:00",
-     "end": "2014-05-09T19:59:00"
+     "start": "2014-05-09T07:08:00",
+     "end": "2014-05-09T19:08:00"
     }
    },
    "request": {
@@ -39922,8 +39922,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-10T07:51:00",
-     "end": "2014-05-10T19:51:00"
+     "start": "2014-05-10T07:26:00",
+     "end": "2014-05-10T19:26:00"
     }
    },
    "request": {
@@ -39944,8 +39944,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-11T07:18:00",
-     "end": "2014-05-11T19:18:00"
+     "start": "2014-05-11T07:30:00",
+     "end": "2014-05-11T19:30:00"
     }
    },
    "request": {
@@ -39966,8 +39966,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-12T07:54:00",
-     "end": "2014-05-12T19:54:00"
+     "start": "2014-05-12T07:05:00",
+     "end": "2014-05-12T19:05:00"
     }
    },
    "request": {
@@ -39988,8 +39988,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-13T08:00:00",
-     "end": "2014-05-13T20:00:00"
+     "start": "2014-05-13T07:13:00",
+     "end": "2014-05-13T19:13:00"
     }
    },
    "request": {
@@ -40010,8 +40010,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-14T07:05:00",
-     "end": "2014-05-14T19:05:00"
+     "start": "2014-05-14T07:42:00",
+     "end": "2014-05-14T19:42:00"
     }
    },
    "request": {
@@ -40032,8 +40032,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-15T07:13:00",
-     "end": "2014-05-15T19:13:00"
+     "start": "2014-05-15T07:39:00",
+     "end": "2014-05-15T19:39:00"
     }
    },
    "request": {
@@ -40054,8 +40054,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-16T07:23:00",
-     "end": "2014-05-16T19:23:00"
+     "start": "2014-05-16T07:41:00",
+     "end": "2014-05-16T19:41:00"
     }
    },
    "request": {
@@ -40076,8 +40076,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-17T07:52:00",
-     "end": "2014-05-17T19:52:00"
+     "start": "2014-05-17T07:34:00",
+     "end": "2014-05-17T19:34:00"
     }
    },
    "request": {
@@ -40098,8 +40098,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-18T07:24:00",
-     "end": "2014-05-18T19:24:00"
+     "start": "2014-05-18T07:00:00",
+     "end": "2014-05-18T19:00:00"
     }
    },
    "request": {
@@ -40120,8 +40120,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-19T07:16:00",
-     "end": "2014-05-19T19:16:00"
+     "start": "2014-05-19T07:35:00",
+     "end": "2014-05-19T19:35:00"
     }
    },
    "request": {
@@ -40142,8 +40142,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-20T07:47:00",
-     "end": "2014-05-20T19:47:00"
+     "start": "2014-05-20T07:42:00",
+     "end": "2014-05-20T19:42:00"
     }
    },
    "request": {
@@ -40164,8 +40164,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-21T07:41:00",
-     "end": "2014-05-21T19:41:00"
+     "start": "2014-05-21T07:02:00",
+     "end": "2014-05-21T19:02:00"
     }
    },
    "request": {
@@ -40186,8 +40186,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-22T07:21:00",
-     "end": "2014-05-22T19:21:00"
+     "start": "2014-05-22T07:05:00",
+     "end": "2014-05-22T19:05:00"
     }
    },
    "request": {
@@ -40208,8 +40208,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-23T07:12:00",
-     "end": "2014-05-23T19:12:00"
+     "start": "2014-05-23T07:29:00",
+     "end": "2014-05-23T19:29:00"
     }
    },
    "request": {
@@ -40230,8 +40230,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-24T07:23:00",
-     "end": "2014-05-24T19:23:00"
+     "start": "2014-05-24T07:36:00",
+     "end": "2014-05-24T19:36:00"
     }
    },
    "request": {
@@ -40252,8 +40252,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-25T07:22:00",
-     "end": "2014-05-25T19:22:00"
+     "start": "2014-05-25T07:01:00",
+     "end": "2014-05-25T19:01:00"
     }
    },
    "request": {
@@ -40274,8 +40274,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-26T07:05:00",
-     "end": "2014-05-26T19:05:00"
+     "start": "2014-05-26T07:02:00",
+     "end": "2014-05-26T19:02:00"
     }
    },
    "request": {
@@ -40296,8 +40296,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-27T07:14:00",
-     "end": "2014-05-27T19:14:00"
+     "start": "2014-05-27T07:59:00",
+     "end": "2014-05-27T19:59:00"
     }
    },
    "request": {
@@ -40318,8 +40318,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-28T07:39:00",
-     "end": "2014-05-28T19:39:00"
+     "start": "2014-05-28T07:22:00",
+     "end": "2014-05-28T19:22:00"
     }
    },
    "request": {
@@ -40340,8 +40340,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-29T07:35:00",
-     "end": "2014-05-29T19:35:00"
+     "start": "2014-05-29T07:57:00",
+     "end": "2014-05-29T19:57:00"
     }
    },
    "request": {
@@ -40362,8 +40362,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-30T07:22:00",
-     "end": "2014-05-30T19:22:00"
+     "start": "2014-05-30T07:44:00",
+     "end": "2014-05-30T19:44:00"
     }
    },
    "request": {
@@ -40384,8 +40384,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-05-31T07:05:00",
-     "end": "2014-05-31T19:05:00"
+     "start": "2014-05-31T07:29:00",
+     "end": "2014-05-31T19:29:00"
     }
    },
    "request": {
@@ -40406,8 +40406,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-01T07:43:00",
-     "end": "2014-06-01T19:43:00"
+     "start": "2014-06-01T07:28:00",
+     "end": "2014-06-01T19:28:00"
     }
    },
    "request": {
@@ -40428,8 +40428,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-02T08:00:00",
-     "end": "2014-06-02T20:00:00"
+     "start": "2014-06-02T07:53:00",
+     "end": "2014-06-02T19:53:00"
     }
    },
    "request": {
@@ -40450,8 +40450,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-03T07:11:00",
-     "end": "2014-06-03T19:11:00"
+     "start": "2014-06-03T07:22:00",
+     "end": "2014-06-03T19:22:00"
     }
    },
    "request": {
@@ -40472,8 +40472,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-04T07:01:00",
-     "end": "2014-06-04T19:01:00"
+     "start": "2014-06-04T07:24:00",
+     "end": "2014-06-04T19:24:00"
     }
    },
    "request": {
@@ -40494,8 +40494,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-05T07:32:00",
-     "end": "2014-06-05T19:32:00"
+     "start": "2014-06-05T07:50:00",
+     "end": "2014-06-05T19:50:00"
     }
    },
    "request": {
@@ -40516,8 +40516,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-06T07:44:00",
-     "end": "2014-06-06T19:44:00"
+     "start": "2014-06-06T07:42:00",
+     "end": "2014-06-06T19:42:00"
     }
    },
    "request": {
@@ -40538,8 +40538,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-07T07:26:00",
-     "end": "2014-06-07T19:26:00"
+     "start": "2014-06-07T07:33:00",
+     "end": "2014-06-07T19:33:00"
     }
    },
    "request": {
@@ -40560,8 +40560,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-08T07:31:00",
-     "end": "2014-06-08T19:31:00"
+     "start": "2014-06-08T07:58:00",
+     "end": "2014-06-08T19:58:00"
     }
    },
    "request": {
@@ -40582,8 +40582,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-09T07:55:00",
-     "end": "2014-06-09T19:55:00"
+     "start": "2014-06-09T07:20:00",
+     "end": "2014-06-09T19:20:00"
     }
    },
    "request": {
@@ -40604,8 +40604,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-10T07:40:00",
-     "end": "2014-06-10T19:40:00"
+     "start": "2014-06-10T07:25:00",
+     "end": "2014-06-10T19:25:00"
     }
    },
    "request": {
@@ -40626,8 +40626,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-11T07:58:00",
-     "end": "2014-06-11T19:58:00"
+     "start": "2014-06-11T07:07:00",
+     "end": "2014-06-11T19:07:00"
     }
    },
    "request": {
@@ -40648,8 +40648,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-12T07:13:00",
-     "end": "2014-06-12T19:13:00"
+     "start": "2014-06-12T07:15:00",
+     "end": "2014-06-12T19:15:00"
     }
    },
    "request": {
@@ -40670,8 +40670,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-13T07:35:00",
-     "end": "2014-06-13T19:35:00"
+     "start": "2014-06-13T07:18:00",
+     "end": "2014-06-13T19:18:00"
     }
    },
    "request": {
@@ -40692,8 +40692,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-14T07:36:00",
-     "end": "2014-06-14T19:36:00"
+     "start": "2014-06-14T07:37:00",
+     "end": "2014-06-14T19:37:00"
     }
    },
    "request": {
@@ -40714,8 +40714,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-15T07:38:00",
-     "end": "2014-06-15T19:38:00"
+     "start": "2014-06-15T07:08:00",
+     "end": "2014-06-15T19:08:00"
     }
    },
    "request": {
@@ -40736,8 +40736,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-16T07:41:00",
-     "end": "2014-06-16T19:41:00"
+     "start": "2014-06-16T07:10:00",
+     "end": "2014-06-16T19:10:00"
     }
    },
    "request": {
@@ -40780,8 +40780,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-19T07:09:00",
-     "end": "2014-06-19T19:09:00"
+     "start": "2014-06-19T07:24:00",
+     "end": "2014-06-19T19:24:00"
     }
    },
    "request": {
@@ -40802,8 +40802,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-20T07:57:00",
-     "end": "2014-06-20T19:57:00"
+     "start": "2014-06-20T07:23:00",
+     "end": "2014-06-20T19:23:00"
     }
    },
    "request": {
@@ -40824,8 +40824,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-21T07:57:00",
-     "end": "2014-06-21T19:57:00"
+     "start": "2014-06-21T07:18:00",
+     "end": "2014-06-21T19:18:00"
     }
    },
    "request": {
@@ -40846,8 +40846,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-22T07:51:00",
-     "end": "2014-06-22T19:51:00"
+     "start": "2014-06-22T07:30:00",
+     "end": "2014-06-22T19:30:00"
     }
    },
    "request": {
@@ -40868,8 +40868,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-23T07:59:00",
-     "end": "2014-06-23T19:59:00"
+     "start": "2014-06-23T07:29:00",
+     "end": "2014-06-23T19:29:00"
     }
    },
    "request": {
@@ -40890,8 +40890,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-24T07:05:00",
-     "end": "2014-06-24T19:05:00"
+     "start": "2014-06-24T07:24:00",
+     "end": "2014-06-24T19:24:00"
     }
    },
    "request": {
@@ -40912,8 +40912,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-25T07:26:00",
-     "end": "2014-06-25T19:26:00"
+     "start": "2014-06-25T07:33:00",
+     "end": "2014-06-25T19:33:00"
     }
    },
    "request": {
@@ -40934,8 +40934,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-26T07:07:00",
-     "end": "2014-06-26T19:07:00"
+     "start": "2014-06-26T07:54:00",
+     "end": "2014-06-26T19:54:00"
     }
    },
    "request": {
@@ -40956,8 +40956,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-27T07:59:00",
-     "end": "2014-06-27T19:59:00"
+     "start": "2014-06-27T07:39:00",
+     "end": "2014-06-27T19:39:00"
     }
    },
    "request": {
@@ -40978,8 +40978,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-28T07:53:00",
-     "end": "2014-06-28T19:53:00"
+     "start": "2014-06-28T07:46:00",
+     "end": "2014-06-28T19:46:00"
     }
    },
    "request": {
@@ -41000,8 +41000,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-29T07:06:00",
-     "end": "2014-06-29T19:06:00"
+     "start": "2014-06-29T07:03:00",
+     "end": "2014-06-29T19:03:00"
     }
    },
    "request": {
@@ -41022,8 +41022,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-06-30T07:25:00",
-     "end": "2014-06-30T19:25:00"
+     "start": "2014-06-30T07:49:00",
+     "end": "2014-06-30T19:49:00"
     }
    },
    "request": {
@@ -41044,8 +41044,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-07-01T07:01:00",
-     "end": "2014-07-01T19:01:00"
+     "start": "2014-07-01T07:35:00",
+     "end": "2014-07-01T19:35:00"
     }
    },
    "request": {
@@ -41066,8 +41066,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-07-02T07:32:00",
-     "end": "2014-07-02T19:32:00"
+     "start": "2014-07-02T07:14:00",
+     "end": "2014-07-02T19:14:00"
     }
    },
    "request": {
@@ -41088,8 +41088,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-07-03T07:21:00",
-     "end": "2014-07-03T19:21:00"
+     "start": "2014-07-03T07:35:00",
+     "end": "2014-07-03T19:35:00"
     }
    },
    "request": {
@@ -41110,8 +41110,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-07-04T07:19:00",
-     "end": "2014-07-04T19:19:00"
+     "start": "2014-07-04T07:55:00",
+     "end": "2014-07-04T19:55:00"
     }
    },
    "request": {
@@ -41132,8 +41132,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-07-05T07:32:00",
-     "end": "2014-07-05T19:32:00"
+     "start": "2014-07-05T07:58:00",
+     "end": "2014-07-05T19:58:00"
     }
    },
    "request": {
@@ -41154,8 +41154,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-07-06T07:29:00",
-     "end": "2014-07-06T19:29:00"
+     "start": "2014-07-06T07:38:00",
+     "end": "2014-07-06T19:38:00"
     }
    },
    "request": {
@@ -41176,8 +41176,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-07-07T07:23:00",
-     "end": "2014-07-07T19:23:00"
+     "start": "2014-07-07T07:59:00",
+     "end": "2014-07-07T19:59:00"
     }
    },
    "request": {
@@ -41198,8 +41198,8 @@
      "reference": "Patient/ceba63b6dcbda783668cf3efeea1d3dd"
     },
     "effectivePeriod": {
-     "start": "2014-07-08T07:33:00",
-     "end": "2014-07-08T19:33:00"
+     "start": "2014-07-08T07:58:00",
+     "end": "2014-07-08T19:58:00"
     }
    },
    "request": {

@@ -120,6 +120,8 @@ def patch_observation(observation: dict):
     if 'effectiveDateTime' in observation:
         if 'T' not in observation['effectiveDateTime']:
             observation['effectiveDateTime'] = observation['effectiveDateTime'] + 'T08:00:00Z'
+        elif not observation['effectiveDateTime'].endswith('Z'):
+            observation['effectiveDateTime'] = observation['effectiveDateTime'] + 'Z'
 
 def purge_comments(resource: dict):
     """

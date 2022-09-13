@@ -1,8 +1,8 @@
 {
  "resourceType": "Bundle",
- "id": "ee134e01-4b5c-428e-99df-fc3a86373e3c",
+ "id": "b6195212-6e47-4f55-83fd-30a0524352ab",
  "meta": {
-  "lastUpdated": "2022-09-13T09:23:16+00:00"
+  "lastUpdated": "2022-09-13T21:22:10+00:00"
  },
  "type": "transaction",
  "entry": [
@@ -3950,7 +3950,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "681b6fa3-5023-40c4-86b3-523f894f3c7d",
+    "id": "61002ec4-10bc-4bef-8bd7-1dd8d57a487b",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -4002,7 +4002,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "e6899932-356a-4496-81b9-80372cf03df0",
+    "id": "cbb6595a-6a88-496e-874a-b219ffa5702d",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -5559,7 +5559,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "f9d7bae9-0ec0-4255-8515-5be85d992d4c",
+    "id": "ec758bb9-354e-4830-94d6-178623f51dae",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -6401,7 +6401,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 3.8,
      "unit": "g/dL",
@@ -6461,7 +6461,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 4.1,
      "unit": "g/dL",
@@ -6521,7 +6521,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 4.0,
      "unit": "g/dL",
@@ -6581,7 +6581,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 67,
      "unit": "U/L",
@@ -6641,7 +6641,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 89,
      "unit": "U/L",
@@ -6701,7 +6701,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 76,
      "unit": "U/L",
@@ -6761,7 +6761,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 16,
      "unit": "U/L",
@@ -6821,7 +6821,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 35,
      "unit": "U/L",
@@ -6881,7 +6881,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 14,
      "unit": "U/L",
@@ -6941,7 +6941,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 20,
      "unit": "U/L",
@@ -7001,7 +7001,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 26,
      "unit": "U/L",
@@ -7061,7 +7061,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 20,
      "unit": "U/L",
@@ -7121,7 +7121,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 0.1,
      "unit": "THOU/uL"
@@ -7179,7 +7179,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 0.1,
      "unit": "THOU/uL"
@@ -7237,7 +7237,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 0.09,
      "unit": "THOU/uL"
@@ -7295,7 +7295,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 0.8,
      "unit": "mg/dL",
@@ -7355,7 +7355,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 0.4,
      "unit": "mg/dL",
@@ -7415,7 +7415,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 0.9,
      "unit": "mg/dL",
@@ -7475,7 +7475,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 16,
      "unit": "mg/dL",
@@ -7535,7 +7535,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 13,
      "unit": "mg/dL",
@@ -7595,7 +7595,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 16,
      "unit": "mg/dL",
@@ -7655,7 +7655,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 8.3,
      "unit": "mg/dL",
@@ -7715,7 +7715,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 8.7,
      "unit": "mg/dL",
@@ -7775,7 +7775,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 8.6,
      "unit": "mg/dL",
@@ -7835,7 +7835,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 191,
      "unit": "mg/dL",
@@ -7895,7 +7895,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 197,
      "unit": "mg/dL",
@@ -7955,7 +7955,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 197,
      "unit": "mg/dL",
@@ -8015,7 +8015,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 114,
      "unit": "U/L",
@@ -8075,7 +8075,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 93,
      "unit": "U/L",
@@ -8135,7 +8135,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 116,
      "unit": "U/L",
@@ -8195,7 +8195,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 107,
      "unit": "mEq/L",
@@ -8255,7 +8255,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 107,
      "unit": "mEq/L",
@@ -8315,7 +8315,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 105,
      "unit": "mEq/L",
@@ -8375,7 +8375,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueString": "N",
     "interpretation": [
      {
@@ -8418,7 +8418,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueString": "N",
     "interpretation": [
      {
@@ -8461,7 +8461,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueString": "N",
     "interpretation": [
      {
@@ -8504,7 +8504,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -8564,7 +8564,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -8624,7 +8624,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 1.5,
      "unit": "mg/dL",
@@ -8684,7 +8684,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 0.08,
      "unit": "THOU/uL"
@@ -8742,7 +8742,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 0.12,
      "unit": "THOU/uL"
@@ -8800,7 +8800,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 0.16,
      "unit": "THOU/uL"
@@ -8858,7 +8858,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 21,
      "unit": "U/L",
@@ -8918,7 +8918,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 26,
      "unit": "U/L",
@@ -8978,7 +8978,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 21,
      "unit": "U/L",
@@ -9038,7 +9038,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 90,
      "unit": "mg/dL",
@@ -9098,7 +9098,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 103,
      "unit": "mg/dL",
@@ -9158,7 +9158,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 98,
      "unit": "mg/dL",
@@ -9218,7 +9218,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 50.0,
      "unit": "%",
@@ -9278,7 +9278,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 49.0,
      "unit": "%",
@@ -9338,7 +9338,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 48.0,
      "unit": "%",
@@ -9398,7 +9398,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 16.1,
      "unit": "g/dL",
@@ -9458,7 +9458,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 16.4,
      "unit": "g/dL",
@@ -9518,7 +9518,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 16.2,
      "unit": "g/dL",
@@ -9578,7 +9578,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 4.1,
      "unit": "mEq/L",
@@ -9638,7 +9638,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 4.2,
      "unit": "mEq/L",
@@ -9698,7 +9698,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 3.9,
      "unit": "mEq/L",
@@ -9758,7 +9758,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -9804,7 +9804,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -9850,7 +9850,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -9896,7 +9896,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 3.03,
      "unit": "THOU/uL"
@@ -9954,7 +9954,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 2.54,
      "unit": "THOU/uL"
@@ -10012,7 +10012,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 2.94,
      "unit": "THOU/uL"
@@ -10070,7 +10070,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 31,
      "unit": "pg",
@@ -10130,7 +10130,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 32,
      "unit": "pg",
@@ -10190,7 +10190,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 31,
      "unit": "pg",
@@ -10250,7 +10250,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 32,
      "unit": "g/dL",
@@ -10310,7 +10310,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 34,
      "unit": "g/dL",
@@ -10370,7 +10370,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 34,
      "unit": "g/dL",
@@ -10430,7 +10430,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 95,
      "unit": "fL",
@@ -10490,7 +10490,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 95,
      "unit": "fL",
@@ -10550,7 +10550,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 94,
      "unit": "fL",
@@ -10610,7 +10610,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 0.64,
      "unit": "THOU/uL"
@@ -10668,7 +10668,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 0.49,
      "unit": "THOU/uL"
@@ -10726,7 +10726,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 0.44,
      "unit": "THOU/uL"
@@ -10784,7 +10784,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 145,
      "unit": "mEq/L",
@@ -10844,7 +10844,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 140,
      "unit": "mEq/L",
@@ -10904,7 +10904,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 140,
      "unit": "mEq/L",
@@ -10964,7 +10964,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "NO UNITS"
@@ -11022,7 +11022,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "NO UNITS"
@@ -11080,7 +11080,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 5.0,
      "unit": "NO UNITS"
@@ -11138,7 +11138,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 3.8,
      "unit": "mg/dL",
@@ -11198,7 +11198,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 3.3,
      "unit": "mg/dL",
@@ -11258,7 +11258,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 3.5,
      "unit": "mg/dL",
@@ -11318,7 +11318,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 190,
      "unit": "THOU/uL"
@@ -11376,7 +11376,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 188,
      "unit": "THOU/uL"
@@ -11434,7 +11434,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 158,
      "unit": "THOU/uL"
@@ -11492,7 +11492,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 7.3,
      "unit": "g/dL",
@@ -11552,7 +11552,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 7.4,
      "unit": "g/dL",
@@ -11612,7 +11612,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 7.2,
      "unit": "g/dL",
@@ -11672,7 +11672,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 5.3,
      "unit": "MILL/uL"
@@ -11730,7 +11730,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 5.2,
      "unit": "MILL/uL"
@@ -11788,7 +11788,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 5.2,
      "unit": "MILL/uL"
@@ -11846,7 +11846,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 1.02,
      "unit": "NO UNITS"
@@ -11904,7 +11904,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 1.014,
      "unit": "NO UNITS"
@@ -11962,7 +11962,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 1.027,
      "unit": "NO UNITS"
@@ -12020,7 +12020,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 0.84,
      "unit": "uIU/mL",
@@ -12080,7 +12080,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 7.2,
      "unit": "mg/dL",
@@ -12140,7 +12140,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 6.9,
      "unit": "mg/dL",
@@ -12200,7 +12200,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 7.8,
      "unit": "mg/dL",
@@ -12260,7 +12260,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -12306,7 +12306,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -12352,7 +12352,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 0,
      "unit": "NO UNITS"
@@ -12398,7 +12398,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 503,
      "unit": "pg/mL"
@@ -12456,7 +12456,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-03-10T12:31:00",
+    "effectiveDateTime": "2014-03-10T12:31:00+00:00",
     "valueQuantity": {
      "value": 9.53,
      "unit": "THOU/uL"
@@ -12514,7 +12514,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-01T08:55:00",
+    "effectiveDateTime": "2014-04-01T08:55:00+00:00",
     "valueQuantity": {
      "value": 8.13,
      "unit": "THOU/uL"
@@ -12572,7 +12572,7 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046",
      "display": "01-701-1033"
     },
-    "effectiveDateTime": "2014-04-14T10:38:00",
+    "effectiveDateTime": "2014-04-14T10:38:00+00:00",
     "valueQuantity": {
      "value": 8.2,
      "unit": "THOU/uL"
@@ -18733,8 +18733,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-18T07:29:00",
-     "end": "2014-03-18T19:29:00"
+     "start": "2014-03-18T07:03:00",
+     "end": "2014-03-18T19:03:00"
     }
    },
    "request": {
@@ -18755,8 +18755,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-19T07:55:00",
-     "end": "2014-03-19T19:55:00"
+     "start": "2014-03-19T07:36:00",
+     "end": "2014-03-19T19:36:00"
     }
    },
    "request": {
@@ -18777,8 +18777,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-20T07:50:00",
-     "end": "2014-03-20T19:50:00"
+     "start": "2014-03-20T07:26:00",
+     "end": "2014-03-20T19:26:00"
     }
    },
    "request": {
@@ -18799,8 +18799,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-21T07:03:00",
-     "end": "2014-03-21T19:03:00"
+     "start": "2014-03-21T07:26:00",
+     "end": "2014-03-21T19:26:00"
     }
    },
    "request": {
@@ -18821,8 +18821,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-22T07:53:00",
-     "end": "2014-03-22T19:53:00"
+     "start": "2014-03-22T07:02:00",
+     "end": "2014-03-22T19:02:00"
     }
    },
    "request": {
@@ -18843,8 +18843,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-23T07:40:00",
-     "end": "2014-03-23T19:40:00"
+     "start": "2014-03-23T07:25:00",
+     "end": "2014-03-23T19:25:00"
     }
    },
    "request": {
@@ -18865,8 +18865,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-24T07:41:00",
-     "end": "2014-03-24T19:41:00"
+     "start": "2014-03-24T07:36:00",
+     "end": "2014-03-24T19:36:00"
     }
    },
    "request": {
@@ -18887,8 +18887,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-25T07:47:00",
-     "end": "2014-03-25T19:47:00"
+     "start": "2014-03-25T07:27:00",
+     "end": "2014-03-25T19:27:00"
     }
    },
    "request": {
@@ -18909,8 +18909,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-26T07:58:00",
-     "end": "2014-03-26T19:58:00"
+     "start": "2014-03-26T07:01:00",
+     "end": "2014-03-26T19:01:00"
     }
    },
    "request": {
@@ -18931,8 +18931,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-27T07:48:00",
-     "end": "2014-03-27T19:48:00"
+     "start": "2014-03-27T07:53:00",
+     "end": "2014-03-27T19:53:00"
     }
    },
    "request": {
@@ -18953,8 +18953,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-28T07:19:00",
-     "end": "2014-03-28T19:19:00"
+     "start": "2014-03-28T07:53:00",
+     "end": "2014-03-28T19:53:00"
     }
    },
    "request": {
@@ -18975,8 +18975,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-29T07:24:00",
-     "end": "2014-03-29T19:24:00"
+     "start": "2014-03-29T07:21:00",
+     "end": "2014-03-29T19:21:00"
     }
    },
    "request": {
@@ -18997,8 +18997,8 @@
      "reference": "Patient/e4c9f85f8b2b9a85b32f7d9a67ea1046"
     },
     "effectivePeriod": {
-     "start": "2014-03-30T07:54:00",
-     "end": "2014-03-30T19:54:00"
+     "start": "2014-03-30T07:36:00",
+     "end": "2014-03-30T19:36:00"
     }
    },
    "request": {
