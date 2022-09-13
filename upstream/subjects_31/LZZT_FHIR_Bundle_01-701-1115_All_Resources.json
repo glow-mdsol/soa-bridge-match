@@ -1,8 +1,8 @@
 {
  "resourceType": "Bundle",
- "id": "66df941e-f8a4-4b91-806c-4d4613d475f4",
+ "id": "64c9b282-b919-4054-9960-ce1497330014",
  "meta": {
-  "lastUpdated": "2022-09-12T13:27:17+00:00"
+  "lastUpdated": "2022-09-13T09:23:16+00:00"
  },
  "type": "transaction",
  "entry": [
@@ -2844,7 +2844,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "bf5ee4f8-b880-4cfb-88a8-a49da0518056",
+    "id": "8fc5af65-6ee4-4ba4-b037-591b90d81c7f",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -3027,7 +3027,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "d69c10a4-780b-45ca-99b9-ef9e916de336",
+    "id": "901f35d2-3041-4829-ab44-2060136cb280",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -3393,7 +3393,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "3a90abcc-1447-4f9c-a0b4-1a506dd71340",
+    "id": "3a9828bb-1b32-45f5-9cc1-c7ebdb630254",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -4661,7 +4661,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "c46dedbc-fd36-4e01-be63-a360340706c8",
+    "id": "8c62bec0-3369-4673-8e22-70dde74d27fb",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -5441,7 +5441,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "aa304be2-b860-4608-a734-48114a30b314",
+    "id": "e569112f-6b25-4b3c-9601-6f0749c523a9",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -5981,7 +5981,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "8ea59b76-6837-4616-baf8-183468c6763d",
+    "id": "b260f5f8-73ef-405d-8aaa-d4ef490fbeb8",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -7635,7 +7635,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "ce10a359-1e80-46f2-afe1-f84d2b57d683",
+    "id": "16dcd444-1c43-4d97-b673-de50e2d3c92d",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -7739,7 +7739,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "690e1592-a985-43cf-b59d-b8215d6193b2",
+    "id": "5cf0c8b9-6ec6-4c76-94da-eb422104cbe4",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -7999,7 +7999,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "4557c426-a2ac-460d-8923-fa0079befd5d",
+    "id": "5849c9f2-eeec-4015-93cc-fb2f596280f4",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -19712,6 +19712,37 @@
   {
    "resource": {
     "resourceType": "Medication",
+    "id": "H2Q-MC-LZZT-LY246708-Placebo",
+    "code": {
+     "coding": [
+      {
+       "system": "https://iwrs.lilly.com/",
+       "code": "8375",
+       "display": "Placebo"
+      }
+     ],
+     "text": "Placebo"
+    },
+    "form": {
+     "coding": [
+      {
+       "system": "http://snomed.info/sct",
+       "code": "385114002",
+       "display": "Transdermal patch"
+      }
+     ],
+     "text": "Transdermal patch"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Medication/H2Q-MC-LZZT-LY246708-Placebo",
+    "ifNoneExist": "identifier=H2Q-MC-LZZT-LY246708-Placebo"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Medication",
     "id": "H2Q-MC-LZZT-LY246708-1",
     "code": {
      "coding": [
@@ -25110,6 +25141,1085 @@
   },
   {
    "resource": {
+    "resourceType": "CarePlan",
+    "id": "2c56a39c5f623781b4868c8945e122c6",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-1.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Visit-1"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 1.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/2c56a39c5f623781b4868c8945e122c6",
+    "ifNoneExist": "identifier=2c56a39c5f623781b4868c8945e122c6"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "bb6fc5de926bcd7c5ba71be0b019eb3d",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-1.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/2c56a39c5f623781b4868c8945e122c6"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/bb6fc5de926bcd7c5ba71be0b019eb3d",
+    "ifNoneExist": "identifier=bb6fc5de926bcd7c5ba71be0b019eb3d"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "d3e4a845b075e3d76f5661b25e360a3d",
+    "identifier": [
+     {
+      "value": "2c56a39c5f623781b4868c8945e122c6-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/bb6fc5de926bcd7c5ba71be0b019eb3d"
+     }
+    ],
+    "period": {
+     "start": "2012-11-23T00:00:00",
+     "end": "2012-11-23T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/d3e4a845b075e3d76f5661b25e360a3d",
+    "ifNoneExist": "identifier=d3e4a845b075e3d76f5661b25e360a3d"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "9fa82bed696f4356689dfde0dad9449f",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-2.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Visit-2"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 2.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/9fa82bed696f4356689dfde0dad9449f",
+    "ifNoneExist": "identifier=9fa82bed696f4356689dfde0dad9449f"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "094563caedfa28354e3ea28ddc3f2a74",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-2.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/9fa82bed696f4356689dfde0dad9449f"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/094563caedfa28354e3ea28ddc3f2a74",
+    "ifNoneExist": "identifier=094563caedfa28354e3ea28ddc3f2a74"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "8cb031838cb11c57f3b18eebe75dd587",
+    "identifier": [
+     {
+      "value": "9fa82bed696f4356689dfde0dad9449f-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/094563caedfa28354e3ea28ddc3f2a74"
+     }
+    ],
+    "period": {
+     "start": "2012-11-28T00:00:00",
+     "end": "2012-11-28T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/8cb031838cb11c57f3b18eebe75dd587",
+    "ifNoneExist": "identifier=8cb031838cb11c57f3b18eebe75dd587"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "de28f1b840f911cb85bf6b25134019a1",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-3.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Visit-3"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 3.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/de28f1b840f911cb85bf6b25134019a1",
+    "ifNoneExist": "identifier=de28f1b840f911cb85bf6b25134019a1"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "1de1be9891d33caa8a8d599e78f6b4c4",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-3.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/de28f1b840f911cb85bf6b25134019a1"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/1de1be9891d33caa8a8d599e78f6b4c4",
+    "ifNoneExist": "identifier=1de1be9891d33caa8a8d599e78f6b4c4"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "d0d81476233e21d54d45505a1c85ad41",
+    "identifier": [
+     {
+      "value": "de28f1b840f911cb85bf6b25134019a1-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/1de1be9891d33caa8a8d599e78f6b4c4"
+     }
+    ],
+    "period": {
+     "start": "2012-11-30T00:00:00",
+     "end": "2012-11-30T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/d0d81476233e21d54d45505a1c85ad41",
+    "ifNoneExist": "identifier=d0d81476233e21d54d45505a1c85ad41"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "066613afaa669ed6b12f515e1814c7ac",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-3.5-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Visit-3A"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 3.5",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/066613afaa669ed6b12f515e1814c7ac",
+    "ifNoneExist": "identifier=066613afaa669ed6b12f515e1814c7ac"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "9b9266fff5aa31990b09c3bc2e300418",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-3.5-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/066613afaa669ed6b12f515e1814c7ac"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/9b9266fff5aa31990b09c3bc2e300418",
+    "ifNoneExist": "identifier=9b9266fff5aa31990b09c3bc2e300418"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "4995c702f8c0fb6156a645b85f2e11fa",
+    "identifier": [
+     {
+      "value": "066613afaa669ed6b12f515e1814c7ac-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/9b9266fff5aa31990b09c3bc2e300418"
+     }
+    ],
+    "period": {
+     "start": "2012-12-12T00:00:00",
+     "end": "2012-12-12T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/4995c702f8c0fb6156a645b85f2e11fa",
+    "ifNoneExist": "identifier=4995c702f8c0fb6156a645b85f2e11fa"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "c9b8cdf60cb4a1347865970736b02ed8",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-4.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Visit-4"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 4.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/c9b8cdf60cb4a1347865970736b02ed8",
+    "ifNoneExist": "identifier=c9b8cdf60cb4a1347865970736b02ed8"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "041f8e9dbb5e5f220e2885aa4d68a46d",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-4.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/c9b8cdf60cb4a1347865970736b02ed8"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/041f8e9dbb5e5f220e2885aa4d68a46d",
+    "ifNoneExist": "identifier=041f8e9dbb5e5f220e2885aa4d68a46d"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "645b88cb37dfebe0f735a43bdd009842",
+    "identifier": [
+     {
+      "value": "c9b8cdf60cb4a1347865970736b02ed8-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/041f8e9dbb5e5f220e2885aa4d68a46d"
+     }
+    ],
+    "period": {
+     "start": "2012-12-13T00:00:00",
+     "end": "2012-12-13T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/645b88cb37dfebe0f735a43bdd009842",
+    "ifNoneExist": "identifier=645b88cb37dfebe0f735a43bdd009842"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "dcfb95e44eabe1bce7f0a17e60a11f73",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-5.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Visit-5"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 5.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/dcfb95e44eabe1bce7f0a17e60a11f73",
+    "ifNoneExist": "identifier=dcfb95e44eabe1bce7f0a17e60a11f73"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "d139ff3c08f0c939d0c5fafc2c6ab791",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-5.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/dcfb95e44eabe1bce7f0a17e60a11f73"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/d139ff3c08f0c939d0c5fafc2c6ab791",
+    "ifNoneExist": "identifier=d139ff3c08f0c939d0c5fafc2c6ab791"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "039e0325fed92bc196d8f07d83c0fabc",
+    "identifier": [
+     {
+      "value": "dcfb95e44eabe1bce7f0a17e60a11f73-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/d139ff3c08f0c939d0c5fafc2c6ab791"
+     }
+    ],
+    "period": {
+     "start": "2012-12-26T00:00:00",
+     "end": "2012-12-26T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/039e0325fed92bc196d8f07d83c0fabc",
+    "ifNoneExist": "identifier=039e0325fed92bc196d8f07d83c0fabc"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "a8a3e3d2c63f0331081deb6ea6c653ae",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-5.1-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Unscheduled-Visit"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 5.1",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/a8a3e3d2c63f0331081deb6ea6c653ae",
+    "ifNoneExist": "identifier=a8a3e3d2c63f0331081deb6ea6c653ae"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "df81bd21a4d88f4d83a0b337a4d25165",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-5.1-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/a8a3e3d2c63f0331081deb6ea6c653ae"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/df81bd21a4d88f4d83a0b337a4d25165",
+    "ifNoneExist": "identifier=df81bd21a4d88f4d83a0b337a4d25165"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "791df3dce4eecb9f1f910c58e82d29ca",
+    "identifier": [
+     {
+      "value": "a8a3e3d2c63f0331081deb6ea6c653ae-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/df81bd21a4d88f4d83a0b337a4d25165"
+     }
+    ],
+    "period": {
+     "start": "2012-12-28T00:00:00",
+     "end": "2012-12-28T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/791df3dce4eecb9f1f910c58e82d29ca",
+    "ifNoneExist": "identifier=791df3dce4eecb9f1f910c58e82d29ca"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "1d74d85d2d465362f1ff70f941d14009",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-6.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Visit-6"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 6.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/1d74d85d2d465362f1ff70f941d14009",
+    "ifNoneExist": "identifier=1d74d85d2d465362f1ff70f941d14009"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "0d603cc3f3b4f99d198510f7cd2ef8d7",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-6.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/1d74d85d2d465362f1ff70f941d14009"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/0d603cc3f3b4f99d198510f7cd2ef8d7",
+    "ifNoneExist": "identifier=0d603cc3f3b4f99d198510f7cd2ef8d7"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "ba78c6aaa177f3923901e2906ac49f41",
+    "identifier": [
+     {
+      "value": "1d74d85d2d465362f1ff70f941d14009-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/0d603cc3f3b4f99d198510f7cd2ef8d7"
+     }
+    ],
+    "period": {
+     "start": "2012-12-28T00:00:00",
+     "end": "2012-12-28T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/ba78c6aaa177f3923901e2906ac49f41",
+    "ifNoneExist": "identifier=ba78c6aaa177f3923901e2906ac49f41"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "ecae2b5b6ef3b08e91a5ab1bee22109b",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-7.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Visit-7"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 7.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/ecae2b5b6ef3b08e91a5ab1bee22109b",
+    "ifNoneExist": "identifier=ecae2b5b6ef3b08e91a5ab1bee22109b"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "88b39f08fac8b1cb8b59f0e101b5b38e",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-7.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/ecae2b5b6ef3b08e91a5ab1bee22109b"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/88b39f08fac8b1cb8b59f0e101b5b38e",
+    "ifNoneExist": "identifier=88b39f08fac8b1cb8b59f0e101b5b38e"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "99c4eef34ea26b3c0ac5e55d6f111413",
+    "identifier": [
+     {
+      "value": "ecae2b5b6ef3b08e91a5ab1bee22109b-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/88b39f08fac8b1cb8b59f0e101b5b38e"
+     }
+    ],
+    "period": {
+     "start": "2013-01-10T00:00:00",
+     "end": "2013-01-10T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/99c4eef34ea26b3c0ac5e55d6f111413",
+    "ifNoneExist": "identifier=99c4eef34ea26b3c0ac5e55d6f111413"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "ba4ae45d39e251432ab12e4cfe32bcfd",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-8.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-Visit-8"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 8.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/ba4ae45d39e251432ab12e4cfe32bcfd",
+    "ifNoneExist": "identifier=ba4ae45d39e251432ab12e4cfe32bcfd"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "e5f338316db98d4b7c222ea569919820",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-8.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/ba4ae45d39e251432ab12e4cfe32bcfd"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/e5f338316db98d4b7c222ea569919820",
+    "ifNoneExist": "identifier=e5f338316db98d4b7c222ea569919820"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "c45d463a52b90ac402e03a7cbb63dbed",
+    "identifier": [
+     {
+      "value": "ba4ae45d39e251432ab12e4cfe32bcfd-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/e5f338316db98d4b7c222ea569919820"
+     }
+    ],
+    "period": {
+     "start": "2013-01-23T00:00:00",
+     "end": "2013-01-23T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/c45d463a52b90ac402e03a7cbb63dbed",
+    "ifNoneExist": "identifier=c45d463a52b90ac402e03a7cbb63dbed"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "ef2cb6d849c89903aaae0c9ae642296f",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-101.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-ET-14"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 101.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/ef2cb6d849c89903aaae0c9ae642296f",
+    "ifNoneExist": "identifier=ef2cb6d849c89903aaae0c9ae642296f"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "272ad4d59f5cf688d77be54b6d39ed63",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-101.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/ef2cb6d849c89903aaae0c9ae642296f"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/272ad4d59f5cf688d77be54b6d39ed63",
+    "ifNoneExist": "identifier=272ad4d59f5cf688d77be54b6d39ed63"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "7aea6ce0cc66fefc6b14127c450862f5",
+    "identifier": [
+     {
+      "value": "ef2cb6d849c89903aaae0c9ae642296f-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/272ad4d59f5cf688d77be54b6d39ed63"
+     }
+    ],
+    "period": {
+     "start": "2013-02-14T00:00:00",
+     "end": "2013-02-14T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/7aea6ce0cc66fefc6b14127c450862f5",
+    "ifNoneExist": "identifier=7aea6ce0cc66fefc6b14127c450862f5"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "CarePlan",
+    "id": "773952458120151d4dfae047b0c69616",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-201.0-CarePlan"
+     }
+    ],
+    "instantiatesCanonical": [
+     "PlanDefinition/H2Q-MC-LZZT-Study-RT-15"
+    ],
+    "status": "completed",
+    "intent": "order",
+    "title": "Subject 01-701-1115 201.0",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "CarePlan/773952458120151d4dfae047b0c69616",
+    "ifNoneExist": "identifier=773952458120151d4dfae047b0c69616"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ServiceRequest",
+    "id": "b3d65a87bf819bda036bcf643e9d7187",
+    "identifier": [
+     {
+      "value": "6863ac983b0b55455da78f1fdd1288ff-201.0-ServiceRequest"
+     }
+    ],
+    "basedOn": [
+     {
+      "reference": "CarePlan/773952458120151d4dfae047b0c69616"
+     }
+    ],
+    "status": "completed",
+    "intent": "order",
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ServiceRequest/b3d65a87bf819bda036bcf643e9d7187",
+    "ifNoneExist": "identifier=b3d65a87bf819bda036bcf643e9d7187"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Encounter",
+    "id": "b3d2b7eb2021dc051317c9bf907a6f97",
+    "identifier": [
+     {
+      "value": "773952458120151d4dfae047b0c69616-Encounter"
+     }
+    ],
+    "status": "finished",
+    "class": {
+     "system": "http://hl7.org/fhir/v3/ActCode",
+     "code": "IMP"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "basedOn": [
+     {
+      "reference": "ServiceRequest/b3d65a87bf819bda036bcf643e9d7187"
+     }
+    ],
+    "period": {
+     "start": "2013-05-20T00:00:00",
+     "end": "2013-05-20T00:00:00"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Encounter/b3d2b7eb2021dc051317c9bf907a6f97",
+    "ifNoneExist": "identifier=b3d2b7eb2021dc051317c9bf907a6f97"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "MedicationRequest",
+    "id": "c1971a69c748f24695a4f2bfd2ca157c",
+    "status": "active",
+    "intent": "order",
+    "medicationReference": {
+     "reference": "Medication/H2Q-MC-LZZT-LY246708-Placebo-TTS"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "instantiatesCanonical": [
+     "ActivityDefinition/H2Q-MC-LZZT-Placebo-TTS-Admin"
+    ],
+    "dosageInstruction": [
+     {
+      "route": {
+       "coding": [
+        {
+         "code": "45890007"
+        }
+       ],
+       "text": "Transdermal route"
+      },
+      "doseAndRate": [
+       {
+        "type": {
+         "text": "ordered"
+        },
+        "doseQuantity": {
+         "value": 1,
+         "unit": "TPATCH",
+         "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "request": {
+    "method": "PUT",
+    "url": "MedicationRequest/c1971a69c748f24695a4f2bfd2ca157c",
+    "ifNoneExist": "identifier=c1971a69c748f24695a4f2bfd2ca157c"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "MedicationAdministration",
+    "id": "c1971a69c748f24695a4f2bfd2ca157c",
+    "status": "completed",
+    "medicationReference": {
+     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
+    },
+    "subject": {
+     "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+    },
+    "effectivePeriod": {
+     "start": "2012-11-23T00:00:00+00:00",
+     "end": "2012-11-23T12:00:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/c1971a69c748f24695a4f2bfd2ca157c"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "MedicationAdministration/c1971a69c748f24695a4f2bfd2ca157c",
+    "ifNoneExist": "identifier=c1971a69c748f24695a4f2bfd2ca157c"
+   }
+  },
+  {
+   "resource": {
     "resourceType": "MedicationAdministration",
     "id": "adbaa8eb831bfe74608d1e897cd2830d",
     "status": "completed",
@@ -25120,8 +26230,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-11-30T07:46:00",
-     "end": "2012-11-30T19:46:00"
+     "start": "2012-11-30T07:59:00",
+     "end": "2012-11-30T19:59:00"
     }
    },
    "request": {
@@ -25142,8 +26252,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-01T07:22:00",
-     "end": "2012-12-01T19:22:00"
+     "start": "2012-12-01T07:17:00",
+     "end": "2012-12-01T19:17:00"
     }
    },
    "request": {
@@ -25164,8 +26274,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-02T07:28:00",
-     "end": "2012-12-02T19:28:00"
+     "start": "2012-12-02T07:06:00",
+     "end": "2012-12-02T19:06:00"
     }
    },
    "request": {
@@ -25186,8 +26296,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-03T07:35:00",
-     "end": "2012-12-03T19:35:00"
+     "start": "2012-12-03T07:04:00",
+     "end": "2012-12-03T19:04:00"
     }
    },
    "request": {
@@ -25208,8 +26318,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-04T07:28:00",
-     "end": "2012-12-04T19:28:00"
+     "start": "2012-12-04T07:10:00",
+     "end": "2012-12-04T19:10:00"
     }
    },
    "request": {
@@ -25230,8 +26340,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-05T07:55:00",
-     "end": "2012-12-05T19:55:00"
+     "start": "2012-12-05T07:11:00",
+     "end": "2012-12-05T19:11:00"
     }
    },
    "request": {
@@ -25252,8 +26362,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-06T07:45:00",
-     "end": "2012-12-06T19:45:00"
+     "start": "2012-12-06T07:05:00",
+     "end": "2012-12-06T19:05:00"
     }
    },
    "request": {
@@ -25274,8 +26384,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-07T07:33:00",
-     "end": "2012-12-07T19:33:00"
+     "start": "2012-12-07T07:06:00",
+     "end": "2012-12-07T19:06:00"
     }
    },
    "request": {
@@ -25296,8 +26406,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-08T07:17:00",
-     "end": "2012-12-08T19:17:00"
+     "start": "2012-12-08T07:13:00",
+     "end": "2012-12-08T19:13:00"
     }
    },
    "request": {
@@ -25318,8 +26428,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-09T07:08:00",
-     "end": "2012-12-09T19:08:00"
+     "start": "2012-12-09T07:19:00",
+     "end": "2012-12-09T19:19:00"
     }
    },
    "request": {
@@ -25340,8 +26450,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-10T07:07:00",
-     "end": "2012-12-10T19:07:00"
+     "start": "2012-12-10T07:57:00",
+     "end": "2012-12-10T19:57:00"
     }
    },
    "request": {
@@ -25362,8 +26472,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-11T07:37:00",
-     "end": "2012-12-11T19:37:00"
+     "start": "2012-12-11T07:31:00",
+     "end": "2012-12-11T19:31:00"
     }
    },
    "request": {
@@ -25384,8 +26494,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-12T07:40:00",
-     "end": "2012-12-12T19:40:00"
+     "start": "2012-12-12T07:08:00",
+     "end": "2012-12-12T19:08:00"
     }
    },
    "request": {
@@ -25406,8 +26516,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-14T07:55:00",
-     "end": "2012-12-14T19:55:00"
+     "start": "2012-12-14T07:05:00",
+     "end": "2012-12-14T19:05:00"
     }
    },
    "request": {
@@ -25428,8 +26538,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-15T07:15:00",
-     "end": "2012-12-15T19:15:00"
+     "start": "2012-12-15T07:49:00",
+     "end": "2012-12-15T19:49:00"
     }
    },
    "request": {
@@ -25450,8 +26560,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-16T07:11:00",
-     "end": "2012-12-16T19:11:00"
+     "start": "2012-12-16T07:05:00",
+     "end": "2012-12-16T19:05:00"
     }
    },
    "request": {
@@ -25472,8 +26582,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-17T07:02:00",
-     "end": "2012-12-17T19:02:00"
+     "start": "2012-12-17T07:03:00",
+     "end": "2012-12-17T19:03:00"
     }
    },
    "request": {
@@ -25494,8 +26604,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-18T08:00:00",
-     "end": "2012-12-18T20:00:00"
+     "start": "2012-12-18T07:36:00",
+     "end": "2012-12-18T19:36:00"
     }
    },
    "request": {
@@ -25516,8 +26626,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-19T07:04:00",
-     "end": "2012-12-19T19:04:00"
+     "start": "2012-12-19T07:30:00",
+     "end": "2012-12-19T19:30:00"
     }
    },
    "request": {
@@ -25538,8 +26648,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-20T07:14:00",
-     "end": "2012-12-20T19:14:00"
+     "start": "2012-12-20T07:37:00",
+     "end": "2012-12-20T19:37:00"
     }
    },
    "request": {
@@ -25560,8 +26670,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-21T07:55:00",
-     "end": "2012-12-21T19:55:00"
+     "start": "2012-12-21T07:23:00",
+     "end": "2012-12-21T19:23:00"
     }
    },
    "request": {
@@ -25582,8 +26692,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-22T07:28:00",
-     "end": "2012-12-22T19:28:00"
+     "start": "2012-12-22T07:13:00",
+     "end": "2012-12-22T19:13:00"
     }
    },
    "request": {
@@ -25604,8 +26714,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-23T07:39:00",
-     "end": "2012-12-23T19:39:00"
+     "start": "2012-12-23T07:15:00",
+     "end": "2012-12-23T19:15:00"
     }
    },
    "request": {
@@ -25626,8 +26736,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-24T08:00:00",
-     "end": "2012-12-24T20:00:00"
+     "start": "2012-12-24T07:14:00",
+     "end": "2012-12-24T19:14:00"
     }
    },
    "request": {
@@ -25648,8 +26758,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-25T07:11:00",
-     "end": "2012-12-25T19:11:00"
+     "start": "2012-12-25T07:04:00",
+     "end": "2012-12-25T19:04:00"
     }
    },
    "request": {
@@ -25670,8 +26780,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-26T07:06:00",
-     "end": "2012-12-26T19:06:00"
+     "start": "2012-12-26T07:20:00",
+     "end": "2012-12-26T19:20:00"
     }
    },
    "request": {
@@ -25692,8 +26802,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-27T07:29:00",
-     "end": "2012-12-27T19:29:00"
+     "start": "2012-12-27T07:32:00",
+     "end": "2012-12-27T19:32:00"
     }
    },
    "request": {
@@ -25714,8 +26824,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-28T07:13:00",
-     "end": "2012-12-28T19:13:00"
+     "start": "2012-12-28T07:20:00",
+     "end": "2012-12-28T19:20:00"
     }
    },
    "request": {
@@ -25736,8 +26846,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-29T07:05:00",
-     "end": "2012-12-29T19:05:00"
+     "start": "2012-12-29T07:02:00",
+     "end": "2012-12-29T19:02:00"
     }
    },
    "request": {
@@ -25758,8 +26868,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-30T07:26:00",
-     "end": "2012-12-30T19:26:00"
+     "start": "2012-12-30T07:12:00",
+     "end": "2012-12-30T19:12:00"
     }
    },
    "request": {
@@ -25780,8 +26890,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2012-12-31T07:12:00",
-     "end": "2012-12-31T19:12:00"
+     "start": "2012-12-31T07:57:00",
+     "end": "2012-12-31T19:57:00"
     }
    },
    "request": {
@@ -25802,8 +26912,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-01T07:09:00",
-     "end": "2013-01-01T19:09:00"
+     "start": "2013-01-01T07:35:00",
+     "end": "2013-01-01T19:35:00"
     }
    },
    "request": {
@@ -25824,8 +26934,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-02T07:32:00",
-     "end": "2013-01-02T19:32:00"
+     "start": "2013-01-02T07:49:00",
+     "end": "2013-01-02T19:49:00"
     }
    },
    "request": {
@@ -25846,8 +26956,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-03T07:27:00",
-     "end": "2013-01-03T19:27:00"
+     "start": "2013-01-03T07:25:00",
+     "end": "2013-01-03T19:25:00"
     }
    },
    "request": {
@@ -25868,8 +26978,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-04T07:34:00",
-     "end": "2013-01-04T19:34:00"
+     "start": "2013-01-04T07:17:00",
+     "end": "2013-01-04T19:17:00"
     }
    },
    "request": {
@@ -25890,8 +27000,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-05T07:53:00",
-     "end": "2013-01-05T19:53:00"
+     "start": "2013-01-05T07:48:00",
+     "end": "2013-01-05T19:48:00"
     }
    },
    "request": {
@@ -25912,8 +27022,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-06T07:54:00",
-     "end": "2013-01-06T19:54:00"
+     "start": "2013-01-06T07:57:00",
+     "end": "2013-01-06T19:57:00"
     }
    },
    "request": {
@@ -25934,8 +27044,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-07T07:42:00",
-     "end": "2013-01-07T19:42:00"
+     "start": "2013-01-07T07:49:00",
+     "end": "2013-01-07T19:49:00"
     }
    },
    "request": {
@@ -25956,8 +27066,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-08T07:46:00",
-     "end": "2013-01-08T19:46:00"
+     "start": "2013-01-08T07:50:00",
+     "end": "2013-01-08T19:50:00"
     }
    },
    "request": {
@@ -25978,8 +27088,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-09T07:39:00",
-     "end": "2013-01-09T19:39:00"
+     "start": "2013-01-09T07:10:00",
+     "end": "2013-01-09T19:10:00"
     }
    },
    "request": {
@@ -26000,8 +27110,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-10T07:05:00",
-     "end": "2013-01-10T19:05:00"
+     "start": "2013-01-10T07:29:00",
+     "end": "2013-01-10T19:29:00"
     }
    },
    "request": {
@@ -26022,8 +27132,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-11T07:02:00",
-     "end": "2013-01-11T19:02:00"
+     "start": "2013-01-11T07:37:00",
+     "end": "2013-01-11T19:37:00"
     }
    },
    "request": {
@@ -26044,8 +27154,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-12T07:41:00",
-     "end": "2013-01-12T19:41:00"
+     "start": "2013-01-12T07:57:00",
+     "end": "2013-01-12T19:57:00"
     }
    },
    "request": {
@@ -26066,8 +27176,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-13T07:19:00",
-     "end": "2013-01-13T19:19:00"
+     "start": "2013-01-13T07:03:00",
+     "end": "2013-01-13T19:03:00"
     }
    },
    "request": {
@@ -26088,8 +27198,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-14T07:40:00",
-     "end": "2013-01-14T19:40:00"
+     "start": "2013-01-14T07:08:00",
+     "end": "2013-01-14T19:08:00"
     }
    },
    "request": {
@@ -26110,8 +27220,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-15T07:56:00",
-     "end": "2013-01-15T19:56:00"
+     "start": "2013-01-15T07:54:00",
+     "end": "2013-01-15T19:54:00"
     }
    },
    "request": {
@@ -26132,8 +27242,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-16T07:18:00",
-     "end": "2013-01-16T19:18:00"
+     "start": "2013-01-16T07:32:00",
+     "end": "2013-01-16T19:32:00"
     }
    },
    "request": {
@@ -26154,8 +27264,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-17T07:38:00",
-     "end": "2013-01-17T19:38:00"
+     "start": "2013-01-17T07:02:00",
+     "end": "2013-01-17T19:02:00"
     }
    },
    "request": {
@@ -26176,8 +27286,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-18T07:43:00",
-     "end": "2013-01-18T19:43:00"
+     "start": "2013-01-18T07:19:00",
+     "end": "2013-01-18T19:19:00"
     }
    },
    "request": {
@@ -26198,8 +27308,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-19T07:02:00",
-     "end": "2013-01-19T19:02:00"
+     "start": "2013-01-19T07:50:00",
+     "end": "2013-01-19T19:50:00"
     }
    },
    "request": {
@@ -26220,8 +27330,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-20T07:06:00",
-     "end": "2013-01-20T19:06:00"
+     "start": "2013-01-20T07:52:00",
+     "end": "2013-01-20T19:52:00"
     }
    },
    "request": {
@@ -26242,8 +27352,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-21T07:13:00",
-     "end": "2013-01-21T19:13:00"
+     "start": "2013-01-21T07:32:00",
+     "end": "2013-01-21T19:32:00"
     }
    },
    "request": {
@@ -26264,8 +27374,8 @@
      "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
     },
     "effectivePeriod": {
-     "start": "2013-01-22T07:03:00",
-     "end": "2013-01-22T19:03:00"
+     "start": "2013-01-22T07:19:00",
+     "end": "2013-01-22T19:19:00"
     }
    },
    "request": {
