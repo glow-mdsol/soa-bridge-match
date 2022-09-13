@@ -534,9 +534,9 @@ class Naptha:
             encounter.identifier = [Identifier(value=f"{care_plan_id}-Encounter")]
             period = {}
             if record.SVSTDTC:
-                period["start"] = record.SVSTDTC
+                period["start"] = record.SVSTDTC.date()
             if record.SVENDTC:
-                period["end"] = record.SVENDTC
+                period["end"] = record.SVENDTC.date()
             if period:
                 encounter.period = Period(**period)
             # later

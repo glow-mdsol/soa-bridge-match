@@ -1,8 +1,8 @@
 {
  "resourceType": "Bundle",
- "id": "030ac961-eed0-407f-86d9-81099c5532ed",
+ "id": "d06ed173-f875-4e4b-b2e8-02f918e27da1",
  "meta": {
-  "lastUpdated": "2022-09-13T21:22:10+00:00"
+  "lastUpdated": "2022-09-13T21:39:34+00:00"
  },
  "type": "transaction",
  "entry": [
@@ -5608,8 +5608,8 @@
      }
     ],
     "period": {
-     "start": "2013-12-20T00:00:00",
-     "end": "2013-12-20T00:00:00"
+     "start": "2013-12-20",
+     "end": "2013-12-20"
     }
    },
    "request": {
