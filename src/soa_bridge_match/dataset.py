@@ -29,6 +29,7 @@ from fhir.resources.servicerequest import ServiceRequest
 from fhir.resources.medicationadministration import MedicationAdministration
 from fhir.resources.medicationrequest import MedicationRequest
 from fhir.resources.observation import Observation
+import pytz
 
 
 from .bundler import SourcedBundle
@@ -251,14 +252,14 @@ class Naptha:
             for dt in range(delta):
                 _date = record.EXSTDTC + datetime.timedelta(days=dt)
                 _id = hh(f"{subject_id}-{record.EXSEQ}-{dt}")
-                _stt = datetime.datetime.combine(_date, datetime.time(8, 0, 0))
+                _stt = datetime.datetime.combine(_date, datetime.time(8, 0, 0), tzinfo=pytz.UTC)
                 # add a little variation around the start/end for the medication
                 if time.time() % 2 == 0:
                     _start_time = _stt - datetime.timedelta(
                         minutes=random.randint(0, 60)
                     )
                 else:
-                    _start_time = _stt - +datetime.timedelta(
+                    _start_time = _stt + datetime.timedelta(
                         minutes=random.randint(0, 60)
                     )
                 medication_admin = MedicationAdministration(
