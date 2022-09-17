@@ -148,7 +148,7 @@ class Naptha:
         cloned = self._content.clone_subject(subject_id)
         return Naptha(templatefile=None, templatecontent=cloned)
 
-    def merge_ex(self, subject_id: Optional[str] = None):
+    def merge_ex(self, subject_id: Optional[str] = None, blinded: bool = False):
         """
         Merge a dataset into the template
         """
@@ -170,12 +170,19 @@ class Naptha:
         # get the arm
         arm = dm.ARMCD.unique()[0]
         # Medication Request
-        medication = {
-            "Pbo": "H2Q-MC-LZZT-LY246708-1",
-            "Xan_Hi": "H2Q-MC-LZZT-LY246708-3",
-            "Xan_Lo": "H2Q-MC-LZZT-LY246708-2",
-            "Scrnfail": "",
-        }
+        def get_med(arm):
+            # returns the assigned medication for a given arm
+            # or a placeholder if blinded
+            medication = {
+                "Pbo": "H2Q-MC-LZZT-LY246708-1",
+                "Xan_Hi": "H2Q-MC-LZZT-LY246708-3",
+                "Xan_Lo": "H2Q-MC-LZZT-LY246708-2",
+                "Scrnfail": "",
+            }
+            if blinded:
+                return "H2Q-MC-LZZT-LY246708-IP"
+            return medication[arm]
+
         records = []
         # Add the TTS-Test
         _tts_id = hh(f"{subject_id}-TTS-Test-Request")
@@ -211,7 +218,7 @@ class Naptha:
         tts_admin = MedicationAdministration(
             id=_tts_admin_id,
             status="completed",
-            medicationReference=Reference(reference=f"Medication/{medication[arm]}"),
+            medicationReference=Reference(reference=f"Medication/{get_med(arm)}"),
             subject=Reference(reference=f"Patient/{patient_hash_id}"),
             effectivePeriod=Period(
                 start=visit_1,
