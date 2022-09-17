@@ -107,6 +107,7 @@ def patch_observation(observation: dict):
     """
     Add the OTHER LOINC LONG NAME fix
     """
+    identifier = observation["id"]
     code = observation['code']
     if 'text' in code and code['text'] == 'OTHER LOINC LONG NAME':
         code['text'] = 'Body temperature'
@@ -128,7 +129,7 @@ def patch_observation(observation: dict):
     if 'end' in observation:
         if 'T' in observation['end'] and not observation['end'].endswith('Z'):
             observation['end'] = observation['end'] + 'Z'
-
+    return identifier
 
 def purge_comments(resource: dict):
     """
@@ -230,7 +231,7 @@ def patch_file(filename, output_dir):
                 # track the patient ids
                 patient_ids[_identifier] = original_id
             elif resource['resourceType'] == 'Observation':
-                patch_observation(resource)
+                _identifier = patch_observation(resource)
             elif resource['resourceType'] in STATUS:
                 _sets = STATUS[resource['resourceType']]
                 for key, value in _sets.items():
@@ -289,6 +290,8 @@ def patch_file(filename, output_dir):
                            meta=dict(lastUpdated=datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')),
                            entry=entries)
 
+            if not os.path.exists(output_dir):
+                os.makedirs(output_dir)
             with open(f"{output_dir}/{os.path.basename(prefix).replace('10_Patients', patient_ids.get(patient_id))}{ext}", 'w') as f:
                 json.dump(content, f, indent=2)
 
