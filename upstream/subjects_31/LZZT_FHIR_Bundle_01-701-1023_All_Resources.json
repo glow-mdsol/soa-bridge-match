@@ -1,8 +1,8 @@
 {
  "resourceType": "Bundle",
- "id": "60b7fdba-7f54-4263-a97f-f02987eec046",
+ "id": "3bccfde8-d864-492b-8b1e-3badc2f93723",
  "meta": {
-  "lastUpdated": "2022-09-17T14:19:05+00:00"
+  "lastUpdated": "2022-09-17T15:06:02+00:00"
  },
  "type": "transaction",
  "entry": [
@@ -3715,7 +3715,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "d2891514-f0ed-4818-b1f6-a52bb0276f26",
+    "id": "9f441522-67a3-48b9-aa4e-f3ebe7d5ae55",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -3760,14 +3760,14 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/d2891514-f0ed-4818-b1f6-a52bb0276f26",
-    "ifNoneExist": "identifier=d2891514-f0ed-4818-b1f6-a52bb0276f26"
+    "url": "Observation/9f441522-67a3-48b9-aa4e-f3ebe7d5ae55",
+    "ifNoneExist": "identifier=9f441522-67a3-48b9-aa4e-f3ebe7d5ae55"
    }
   },
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "f2553953-61da-4a26-b5bb-07716d7951d0",
+    "id": "56494df5-fe43-4653-9b41-a2fd1245e875",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -3812,8 +3812,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/f2553953-61da-4a26-b5bb-07716d7951d0",
-    "ifNoneExist": "identifier=f2553953-61da-4a26-b5bb-07716d7951d0"
+    "url": "Observation/56494df5-fe43-4653-9b41-a2fd1245e875",
+    "ifNoneExist": "identifier=56494df5-fe43-4653-9b41-a2fd1245e875"
    }
   },
   {
@@ -14591,6 +14591,49 @@
   {
    "resource": {
     "resourceType": "PlanDefinition",
+    "id": "H2Q-MC-LZZT-Study-Visit-3A",
+    "meta": {
+     "profile": [
+      "http://example.org/br-and-r/soa/StructureDefinition/SOA-PlanDefinition"
+     ]
+    },
+    "extension": [
+     {
+      "url": "http://example.org/br-and-r/soa/StructureDefinition/planned-visit-study-day",
+      "valueInteger": 13
+     }
+    ],
+    "identifier": [
+     {
+      "use": "usual",
+      "type": {
+       "coding": [
+        {
+         "code": "PLAC"
+        }
+       ]
+      },
+      "value": "VISIT-3.5"
+     }
+    ],
+    "status": "active",
+    "action": [
+     {
+      "id": "VISIT-3A-H2Q-MC-LZZT-ApplyAmbECG",
+      "title": "Apply Ambulatory ECG",
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-ApplyAmbECG"
+     }
+    ]
+   },
+   "request": {
+    "method": "PUT",
+    "url": "PlanDefinition/H2Q-MC-LZZT-Study-Visit-3A",
+    "ifNoneExist": "identifier=H2Q-MC-LZZT-Study-Visit-3A"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "PlanDefinition",
     "id": "H2Q-MC-LZZT-Study-Visit-4",
     "meta": {
      "profile": [
@@ -14635,6 +14678,11 @@
       "id": "VISIT-4-H2Q-MC-LZZT-Visit-Date",
       "title": "Record Visit Date",
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Visit-Date"
+     },
+     {
+      "id": "VISIT-4-H2Q-MC-LZZT-RemoveAmbECG",
+      "title": "Remove Ambulatory ECG",
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-RemoveAmbECG"
      },
      {
       "title": "Apo-E genotyping",
@@ -18588,8 +18636,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-05T08:43:00+00:00",
-     "end": "2012-08-05T20:43:00+00:00"
+     "start": "2012-08-05T08:13:00+00:00",
+     "end": "2012-08-05T20:13:00+00:00"
     }
    },
    "request": {
@@ -18610,8 +18658,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-06T08:33:00+00:00",
-     "end": "2012-08-06T20:33:00+00:00"
+     "start": "2012-08-06T08:06:00+00:00",
+     "end": "2012-08-06T20:06:00+00:00"
     }
    },
    "request": {
@@ -18632,8 +18680,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-07T08:07:00+00:00",
-     "end": "2012-08-07T20:07:00+00:00"
+     "start": "2012-08-07T08:48:00+00:00",
+     "end": "2012-08-07T20:48:00+00:00"
     }
    },
    "request": {
@@ -18654,8 +18702,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-08T08:35:00+00:00",
-     "end": "2012-08-08T20:35:00+00:00"
+     "start": "2012-08-08T08:03:00+00:00",
+     "end": "2012-08-08T20:03:00+00:00"
     }
    },
    "request": {
@@ -18676,8 +18724,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-09T08:36:00+00:00",
-     "end": "2012-08-09T20:36:00+00:00"
+     "start": "2012-08-09T08:03:00+00:00",
+     "end": "2012-08-09T20:03:00+00:00"
     }
    },
    "request": {
@@ -18698,8 +18746,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-10T08:34:00+00:00",
-     "end": "2012-08-10T20:34:00+00:00"
+     "start": "2012-08-10T08:08:00+00:00",
+     "end": "2012-08-10T20:08:00+00:00"
     }
    },
    "request": {
@@ -18720,8 +18768,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-11T08:22:00+00:00",
-     "end": "2012-08-11T20:22:00+00:00"
+     "start": "2012-08-11T08:39:00+00:00",
+     "end": "2012-08-11T20:39:00+00:00"
     }
    },
    "request": {
@@ -18742,8 +18790,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-12T08:01:00+00:00",
-     "end": "2012-08-12T20:01:00+00:00"
+     "start": "2012-08-12T09:00:00+00:00",
+     "end": "2012-08-12T21:00:00+00:00"
     }
    },
    "request": {
@@ -18764,8 +18812,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-13T08:54:00+00:00",
-     "end": "2012-08-13T20:54:00+00:00"
+     "start": "2012-08-13T08:43:00+00:00",
+     "end": "2012-08-13T20:43:00+00:00"
     }
    },
    "request": {
@@ -18786,8 +18834,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-14T08:14:00+00:00",
-     "end": "2012-08-14T20:14:00+00:00"
+     "start": "2012-08-14T08:17:00+00:00",
+     "end": "2012-08-14T20:17:00+00:00"
     }
    },
    "request": {
@@ -18808,8 +18856,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-15T08:40:00+00:00",
-     "end": "2012-08-15T20:40:00+00:00"
+     "start": "2012-08-15T08:11:00+00:00",
+     "end": "2012-08-15T20:11:00+00:00"
     }
    },
    "request": {
@@ -18830,8 +18878,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-16T08:51:00+00:00",
-     "end": "2012-08-16T20:51:00+00:00"
+     "start": "2012-08-16T08:37:00+00:00",
+     "end": "2012-08-16T20:37:00+00:00"
     }
    },
    "request": {
@@ -18852,8 +18900,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-17T08:54:00+00:00",
-     "end": "2012-08-17T20:54:00+00:00"
+     "start": "2012-08-17T08:56:00+00:00",
+     "end": "2012-08-17T20:56:00+00:00"
     }
    },
    "request": {
@@ -18874,8 +18922,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-18T08:40:00+00:00",
-     "end": "2012-08-18T20:40:00+00:00"
+     "start": "2012-08-18T08:19:00+00:00",
+     "end": "2012-08-18T20:19:00+00:00"
     }
    },
    "request": {
@@ -18896,8 +18944,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-19T08:55:00+00:00",
-     "end": "2012-08-19T20:55:00+00:00"
+     "start": "2012-08-19T08:00:00+00:00",
+     "end": "2012-08-19T20:00:00+00:00"
     }
    },
    "request": {
@@ -18918,8 +18966,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-20T08:02:00+00:00",
-     "end": "2012-08-20T20:02:00+00:00"
+     "start": "2012-08-20T08:18:00+00:00",
+     "end": "2012-08-20T20:18:00+00:00"
     }
    },
    "request": {
@@ -18940,8 +18988,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-21T08:21:00+00:00",
-     "end": "2012-08-21T20:21:00+00:00"
+     "start": "2012-08-21T08:20:00+00:00",
+     "end": "2012-08-21T20:20:00+00:00"
     }
    },
    "request": {
@@ -18962,8 +19010,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-22T08:43:00+00:00",
-     "end": "2012-08-22T20:43:00+00:00"
+     "start": "2012-08-22T08:04:00+00:00",
+     "end": "2012-08-22T20:04:00+00:00"
     }
    },
    "request": {
@@ -18984,8 +19032,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-23T08:18:00+00:00",
-     "end": "2012-08-23T20:18:00+00:00"
+     "start": "2012-08-23T08:26:00+00:00",
+     "end": "2012-08-23T20:26:00+00:00"
     }
    },
    "request": {
@@ -19006,8 +19054,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-24T08:02:00+00:00",
-     "end": "2012-08-24T20:02:00+00:00"
+     "start": "2012-08-24T08:15:00+00:00",
+     "end": "2012-08-24T20:15:00+00:00"
     }
    },
    "request": {
@@ -19028,8 +19076,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-25T08:50:00+00:00",
-     "end": "2012-08-25T20:50:00+00:00"
+     "start": "2012-08-25T08:58:00+00:00",
+     "end": "2012-08-25T20:58:00+00:00"
     }
    },
    "request": {
@@ -19050,8 +19098,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-26T09:00:00+00:00",
-     "end": "2012-08-26T21:00:00+00:00"
+     "start": "2012-08-26T08:53:00+00:00",
+     "end": "2012-08-26T20:53:00+00:00"
     }
    },
    "request": {
@@ -19072,8 +19120,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-28T08:26:00+00:00",
-     "end": "2012-08-28T20:26:00+00:00"
+     "start": "2012-08-28T08:34:00+00:00",
+     "end": "2012-08-28T20:34:00+00:00"
     }
    },
    "request": {
@@ -19094,8 +19142,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-29T08:16:00+00:00",
-     "end": "2012-08-29T20:16:00+00:00"
+     "start": "2012-08-29T08:20:00+00:00",
+     "end": "2012-08-29T20:20:00+00:00"
     }
    },
    "request": {
@@ -19116,8 +19164,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-30T08:45:00+00:00",
-     "end": "2012-08-30T20:45:00+00:00"
+     "start": "2012-08-30T08:30:00+00:00",
+     "end": "2012-08-30T20:30:00+00:00"
     }
    },
    "request": {
@@ -19138,8 +19186,8 @@
      "reference": "Patient/f7f2e775f7ae3f7a095146cb4deaa497"
     },
     "effectivePeriod": {
-     "start": "2012-08-31T08:21:00+00:00",
-     "end": "2012-08-31T20:21:00+00:00"
+     "start": "2012-08-31T08:09:00+00:00",
+     "end": "2012-08-31T20:09:00+00:00"
     }
    },
    "request": {
