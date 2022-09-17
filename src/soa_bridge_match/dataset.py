@@ -355,7 +355,7 @@ class Naptha:
         for vs_obs in (
             ["8480-6", "Systolic blood pressure - standing", 110, 140, "mm[Hg]", 0],
             ["8454-1", "Diastolic blood pressure - standing", 65, 90, "mm[Hg]", 0],
-            ["8867-4", "Body weight", 60, 100, "kg", 5],
+            ["29463-7", "Body weight", 60, 100, "kg", 5],
             ["8310-5", "Body Temperature", 36.2, 38.1, "kg", 10],
             ["8867-4", "Heart Rate", 60, 100, "bpm", 0],
         ):
