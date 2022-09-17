@@ -241,7 +241,7 @@ class Naptha:
                 intent="order",
                 status="active",
                 medicationReference=Reference(
-                    reference=f"Medication/{medication[arm]}"
+                    reference=f"Medication/{get_med(arm)}"
                 ),
                 subject=Reference(reference=f"Patient/{patient_hash_id}"),
             )
@@ -273,7 +273,7 @@ class Naptha:
                     id=_id,
                     status="completed",
                     medicationReference=Reference(
-                        reference=f"Medication/{medication[arm]}"
+                        reference=f"Medication/{get_med(arm)}"
                     ),
                     subject=Reference(reference=f"Patient/{patient_hash_id}"),
                     effectivePeriod=Period(

@@ -225,11 +225,11 @@ class SourcedBundle:
                 # randonise gender
                 _gender = random.choice(["male", "female"])
                 patient.gender = _gender
-                link = PatientLink(type='refer', other=Reference(reference=f"Patient/{_old_subject_id}"))
-                if not getattr(resource, 'link'):
-                    resource.link = []
-                patient.link.append(link)
-                patient.fhir_comments = ["Cloned from Subject {}".format(_old_subject_id)]
+                # link = PatientLink(type='refer', other=Reference(reference=f"Patient/{_old_subject_id}"))
+                # if not getattr(resource, 'link'):
+                #     resource.link = []
+                # patient.link.append(link)
+                # patient.fhir_comments = ["Cloned from Subject {}".format(_old_subject_id)]
                 _entry = BundleEntry(resource=patient,
                                      request=BundleEntryRequest(method="PUT",
                                                                 url=f"{resource.resource_type}/{resource.id}",
@@ -283,10 +283,22 @@ class SourcedBundle:
                                                                 ifNoneExist=f"identifier={resource.id}"))
                 # add the cloned entity
                 _bundle.entry.append(_entry)
+            else:
+                # add the rest of the entities
+                _resource = entry.resource.copy()
+                # replace the ID
+                _id = uuid.uuid4()
+                _resource.id = str(_id)
+                _entry = BundleEntry(resource=_resource,
+                                     request=BundleEntryRequest(method="PUT",
+                                                                url=f"{resource.resource_type}/{_id}",
+                                                                ifNoneExist=f"identifier={_id}"))
+                _bundle.entry.append(_entry)
+
             instance = SourcedBundle(bundle=_bundle,
                                      identifier=str(_bundle.identifier),
                                      filename=self.filename.replace(_old_subject_id, _new_patient_id))
-        return instance
+        return instance 
 
     @classmethod
     def from_bundle_file(cls, filename: str):
