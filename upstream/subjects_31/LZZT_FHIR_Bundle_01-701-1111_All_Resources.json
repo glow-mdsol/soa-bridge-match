@@ -1,8 +1,8 @@
 {
  "resourceType": "Bundle",
- "id": "cb0d999e-e37c-4a87-9304-5639291c8df3",
+ "id": "3ab3000e-8c84-4750-aecb-5826bca1684c",
  "meta": {
-  "lastUpdated": "2022-09-13T22:04:58+00:00"
+  "lastUpdated": "2022-09-17T11:02:22+00:00"
  },
  "type": "transaction",
  "entry": [
@@ -4550,7 +4550,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "e977b885-6af1-4596-90f3-0b79635133b9",
+    "id": "e24ce973-e8a6-4188-8908-35cb82742958",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -4595,8 +4595,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/ea6646df-478f-11ec-2889-09173f13e4c5",
-    "ifNoneExist": "identifier=ea6646df-478f-11ec-2889-09173f13e4c5"
+    "url": "Observation/e24ce973-e8a6-4188-8908-35cb82742958",
+    "ifNoneExist": "identifier=e24ce973-e8a6-4188-8908-35cb82742958"
    }
   },
   {
@@ -5054,7 +5054,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "07006280-aa58-4931-b7d7-ddbf5a51bbc7",
+    "id": "5e4b2530-2d2c-4f14-aebf-798caddcffb3",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -5108,8 +5108,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/ea66271a-478f-11ec-2889-09173f13e4c5",
-    "ifNoneExist": "identifier=ea66271a-478f-11ec-2889-09173f13e4c5"
+    "url": "Observation/5e4b2530-2d2c-4f14-aebf-798caddcffb3",
+    "ifNoneExist": "identifier=5e4b2530-2d2c-4f14-aebf-798caddcffb3"
    }
   },
   {
@@ -5933,7 +5933,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "d36b8aa8-1604-4b13-b0c3-102e6cfbe7de",
+    "id": "7b6cc602-8950-4ac0-ac07-fe69b77979d5",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -5978,8 +5978,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/ea663357-478f-11ec-2889-09173f13e4c5",
-    "ifNoneExist": "identifier=ea663357-478f-11ec-2889-09173f13e4c5"
+    "url": "Observation/7b6cc602-8950-4ac0-ac07-fe69b77979d5",
+    "ifNoneExist": "identifier=7b6cc602-8950-4ac0-ac07-fe69b77979d5"
    }
   },
   {
@@ -11147,6 +11147,27 @@
   {
    "resource": {
     "resourceType": "Medication",
+    "id": "H2Q-MC-LZZT-LY246708-IP",
+    "code": {
+     "coding": [
+      {
+       "system": "https://iwrs.lilly.com/",
+       "code": "9999",
+       "display": "Blinded Study Treatment"
+      }
+     ],
+     "text": "Blinded Study Treatment"
+    }
+   },
+   "request": {
+    "method": "PUT",
+    "url": "Medication/H2Q-MC-LZZT-LY246708-IP",
+    "ifNoneExist": "identifier=H2Q-MC-LZZT-LY246708-IP"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Medication",
     "id": "H2Q-MC-LZZT-LY246708-Placebo-TTS",
     "code": {
      "coding": [
@@ -12048,6 +12069,194 @@
   {
    "resource": {
     "resourceType": "ActivityDefinition",
+    "id": "H2Q-MC-LZZT-IP-Administration",
+    "text": {
+     "status": "generated",
+     "div": "Created by Vulcan SoA Team"
+    },
+    "contained": [
+     {
+      "resourceType": "Medication",
+      "id": "H2Q-MC-LZZT-LY246708-IP",
+      "code": {
+       "coding": [
+        {
+         "system": "https://iwrs.lilly.com/",
+         "code": "H2Q-MC-LZZT-LY246708-IP",
+         "display": "H2Q-MC-LZZT-LY246708-IP"
+        }
+       ],
+       "text": "H2Q-MC-LZZT-LY246708-IP"
+      },
+      "form": {
+       "coding": [
+        {
+         "system": "http://snomed.info/sct",
+         "code": "385114002",
+         "display": "Transdermal patch"
+        }
+       ],
+       "text": "Transdermal patch"
+      }
+     }
+    ],
+    "identifier": [
+     {
+      "use": "temp",
+      "system": "https://sourceforge.net/projects/fhirloinc2sdtm/",
+      "value": "H2Q-MC-LZZT-IP-Administration-IP"
+     }
+    ],
+    "version": "1.0.0",
+    "name": "H2Q-MC-LZZT-IP-Administration-IP",
+    "title": "H2Q-MC-LZZT-IP-Administration-IP",
+    "status": "active",
+    "experimental": true,
+    "date": "2022-08-24",
+    "publisher": "Eli Lilly and Company",
+    "contact": [
+     {
+      "name": "Eli Lilly and Company",
+      "telecom": [
+       {
+        "system": "phone",
+        "value": "+1-877-285-4559",
+        "use": "work"
+       }
+      ]
+     }
+    ],
+    "description": "H2Q-MC-LZZT-LY246708 2 patches transdermal daily blinded dose",
+    "useContext": [
+     {
+      "code": {
+       "system": "http://terminology.hl7.org/CodeSystem/usage-context-type",
+       "code": "age",
+       "display": "Age"
+      },
+      "valueCodeableConcept": {
+       "coding": [
+        {
+         "system": "http://terminology.hl7.org/CodeSystem/age-group",
+         "code": "adult",
+         "display": "Adult"
+        }
+       ],
+       "text": "Adult"
+      }
+     }
+    ],
+    "jurisdiction": [
+     {
+      "coding": [
+       {
+        "system": "urn:iso:std:iso:3166",
+        "code": "US",
+        "display": "United States of America"
+       }
+      ],
+      "text": "United States of America"
+     }
+    ],
+    "purpose": "To assess the safety of the Transdermal Therapeutic System (TTS) used to administer Xanomeline or Placebo in patients with Mild to Moderate Alzheimer\u2019s Disease.",
+    "usage": "This activity definition is used to articulate the planned activity to assess the safety of the Transdermal Therapeutic System (TTS) used to administer Xanomeline or Placebo in patients with Mild to Moderate Alzheimer\u2019s Disease.",
+    "copyright": "\u00a9 Copyright 2006 Eli Lilly and Company. All rights reserved.",
+    "approvalDate": "2022-08-24",
+    "lastReviewDate": "2022-08-24",
+    "effectivePeriod": {
+     "start": "2012-07-01",
+     "end": "2015-03-30"
+    },
+    "topic": [
+     {
+      "text": "Treatment of Mild to Moderate Alzheimer\u2019s Disease"
+     }
+    ],
+    "author": [
+     {
+      "name": "Eli Lilly and Company",
+      "telecom": [
+       {
+        "system": "phone",
+        "value": "+1-877-285-4559",
+        "use": "work"
+       }
+      ]
+     }
+    ],
+    "kind": "MedicationRequest",
+    "productReference": {
+     "reference": "Medication/H2Q-MC-LZZT-LY246708-IP"
+    },
+    "dosage": [
+     {
+      "text": "2 patches transdermal 1 time daily for 12-14 hours",
+      "patientInstruction": "Each Sunday, apply patch to Skin structure of upper arm (Skin structure of upper arm).  Each Monday, apply patch to Skin structure of upper back (Skin structure of upper back).  Each Tuesday, apply patch to Skin structure of lower back (Skin structure of lower back).  Each Wednesday, apply patch to Skin structure of buttock (Skin structure of buttock).  Each Thursday, apply patch to Skin structure of posterior axillary line (Skin structure of posterior axillary line).  Each Friday, apply patch to Skin structure of upper thigh region (Skin structure of upper thigh region).  Each Saturday, apply patch to Skin structure of upper chest wall (Skin structure of upper chest wall).",
+      "timing": {
+       "repeat": {
+        "duration": 12,
+        "durationMax": 14,
+        "durationUnit": "h",
+        "frequency": 1,
+        "period": 1,
+        "periodUnit": "d",
+        "timeOfDay": [
+         "08:00:00"
+        ]
+       }
+      },
+      "site": {
+       "coding": [
+        {
+         "system": "http://snomed.info/sct",
+         "code": "39937001",
+         "display": "Skin structure"
+        }
+       ],
+       "text": "Skin structure"
+      },
+      "route": {
+       "coding": [
+        {
+         "system": "http://snomed.info/sct",
+         "code": "45890007",
+         "display": "Transdermal route"
+        }
+       ],
+       "text": "Transdermal route"
+      },
+      "doseAndRate": [
+       {
+        "type": {
+         "coding": [
+          {
+           "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+           "code": "ordered",
+           "display": "Ordered"
+          }
+         ],
+         "text": "Ordered"
+        },
+        "doseQuantity": {
+         "value": 2,
+         "unit": "patch",
+         "system": "http://unitsofmeasure.org",
+         "code": "patch"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ActivityDefinition/H2Q-MC-LZZT-IP-Administration",
+    "ifNoneExist": "identifier=H2Q-MC-LZZT-IP-Administration"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ActivityDefinition",
     "id": "H2Q-MC-LZZT-Placebo-TTS-test",
     "meta": {
      "versionId": "1",
@@ -12699,6 +12908,17 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Patient-randomized"
      },
      {
+      "id": "VISIT-3-H2Q-MC-LZZT-IP",
+      "title": "Study Drug Administration",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-3-H2Q-MC-LZZT-Patient-randomized",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-IP-Administration"
+     },
+     {
       "title": "Plasma Specimen (Xanomeline)",
       "relatedAction": [
        {
@@ -12825,7 +13045,7 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Visit-Date"
      },
      {
-      "title": "Apo E genotyping",
+      "title": "Apo-E genotyping",
       "relatedAction": [
        {
         "actionId": "VISIT-4-H2Q-MC-LZZT-Visit-Date",
@@ -15822,10 +16042,10 @@
    }
   },
   {
-   "fullUrl": "Practitioner/SamGetWell",
+   "fullUrl": "Practitioner/93d0c617-873c-4b01-b03e-d6870a81bb10",
    "resource": {
     "resourceType": "Practitioner",
-    "id": "SamGetWell",
+    "id": "93d0c617-873c-4b01-b03e-d6870a81bb10",
     "identifier": [
      {
       "use": "official",
@@ -15866,15 +16086,15 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Practitioner?identifier=ABC1234",
-    "ifNoneExist": "identifier=ABC1234"
+    "url": "Practitioner/93d0c617-873c-4b01-b03e-d6870a81bb10",
+    "ifNoneExist": "identifier=93d0c617-873c-4b01-b03e-d6870a81bb10"
    }
   },
   {
-   "fullUrl": "Organization/EliLillyAndCompany",
+   "fullUrl": "Organization/93d0c617-873c-4b01-b03e-d6870a81bb10",
    "resource": {
     "resourceType": "Organization",
-    "id": "EliLillyAndCompany",
+    "id": "7648d1c2-da4b-4ff5-9e3c-b13c4ddce698",
     "identifier": [
      {
       "use": "official",
@@ -15910,8 +16130,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Organization?identifier=Eli%20Lilly%20and%20Company%20Inc",
-    "ifNoneExist": "identifier=Eli%20Lilly%20and%20Company"
+    "url": "Organization/7648d1c2-da4b-4ff5-9e3c-b13c4ddce698",
+    "ifNoneExist": "identifier=7648d1c2-da4b-4ff5-9e3c-b13c4ddce698"
    }
   },
   {
@@ -16524,8 +16744,8 @@
      "reference": "Patient/51ff4d27ccf78c1d2ff6438175b541c7"
     },
     "effectivePeriod": {
-     "start": "2012-09-07T08:12:00+00:00",
-     "end": "2012-09-07T20:12:00+00:00"
+     "start": "2012-09-07T08:29:00+00:00",
+     "end": "2012-09-07T20:29:00+00:00"
     }
    },
    "request": {
@@ -16546,8 +16766,8 @@
      "reference": "Patient/51ff4d27ccf78c1d2ff6438175b541c7"
     },
     "effectivePeriod": {
-     "start": "2012-09-08T08:29:00+00:00",
-     "end": "2012-09-08T20:29:00+00:00"
+     "start": "2012-09-08T08:24:00+00:00",
+     "end": "2012-09-08T20:24:00+00:00"
     }
    },
    "request": {
@@ -16568,8 +16788,8 @@
      "reference": "Patient/51ff4d27ccf78c1d2ff6438175b541c7"
     },
     "effectivePeriod": {
-     "start": "2012-09-09T08:08:00+00:00",
-     "end": "2012-09-09T20:08:00+00:00"
+     "start": "2012-09-09T08:53:00+00:00",
+     "end": "2012-09-09T20:53:00+00:00"
     }
    },
    "request": {
@@ -16590,8 +16810,8 @@
      "reference": "Patient/51ff4d27ccf78c1d2ff6438175b541c7"
     },
     "effectivePeriod": {
-     "start": "2012-09-10T08:01:00+00:00",
-     "end": "2012-09-10T20:01:00+00:00"
+     "start": "2012-09-10T08:28:00+00:00",
+     "end": "2012-09-10T20:28:00+00:00"
     }
    },
    "request": {
@@ -16634,8 +16854,8 @@
      "reference": "Patient/51ff4d27ccf78c1d2ff6438175b541c7"
     },
     "effectivePeriod": {
-     "start": "2012-09-12T08:55:00+00:00",
-     "end": "2012-09-12T20:55:00+00:00"
+     "start": "2012-09-12T08:12:00+00:00",
+     "end": "2012-09-12T20:12:00+00:00"
     }
    },
    "request": {
@@ -16656,8 +16876,8 @@
      "reference": "Patient/51ff4d27ccf78c1d2ff6438175b541c7"
     },
     "effectivePeriod": {
-     "start": "2012-09-13T08:56:00+00:00",
-     "end": "2012-09-13T20:56:00+00:00"
+     "start": "2012-09-13T08:44:00+00:00",
+     "end": "2012-09-13T20:44:00+00:00"
     }
    },
    "request": {
@@ -16678,8 +16898,8 @@
      "reference": "Patient/51ff4d27ccf78c1d2ff6438175b541c7"
     },
     "effectivePeriod": {
-     "start": "2012-09-14T08:12:00+00:00",
-     "end": "2012-09-14T20:12:00+00:00"
+     "start": "2012-09-14T08:00:00+00:00",
+     "end": "2012-09-14T20:00:00+00:00"
     }
    },
    "request": {
@@ -16700,8 +16920,8 @@
      "reference": "Patient/51ff4d27ccf78c1d2ff6438175b541c7"
     },
     "effectivePeriod": {
-     "start": "2012-09-15T08:53:00+00:00",
-     "end": "2012-09-15T20:53:00+00:00"
+     "start": "2012-09-15T08:37:00+00:00",
+     "end": "2012-09-15T20:37:00+00:00"
     }
    },
    "request": {
