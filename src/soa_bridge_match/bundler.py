@@ -260,6 +260,7 @@ class SourcedBundle:
                 # id resources where the subject is the patient
                 resource = entry.resource.copy()
                 resource.subject.reference = f"Patient/{_new_patient_id}"
+                resource.subject.display = _new_patient_id
                 if getattr(resource.subject, 'display', None):
                     resource.subject.display = new_subject_id
                 if resource.resource_type == "CarePlan":
