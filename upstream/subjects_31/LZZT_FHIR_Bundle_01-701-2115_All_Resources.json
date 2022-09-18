@@ -1,6 +1,6 @@
 {
  "resourceType": "Bundle",
- "id": "d6c3857a-2088-46e5-8d49-e1c8765d4442",
+ "id": "6eae9caa-f6dd-4273-b42d-b846456f280c",
  "type": "transaction",
  "entry": [
   {
@@ -62,8 +62,8 @@
       "valueCode": "M"
      }
     ],
-    "gender": "female",
-    "birthDate": "1930-07-05",
+    "gender": "male",
+    "birthDate": "1923-03-20",
     "managingOrganization": {
      "reference": "Organization/b4a528955b84f584974e92d025a75d1f"
     }
@@ -2896,7 +2896,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "d1db6f530d929b4d8259f9b62df9e4e3",
+    "id": "ae67a2b017029a77af04dfc6c4f809eb",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -2951,8 +2951,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/d1db6f530d929b4d8259f9b62df9e4e3",
-    "ifNoneExist": "identifier=d1db6f530d929b4d8259f9b62df9e4e3"
+    "url": "Observation/ae67a2b017029a77af04dfc6c4f809eb",
+    "ifNoneExist": "identifier=ae67a2b017029a77af04dfc6c4f809eb"
    }
   },
   {
@@ -3082,7 +3082,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "8968cefffb2fc3099a41fb51ca4574e0",
+    "id": "ec17500ab21cb7967def53ae311474ce",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -3137,8 +3137,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/8968cefffb2fc3099a41fb51ca4574e0",
-    "ifNoneExist": "identifier=8968cefffb2fc3099a41fb51ca4574e0"
+    "url": "Observation/ec17500ab21cb7967def53ae311474ce",
+    "ifNoneExist": "identifier=ec17500ab21cb7967def53ae311474ce"
    }
   },
   {
@@ -3454,7 +3454,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "0800cf9d39db5a564039f7cb0e32eba5",
+    "id": "4fe4f9026925c58a11186fe8f0650e9f",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -3509,8 +3509,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/0800cf9d39db5a564039f7cb0e32eba5",
-    "ifNoneExist": "identifier=0800cf9d39db5a564039f7cb0e32eba5"
+    "url": "Observation/4fe4f9026925c58a11186fe8f0650e9f",
+    "ifNoneExist": "identifier=4fe4f9026925c58a11186fe8f0650e9f"
    }
   },
   {
@@ -4745,7 +4745,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "661586cdefa18603672db99dd77fe440",
+    "id": "b87742a116e6bf515b26fad7364c2981",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -4791,8 +4791,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/661586cdefa18603672db99dd77fe440",
-    "ifNoneExist": "identifier=661586cdefa18603672db99dd77fe440"
+    "url": "Observation/b87742a116e6bf515b26fad7364c2981",
+    "ifNoneExist": "identifier=b87742a116e6bf515b26fad7364c2981"
    }
   },
   {
@@ -5540,7 +5540,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "47ab4561fbd3ccbd5ff3c207091cd27d",
+    "id": "f7a3a2640e096ecbdb3ad1e1d5e6cd60",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -5586,8 +5586,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/47ab4561fbd3ccbd5ff3c207091cd27d",
-    "ifNoneExist": "identifier=47ab4561fbd3ccbd5ff3c207091cd27d"
+    "url": "Observation/f7a3a2640e096ecbdb3ad1e1d5e6cd60",
+    "ifNoneExist": "identifier=f7a3a2640e096ecbdb3ad1e1d5e6cd60"
    }
   },
   {
@@ -6089,7 +6089,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "91ea51343ffb797d52d60e18f2b67eef",
+    "id": "fa6be59beb0ec6ffd682408cb27760fa",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -6144,8 +6144,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/91ea51343ffb797d52d60e18f2b67eef",
-    "ifNoneExist": "identifier=91ea51343ffb797d52d60e18f2b67eef"
+    "url": "Observation/fa6be59beb0ec6ffd682408cb27760fa",
+    "ifNoneExist": "identifier=fa6be59beb0ec6ffd682408cb27760fa"
    }
   },
   {
@@ -7771,7 +7771,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "9c889813d4080e33a2e852be0378f2e2",
+    "id": "f1695aaade1a85dbfc390bbc1fc4cd50",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -7817,8 +7817,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/9c889813d4080e33a2e852be0378f2e2",
-    "ifNoneExist": "identifier=9c889813d4080e33a2e852be0378f2e2"
+    "url": "Observation/f1695aaade1a85dbfc390bbc1fc4cd50",
+    "ifNoneExist": "identifier=f1695aaade1a85dbfc390bbc1fc4cd50"
    }
   },
   {
@@ -7877,7 +7877,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "555b465085f19ee09c0f41b9aa95df16",
+    "id": "6b216c3b9917b70eac2c3cc1883330a1",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -7923,8 +7923,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/555b465085f19ee09c0f41b9aa95df16",
-    "ifNoneExist": "identifier=555b465085f19ee09c0f41b9aa95df16"
+    "url": "Observation/6b216c3b9917b70eac2c3cc1883330a1",
+    "ifNoneExist": "identifier=6b216c3b9917b70eac2c3cc1883330a1"
    }
   },
   {
@@ -8142,7 +8142,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "c6663806758204c61ff69e8a19d79e8e",
+    "id": "06af4aa7fc30b26e71acf6d076b92b5e",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -8188,8 +8188,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/c6663806758204c61ff69e8a19d79e8e",
-    "ifNoneExist": "identifier=c6663806758204c61ff69e8a19d79e8e"
+    "url": "Observation/06af4aa7fc30b26e71acf6d076b92b5e",
+    "ifNoneExist": "identifier=06af4aa7fc30b26e71acf6d076b92b5e"
    }
   },
   {
@@ -26141,35 +26141,30 @@
   },
   {
    "resource": {
-    "resourceType": "MedicationRequest",
-    "id": "603b996dbd039ad7fa3abd84789af237",
+    "resourceType": "MedicationAdministration",
+    "id": "adbaa8eb831bfe74608d1e897cd2830d",
     "status": "completed",
-    "intent": "order",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
     },
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "instantiatesCanonical": [
-     "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
-    ]
+    "effectivePeriod": {
+     "start": "2012-11-30T08:14:00+00:00",
+     "end": "2012-11-30T20:14:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationRequest/603b996dbd039ad7fa3abd84789af237",
-    "ifNoneExist": "identifier=603b996dbd039ad7fa3abd84789af237"
+    "url": "MedicationAdministration/adbaa8eb831bfe74608d1e897cd2830d",
+    "ifNoneExist": "identifier=adbaa8eb831bfe74608d1e897cd2830d"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "2d8d216579ece6ecc0e93a2d6e365c17",
-    "basedOn": [
-     {
-      "reference": "MedicationRequest/c1971a69c748f24695a4f2bfd2ca157c"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "dca1aeb94d663fbe606f7d28a1261ee1",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26177,45 +26172,43 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-01T08:38:00+00:00",
+     "end": "2012-12-01T20:38:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17",
-    "ifNoneExist": "identifier=2d8d216579ece6ecc0e93a2d6e365c17"
+    "url": "MedicationAdministration/dca1aeb94d663fbe606f7d28a1261ee1",
+    "ifNoneExist": "identifier=dca1aeb94d663fbe606f7d28a1261ee1"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationRequest",
-    "id": "a968ca61fddc56b9c9c00cd17f190aa6",
+    "resourceType": "MedicationAdministration",
+    "id": "a88c0ae46025408e97c66c10874859f7",
     "status": "completed",
-    "intent": "order",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
     },
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "instantiatesCanonical": [
-     "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
-    ]
+    "effectivePeriod": {
+     "start": "2012-12-02T08:42:00+00:00",
+     "end": "2012-12-02T20:42:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationRequest/a968ca61fddc56b9c9c00cd17f190aa6",
-    "ifNoneExist": "identifier=a968ca61fddc56b9c9c00cd17f190aa6"
+    "url": "MedicationAdministration/a88c0ae46025408e97c66c10874859f7",
+    "ifNoneExist": "identifier=a88c0ae46025408e97c66c10874859f7"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "a08bc1843e3eb2859a04d354c1d1f026",
-    "basedOn": [
-     {
-      "reference": "MedicationRequest/c1971a69c748f24695a4f2bfd2ca157c"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "642d4fa2a430ac8a234a99d25c436920",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26223,45 +26216,43 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-03T08:58:00+00:00",
+     "end": "2012-12-03T20:58:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026",
-    "ifNoneExist": "identifier=a08bc1843e3eb2859a04d354c1d1f026"
+    "url": "MedicationAdministration/642d4fa2a430ac8a234a99d25c436920",
+    "ifNoneExist": "identifier=642d4fa2a430ac8a234a99d25c436920"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationRequest",
-    "id": "410b898c7c5ff1e933faf750c80e902a",
+    "resourceType": "MedicationAdministration",
+    "id": "fc0e4a3675a7e5dca9362fc33c5bcef8",
     "status": "completed",
-    "intent": "order",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
     },
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "instantiatesCanonical": [
-     "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
-    ]
+    "effectivePeriod": {
+     "start": "2012-12-04T08:18:00+00:00",
+     "end": "2012-12-04T20:18:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationRequest/410b898c7c5ff1e933faf750c80e902a",
-    "ifNoneExist": "identifier=410b898c7c5ff1e933faf750c80e902a"
+    "url": "MedicationAdministration/fc0e4a3675a7e5dca9362fc33c5bcef8",
+    "ifNoneExist": "identifier=fc0e4a3675a7e5dca9362fc33c5bcef8"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "fc7d698a9501fe16594fc1a942b6ed04",
-    "basedOn": [
-     {
-      "reference": "MedicationRequest/c1971a69c748f24695a4f2bfd2ca157c"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "92d71322710f5a030160e49b7398797a",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26269,45 +26260,43 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "dateAsserted": "2012-12-28T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-05T08:01:00+00:00",
+     "end": "2012-12-05T20:01:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/fc7d698a9501fe16594fc1a942b6ed04",
-    "ifNoneExist": "identifier=fc7d698a9501fe16594fc1a942b6ed04"
+    "url": "MedicationAdministration/92d71322710f5a030160e49b7398797a",
+    "ifNoneExist": "identifier=92d71322710f5a030160e49b7398797a"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationRequest",
-    "id": "4647256fe84e9a7e30cfeb27be20283d",
+    "resourceType": "MedicationAdministration",
+    "id": "6f14876f3f72a952ebe186fa06b50466",
     "status": "completed",
-    "intent": "order",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
     },
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "instantiatesCanonical": [
-     "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
-    ]
+    "effectivePeriod": {
+     "start": "2012-12-06T08:25:00+00:00",
+     "end": "2012-12-06T20:25:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationRequest/4647256fe84e9a7e30cfeb27be20283d",
-    "ifNoneExist": "identifier=4647256fe84e9a7e30cfeb27be20283d"
+    "url": "MedicationAdministration/6f14876f3f72a952ebe186fa06b50466",
+    "ifNoneExist": "identifier=6f14876f3f72a952ebe186fa06b50466"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "42a9a9f3876d89307a60afac6d31ab50",
-    "basedOn": [
-     {
-      "reference": "MedicationRequest/c1971a69c748f24695a4f2bfd2ca157c"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "d787a4f010d8e8c06d498d02d14cf6a7",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26315,45 +26304,43 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-07T08:49:00+00:00",
+     "end": "2012-12-07T20:49:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50",
-    "ifNoneExist": "identifier=42a9a9f3876d89307a60afac6d31ab50"
+    "url": "MedicationAdministration/d787a4f010d8e8c06d498d02d14cf6a7",
+    "ifNoneExist": "identifier=d787a4f010d8e8c06d498d02d14cf6a7"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationRequest",
-    "id": "53c827fb0825944bf44462ebe8e62d37",
+    "resourceType": "MedicationAdministration",
+    "id": "2cd9fabd910fa29277c44e9ba29eb1f8",
     "status": "completed",
-    "intent": "order",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
     },
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "instantiatesCanonical": [
-     "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
-    ]
+    "effectivePeriod": {
+     "start": "2012-12-08T08:41:00+00:00",
+     "end": "2012-12-08T20:41:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationRequest/53c827fb0825944bf44462ebe8e62d37",
-    "ifNoneExist": "identifier=53c827fb0825944bf44462ebe8e62d37"
+    "url": "MedicationAdministration/2cd9fabd910fa29277c44e9ba29eb1f8",
+    "ifNoneExist": "identifier=2cd9fabd910fa29277c44e9ba29eb1f8"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "6061aac217cd957609aaa74589e09f18",
-    "basedOn": [
-     {
-      "reference": "MedicationRequest/c1971a69c748f24695a4f2bfd2ca157c"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "c724188388c6a391a2d099ad197f5f97",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26361,23 +26348,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "dateAsserted": "2013-01-23T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-09T08:39:00+00:00",
+     "end": "2012-12-09T20:39:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/6061aac217cd957609aaa74589e09f18",
-    "ifNoneExist": "identifier=6061aac217cd957609aaa74589e09f18"
+    "url": "MedicationAdministration/c724188388c6a391a2d099ad197f5f97",
+    "ifNoneExist": "identifier=c724188388c6a391a2d099ad197f5f97"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "4b6f943b30990f148aedac6c7a8ef9af",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "12c334f31bd348210fc99f5e77bc988b",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26385,24 +26370,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-11-30T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-10T08:07:00+00:00",
+     "end": "2012-12-10T20:07:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/4b6f943b30990f148aedac6c7a8ef9af",
-    "ifNoneExist": "identifier=4b6f943b30990f148aedac6c7a8ef9af"
+    "url": "MedicationAdministration/12c334f31bd348210fc99f5e77bc988b",
+    "ifNoneExist": "identifier=12c334f31bd348210fc99f5e77bc988b"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "4292c0e1466e318fdfe25a93d8e0f741",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "64b918323a135892ace91d63a368e2f9",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26410,24 +26392,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-01T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-11T08:20:00+00:00",
+     "end": "2012-12-11T20:20:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/4292c0e1466e318fdfe25a93d8e0f741",
-    "ifNoneExist": "identifier=4292c0e1466e318fdfe25a93d8e0f741"
+    "url": "MedicationAdministration/64b918323a135892ace91d63a368e2f9",
+    "ifNoneExist": "identifier=64b918323a135892ace91d63a368e2f9"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "993b5675179a04fec67d1995ebf2fd8c",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "fbb51e0a878fee95b51f0749c492ba82",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26435,24 +26414,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-02T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-12T08:47:00+00:00",
+     "end": "2012-12-12T20:47:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/993b5675179a04fec67d1995ebf2fd8c",
-    "ifNoneExist": "identifier=993b5675179a04fec67d1995ebf2fd8c"
+    "url": "MedicationAdministration/fbb51e0a878fee95b51f0749c492ba82",
+    "ifNoneExist": "identifier=fbb51e0a878fee95b51f0749c492ba82"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "28006990d24fbaa32a96f1fc317531e4",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "0e58455ce9832a14a445f79f2b49c218",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26460,24 +26436,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-03T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-14T08:11:00+00:00",
+     "end": "2012-12-14T20:11:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/28006990d24fbaa32a96f1fc317531e4",
-    "ifNoneExist": "identifier=28006990d24fbaa32a96f1fc317531e4"
+    "url": "MedicationAdministration/0e58455ce9832a14a445f79f2b49c218",
+    "ifNoneExist": "identifier=0e58455ce9832a14a445f79f2b49c218"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "bc616e6ba48656d28bf6b2303ba6de58",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "2a3f8ce08ca45f3efb9f0b392d5c4001",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26485,24 +26458,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-04T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-15T08:27:00+00:00",
+     "end": "2012-12-15T20:27:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/bc616e6ba48656d28bf6b2303ba6de58",
-    "ifNoneExist": "identifier=bc616e6ba48656d28bf6b2303ba6de58"
+    "url": "MedicationAdministration/2a3f8ce08ca45f3efb9f0b392d5c4001",
+    "ifNoneExist": "identifier=2a3f8ce08ca45f3efb9f0b392d5c4001"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "fd0777ca1b8828d212077c3c2a3eb2a3",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "7f071c1cbd5f1c2a07e0fe61ca2c7ca3",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26510,24 +26480,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-05T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-16T08:39:00+00:00",
+     "end": "2012-12-16T20:39:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/fd0777ca1b8828d212077c3c2a3eb2a3",
-    "ifNoneExist": "identifier=fd0777ca1b8828d212077c3c2a3eb2a3"
+    "url": "MedicationAdministration/7f071c1cbd5f1c2a07e0fe61ca2c7ca3",
+    "ifNoneExist": "identifier=7f071c1cbd5f1c2a07e0fe61ca2c7ca3"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "bfd28cfd12462d48bd3471f393b95a4f",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "be5e85bc01889d00b3e6ccb4c39ccb49",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26535,24 +26502,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-06T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-17T08:09:00+00:00",
+     "end": "2012-12-17T20:09:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/bfd28cfd12462d48bd3471f393b95a4f",
-    "ifNoneExist": "identifier=bfd28cfd12462d48bd3471f393b95a4f"
+    "url": "MedicationAdministration/be5e85bc01889d00b3e6ccb4c39ccb49",
+    "ifNoneExist": "identifier=be5e85bc01889d00b3e6ccb4c39ccb49"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "741abcb82d3d891d3e5c2a9cc29f8357",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "9efd896f552b44fb85d83ef3ca9132ff",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26560,24 +26524,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-07T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-18T08:01:00+00:00",
+     "end": "2012-12-18T20:01:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/741abcb82d3d891d3e5c2a9cc29f8357",
-    "ifNoneExist": "identifier=741abcb82d3d891d3e5c2a9cc29f8357"
+    "url": "MedicationAdministration/9efd896f552b44fb85d83ef3ca9132ff",
+    "ifNoneExist": "identifier=9efd896f552b44fb85d83ef3ca9132ff"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "8aa2cd198dfddec3db84e2c31a8e56aa",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "cb8a0a3dcffd53b3e41110167b478fe3",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26585,24 +26546,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-08T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-19T08:16:00+00:00",
+     "end": "2012-12-19T20:16:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/8aa2cd198dfddec3db84e2c31a8e56aa",
-    "ifNoneExist": "identifier=8aa2cd198dfddec3db84e2c31a8e56aa"
+    "url": "MedicationAdministration/cb8a0a3dcffd53b3e41110167b478fe3",
+    "ifNoneExist": "identifier=cb8a0a3dcffd53b3e41110167b478fe3"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "0da32740228a749123f3dbac19eef60a",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "cfeab1733b5569f94fd9dcff25f0cc6b",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26610,24 +26568,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-09T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-20T08:17:00+00:00",
+     "end": "2012-12-20T20:17:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/0da32740228a749123f3dbac19eef60a",
-    "ifNoneExist": "identifier=0da32740228a749123f3dbac19eef60a"
+    "url": "MedicationAdministration/cfeab1733b5569f94fd9dcff25f0cc6b",
+    "ifNoneExist": "identifier=cfeab1733b5569f94fd9dcff25f0cc6b"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "93afa507b7a35029983d40fde5502e3b",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "b317f9f237d39f4ac430848dcbc096e1",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26635,24 +26590,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-10T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-21T08:17:00+00:00",
+     "end": "2012-12-21T20:17:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/93afa507b7a35029983d40fde5502e3b",
-    "ifNoneExist": "identifier=93afa507b7a35029983d40fde5502e3b"
+    "url": "MedicationAdministration/b317f9f237d39f4ac430848dcbc096e1",
+    "ifNoneExist": "identifier=b317f9f237d39f4ac430848dcbc096e1"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "a038d2759f2855067873ae3e493c77e3",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "85980ec13dd6ec6afb326def7e34ff8e",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26660,24 +26612,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-11T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-22T08:37:00+00:00",
+     "end": "2012-12-22T20:37:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/a038d2759f2855067873ae3e493c77e3",
-    "ifNoneExist": "identifier=a038d2759f2855067873ae3e493c77e3"
+    "url": "MedicationAdministration/85980ec13dd6ec6afb326def7e34ff8e",
+    "ifNoneExist": "identifier=85980ec13dd6ec6afb326def7e34ff8e"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "61dbd22b260dc57c2dbbcb74864a11ae",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/2d8d216579ece6ecc0e93a2d6e365c17"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "7cd7b990cd98cd09a98bc5827555f674",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26685,24 +26634,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-12T00:00:00",
-    "dateAsserted": "2012-12-13T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-23T08:35:00+00:00",
+     "end": "2012-12-23T20:35:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/61dbd22b260dc57c2dbbcb74864a11ae",
-    "ifNoneExist": "identifier=61dbd22b260dc57c2dbbcb74864a11ae"
+    "url": "MedicationAdministration/7cd7b990cd98cd09a98bc5827555f674",
+    "ifNoneExist": "identifier=7cd7b990cd98cd09a98bc5827555f674"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "66fd1203eb46fefebff646f8df401b00",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "998293c040fdeaff2bcae6e24e359082",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26710,24 +26656,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-13T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-24T08:59:00+00:00",
+     "end": "2012-12-24T20:59:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/66fd1203eb46fefebff646f8df401b00",
-    "ifNoneExist": "identifier=66fd1203eb46fefebff646f8df401b00"
+    "url": "MedicationAdministration/998293c040fdeaff2bcae6e24e359082",
+    "ifNoneExist": "identifier=998293c040fdeaff2bcae6e24e359082"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "3fee1638507977aff67896fe305d163d",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "3149380b2e243f2a8593d0abe4c175bc",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26735,24 +26678,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-14T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-25T08:03:00+00:00",
+     "end": "2012-12-25T20:03:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/3fee1638507977aff67896fe305d163d",
-    "ifNoneExist": "identifier=3fee1638507977aff67896fe305d163d"
+    "url": "MedicationAdministration/3149380b2e243f2a8593d0abe4c175bc",
+    "ifNoneExist": "identifier=3149380b2e243f2a8593d0abe4c175bc"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "23b8fd684ac04f238740f9668a22577c",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "db3f2ba39abffef67fd97f1ded3e7a24",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26760,24 +26700,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-15T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-26T08:59:00+00:00",
+     "end": "2012-12-26T20:59:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/23b8fd684ac04f238740f9668a22577c",
-    "ifNoneExist": "identifier=23b8fd684ac04f238740f9668a22577c"
+    "url": "MedicationAdministration/db3f2ba39abffef67fd97f1ded3e7a24",
+    "ifNoneExist": "identifier=db3f2ba39abffef67fd97f1ded3e7a24"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "5fd5765fd837d605dd963976b8382cd4",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "2b3fdcecf1fcd71c5f96d36431d75bb8",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26785,24 +26722,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-16T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-27T08:33:00+00:00",
+     "end": "2012-12-27T20:33:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/5fd5765fd837d605dd963976b8382cd4",
-    "ifNoneExist": "identifier=5fd5765fd837d605dd963976b8382cd4"
+    "url": "MedicationAdministration/2b3fdcecf1fcd71c5f96d36431d75bb8",
+    "ifNoneExist": "identifier=2b3fdcecf1fcd71c5f96d36431d75bb8"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "9ffd21011bfa23f8b7a594a1416380a9",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "ad29dd81235eda982943601de0ccd5b7",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26810,24 +26744,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-17T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-28T08:48:00+00:00",
+     "end": "2012-12-28T20:48:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/9ffd21011bfa23f8b7a594a1416380a9",
-    "ifNoneExist": "identifier=9ffd21011bfa23f8b7a594a1416380a9"
+    "url": "MedicationAdministration/ad29dd81235eda982943601de0ccd5b7",
+    "ifNoneExist": "identifier=ad29dd81235eda982943601de0ccd5b7"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "0691c83c617ac80380fdd0ddbd6f7816",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "51e3ac0a9048e68ec7b1b1449d675be4",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26835,24 +26766,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-18T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-29T08:14:00+00:00",
+     "end": "2012-12-29T20:14:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/0691c83c617ac80380fdd0ddbd6f7816",
-    "ifNoneExist": "identifier=0691c83c617ac80380fdd0ddbd6f7816"
+    "url": "MedicationAdministration/51e3ac0a9048e68ec7b1b1449d675be4",
+    "ifNoneExist": "identifier=51e3ac0a9048e68ec7b1b1449d675be4"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "1d9060c35ded916a35d6f9c6781cd424",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "0acd2c3c082d1be3129dbfd79a98bf65",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26860,24 +26788,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-19T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-30T08:41:00+00:00",
+     "end": "2012-12-30T20:41:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/1d9060c35ded916a35d6f9c6781cd424",
-    "ifNoneExist": "identifier=1d9060c35ded916a35d6f9c6781cd424"
+    "url": "MedicationAdministration/0acd2c3c082d1be3129dbfd79a98bf65",
+    "ifNoneExist": "identifier=0acd2c3c082d1be3129dbfd79a98bf65"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "35643e310434b35de5091f3ea1b30bb3",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "66012792c1fc1ed285d38f8869b08e60",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26885,24 +26810,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-20T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2012-12-31T08:05:00+00:00",
+     "end": "2012-12-31T20:05:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/35643e310434b35de5091f3ea1b30bb3",
-    "ifNoneExist": "identifier=35643e310434b35de5091f3ea1b30bb3"
+    "url": "MedicationAdministration/66012792c1fc1ed285d38f8869b08e60",
+    "ifNoneExist": "identifier=66012792c1fc1ed285d38f8869b08e60"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "04725a8407818caada0327698ec2a246",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "5e863b0b92521cca4e7e1c9ed6ed709c",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26910,24 +26832,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-21T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-01T08:51:00+00:00",
+     "end": "2013-01-01T20:51:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/04725a8407818caada0327698ec2a246",
-    "ifNoneExist": "identifier=04725a8407818caada0327698ec2a246"
+    "url": "MedicationAdministration/5e863b0b92521cca4e7e1c9ed6ed709c",
+    "ifNoneExist": "identifier=5e863b0b92521cca4e7e1c9ed6ed709c"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "9f309009c873324bfc3b9d6efd0a6ea9",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "79dae5a34dc9102252eda24cba36195d",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26935,24 +26854,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-22T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-02T08:23:00+00:00",
+     "end": "2013-01-02T20:23:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/9f309009c873324bfc3b9d6efd0a6ea9",
-    "ifNoneExist": "identifier=9f309009c873324bfc3b9d6efd0a6ea9"
+    "url": "MedicationAdministration/79dae5a34dc9102252eda24cba36195d",
+    "ifNoneExist": "identifier=79dae5a34dc9102252eda24cba36195d"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "f5407099de049a2c72c6bf537665bf72",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "65aa4ac6dcd6da238284e3d8bfeb7f3c",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26960,24 +26876,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-23T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-03T08:08:00+00:00",
+     "end": "2013-01-03T20:08:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/f5407099de049a2c72c6bf537665bf72",
-    "ifNoneExist": "identifier=f5407099de049a2c72c6bf537665bf72"
+    "url": "MedicationAdministration/65aa4ac6dcd6da238284e3d8bfeb7f3c",
+    "ifNoneExist": "identifier=65aa4ac6dcd6da238284e3d8bfeb7f3c"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "e43e63a5b4653fadd3e31a837784ab2f",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "f71e30d9e476612c2874549bd6fe624d",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -26985,24 +26898,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-24T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-04T08:49:00+00:00",
+     "end": "2013-01-04T20:49:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/e43e63a5b4653fadd3e31a837784ab2f",
-    "ifNoneExist": "identifier=e43e63a5b4653fadd3e31a837784ab2f"
+    "url": "MedicationAdministration/f71e30d9e476612c2874549bd6fe624d",
+    "ifNoneExist": "identifier=f71e30d9e476612c2874549bd6fe624d"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "0a36599ab5445cf72d8fb7e73be01205",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/a08bc1843e3eb2859a04d354c1d1f026"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "40a1c634b95d5a2544d092d5f21e25e2",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27010,24 +26920,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-25T00:00:00",
-    "dateAsserted": "2012-12-26T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-05T08:40:00+00:00",
+     "end": "2013-01-05T20:40:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/0a36599ab5445cf72d8fb7e73be01205",
-    "ifNoneExist": "identifier=0a36599ab5445cf72d8fb7e73be01205"
+    "url": "MedicationAdministration/40a1c634b95d5a2544d092d5f21e25e2",
+    "ifNoneExist": "identifier=40a1c634b95d5a2544d092d5f21e25e2"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "c20bfe39809e12eb4dba9b9f378b963a",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/fc7d698a9501fe16594fc1a942b6ed04"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "244d20c9e7f109f7f69d543b3e567c0b",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27035,24 +26942,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-26T00:00:00",
-    "dateAsserted": "2012-12-28T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-06T08:35:00+00:00",
+     "end": "2013-01-06T20:35:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/c20bfe39809e12eb4dba9b9f378b963a",
-    "ifNoneExist": "identifier=c20bfe39809e12eb4dba9b9f378b963a"
+    "url": "MedicationAdministration/244d20c9e7f109f7f69d543b3e567c0b",
+    "ifNoneExist": "identifier=244d20c9e7f109f7f69d543b3e567c0b"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "eeca8226c9db8f6afc5ab374b79aa889",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/fc7d698a9501fe16594fc1a942b6ed04"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "ce94b2d01f52dafeb2735d2dda91c2a0",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27060,24 +26964,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-27T00:00:00",
-    "dateAsserted": "2012-12-28T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-07T08:44:00+00:00",
+     "end": "2013-01-07T20:44:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/eeca8226c9db8f6afc5ab374b79aa889",
-    "ifNoneExist": "identifier=eeca8226c9db8f6afc5ab374b79aa889"
+    "url": "MedicationAdministration/ce94b2d01f52dafeb2735d2dda91c2a0",
+    "ifNoneExist": "identifier=ce94b2d01f52dafeb2735d2dda91c2a0"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "c07308441700b3d10b55a19bd69d6739",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "90249df6894454752e0021702afb52c6",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27085,24 +26986,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-28T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-08T08:22:00+00:00",
+     "end": "2013-01-08T20:22:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/c07308441700b3d10b55a19bd69d6739",
-    "ifNoneExist": "identifier=c07308441700b3d10b55a19bd69d6739"
+    "url": "MedicationAdministration/90249df6894454752e0021702afb52c6",
+    "ifNoneExist": "identifier=90249df6894454752e0021702afb52c6"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "079e6fcea4219e3c52d63d50062c49ff",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "1a3696e770957a0db06eaaebd670d4cb",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27110,24 +27008,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-29T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-09T08:41:00+00:00",
+     "end": "2013-01-09T20:41:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/079e6fcea4219e3c52d63d50062c49ff",
-    "ifNoneExist": "identifier=079e6fcea4219e3c52d63d50062c49ff"
+    "url": "MedicationAdministration/1a3696e770957a0db06eaaebd670d4cb",
+    "ifNoneExist": "identifier=1a3696e770957a0db06eaaebd670d4cb"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "ea04df5c026bfc0b553897f10a7be1cb",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "beba79dacf6820bc45cbb4b84125305d",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27135,24 +27030,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-30T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-10T08:20:00+00:00",
+     "end": "2013-01-10T20:20:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/ea04df5c026bfc0b553897f10a7be1cb",
-    "ifNoneExist": "identifier=ea04df5c026bfc0b553897f10a7be1cb"
+    "url": "MedicationAdministration/beba79dacf6820bc45cbb4b84125305d",
+    "ifNoneExist": "identifier=beba79dacf6820bc45cbb4b84125305d"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "3e30fb98d286f8c060f3f66c9b97fe2f",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "9e92449e6dea36f657dfb0d140508724",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27160,24 +27052,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2012-12-31T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-11T08:09:00+00:00",
+     "end": "2013-01-11T20:09:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/3e30fb98d286f8c060f3f66c9b97fe2f",
-    "ifNoneExist": "identifier=3e30fb98d286f8c060f3f66c9b97fe2f"
+    "url": "MedicationAdministration/9e92449e6dea36f657dfb0d140508724",
+    "ifNoneExist": "identifier=9e92449e6dea36f657dfb0d140508724"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "748bc3a0a35ef6993bb8fd12cfdd3139",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "9e38bac4a995e745b0feea38ad70ed2c",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27185,24 +27074,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-01T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-12T08:25:00+00:00",
+     "end": "2013-01-12T20:25:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/748bc3a0a35ef6993bb8fd12cfdd3139",
-    "ifNoneExist": "identifier=748bc3a0a35ef6993bb8fd12cfdd3139"
+    "url": "MedicationAdministration/9e38bac4a995e745b0feea38ad70ed2c",
+    "ifNoneExist": "identifier=9e38bac4a995e745b0feea38ad70ed2c"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "7e3ae6e647aa5727f40cbde701a02c8c",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "260a4d47d9e8c47da48c2ce50359f773",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27210,24 +27096,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-02T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-13T08:22:00+00:00",
+     "end": "2013-01-13T20:22:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/7e3ae6e647aa5727f40cbde701a02c8c",
-    "ifNoneExist": "identifier=7e3ae6e647aa5727f40cbde701a02c8c"
+    "url": "MedicationAdministration/260a4d47d9e8c47da48c2ce50359f773",
+    "ifNoneExist": "identifier=260a4d47d9e8c47da48c2ce50359f773"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "ac385b80db8251433c7d63d6726e66f3",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "5255b9035d9eea8ffc687d034fbb1a94",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27235,24 +27118,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-03T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-14T08:34:00+00:00",
+     "end": "2013-01-14T20:34:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/ac385b80db8251433c7d63d6726e66f3",
-    "ifNoneExist": "identifier=ac385b80db8251433c7d63d6726e66f3"
+    "url": "MedicationAdministration/5255b9035d9eea8ffc687d034fbb1a94",
+    "ifNoneExist": "identifier=5255b9035d9eea8ffc687d034fbb1a94"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "3169ba75d7ac0f90d0d5ff4b2cfd7cfb",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "95c323261963d94e2ee359dd586a8763",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27260,24 +27140,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-04T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-15T08:26:00+00:00",
+     "end": "2013-01-15T20:26:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/3169ba75d7ac0f90d0d5ff4b2cfd7cfb",
-    "ifNoneExist": "identifier=3169ba75d7ac0f90d0d5ff4b2cfd7cfb"
+    "url": "MedicationAdministration/95c323261963d94e2ee359dd586a8763",
+    "ifNoneExist": "identifier=95c323261963d94e2ee359dd586a8763"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "50a4707aa90bf439952012966fa176b0",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "3a1499fcaab553981df30d2e3805ad81",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27285,24 +27162,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-05T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-16T08:29:00+00:00",
+     "end": "2013-01-16T20:29:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/50a4707aa90bf439952012966fa176b0",
-    "ifNoneExist": "identifier=50a4707aa90bf439952012966fa176b0"
+    "url": "MedicationAdministration/3a1499fcaab553981df30d2e3805ad81",
+    "ifNoneExist": "identifier=3a1499fcaab553981df30d2e3805ad81"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "ac7105d1efc915611b1190f0ea234634",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "58c43319f91664a2045c7cdc2be8fc48",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27310,24 +27184,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-06T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-17T08:16:00+00:00",
+     "end": "2013-01-17T20:16:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/ac7105d1efc915611b1190f0ea234634",
-    "ifNoneExist": "identifier=ac7105d1efc915611b1190f0ea234634"
+    "url": "MedicationAdministration/58c43319f91664a2045c7cdc2be8fc48",
+    "ifNoneExist": "identifier=58c43319f91664a2045c7cdc2be8fc48"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "9e8dbdff327e989c1d8b3f82cafd472f",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "c2f9d93643b256eced9e9bee7233b2f5",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27335,24 +27206,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-07T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-18T08:29:00+00:00",
+     "end": "2013-01-18T20:29:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/9e8dbdff327e989c1d8b3f82cafd472f",
-    "ifNoneExist": "identifier=9e8dbdff327e989c1d8b3f82cafd472f"
+    "url": "MedicationAdministration/c2f9d93643b256eced9e9bee7233b2f5",
+    "ifNoneExist": "identifier=c2f9d93643b256eced9e9bee7233b2f5"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "a85865fcc713a20eb8703723da8e3515",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "ed1148bb4911142af17c5bb2652c0d7b",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27360,24 +27228,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-08T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-19T08:36:00+00:00",
+     "end": "2013-01-19T20:36:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/a85865fcc713a20eb8703723da8e3515",
-    "ifNoneExist": "identifier=a85865fcc713a20eb8703723da8e3515"
+    "url": "MedicationAdministration/ed1148bb4911142af17c5bb2652c0d7b",
+    "ifNoneExist": "identifier=ed1148bb4911142af17c5bb2652c0d7b"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "146804762de4113079708a9178d06b22",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/42a9a9f3876d89307a60afac6d31ab50"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "740c38bd52ceacd68557cf8e66de1329",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27385,24 +27250,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-09T00:00:00",
-    "dateAsserted": "2013-01-10T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-20T08:36:00+00:00",
+     "end": "2013-01-20T20:36:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/146804762de4113079708a9178d06b22",
-    "ifNoneExist": "identifier=146804762de4113079708a9178d06b22"
+    "url": "MedicationAdministration/740c38bd52ceacd68557cf8e66de1329",
+    "ifNoneExist": "identifier=740c38bd52ceacd68557cf8e66de1329"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "f5a209e311c13cad284020e1847d756c",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "b4a713ae28e3cfb0bb3dab09acdf11fb",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27410,24 +27272,21 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-10T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-21T08:17:00+00:00",
+     "end": "2013-01-21T20:17:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/f5a209e311c13cad284020e1847d756c",
-    "ifNoneExist": "identifier=f5a209e311c13cad284020e1847d756c"
+    "url": "MedicationAdministration/b4a713ae28e3cfb0bb3dab09acdf11fb",
+    "ifNoneExist": "identifier=b4a713ae28e3cfb0bb3dab09acdf11fb"
    }
   },
   {
    "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "5d31bee1c7fdca64718d2b53aced973c",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
+    "resourceType": "MedicationAdministration",
+    "id": "eff166503b648c6b10bfb496ca81c3dc",
     "status": "completed",
     "medicationReference": {
      "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
@@ -27435,288 +27294,15 @@
     "subject": {
      "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
     },
-    "effectiveDateTime": "2013-01-11T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
+    "effectivePeriod": {
+     "start": "2013-01-22T08:32:00+00:00",
+     "end": "2013-01-22T20:32:00+00:00"
+    }
    },
    "request": {
     "method": "PUT",
-    "url": "MedicationStatement/5d31bee1c7fdca64718d2b53aced973c",
-    "ifNoneExist": "identifier=5d31bee1c7fdca64718d2b53aced973c"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "24340b60a56f5abfff58cb74c8d26e27",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-12T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/24340b60a56f5abfff58cb74c8d26e27",
-    "ifNoneExist": "identifier=24340b60a56f5abfff58cb74c8d26e27"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "389a4ce8153daebefea2763d22d3ea93",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-13T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/389a4ce8153daebefea2763d22d3ea93",
-    "ifNoneExist": "identifier=389a4ce8153daebefea2763d22d3ea93"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "3a87a51aca9427509480455b30d459e7",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-14T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/3a87a51aca9427509480455b30d459e7",
-    "ifNoneExist": "identifier=3a87a51aca9427509480455b30d459e7"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "290efed914d12c2e165561f7f5001d90",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-15T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/290efed914d12c2e165561f7f5001d90",
-    "ifNoneExist": "identifier=290efed914d12c2e165561f7f5001d90"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "252b269ed2fd8505132fa02c9b944dcd",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-16T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/252b269ed2fd8505132fa02c9b944dcd",
-    "ifNoneExist": "identifier=252b269ed2fd8505132fa02c9b944dcd"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "d7074a88053386d1bc5ad088ad01bd27",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-17T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/d7074a88053386d1bc5ad088ad01bd27",
-    "ifNoneExist": "identifier=d7074a88053386d1bc5ad088ad01bd27"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "4f1a8592fdf452b6056a5666f9f664db",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-18T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/4f1a8592fdf452b6056a5666f9f664db",
-    "ifNoneExist": "identifier=4f1a8592fdf452b6056a5666f9f664db"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "3bc1dd5f875aa2ffe1fe4f67c17b6e7b",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-19T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/3bc1dd5f875aa2ffe1fe4f67c17b6e7b",
-    "ifNoneExist": "identifier=3bc1dd5f875aa2ffe1fe4f67c17b6e7b"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "39287b38e6bf0ee55f985e9771133dd0",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-20T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/39287b38e6bf0ee55f985e9771133dd0",
-    "ifNoneExist": "identifier=39287b38e6bf0ee55f985e9771133dd0"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "a8610af13f46ea4bb9efbc8373ff3644",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-21T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/a8610af13f46ea4bb9efbc8373ff3644",
-    "ifNoneExist": "identifier=a8610af13f46ea4bb9efbc8373ff3644"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationStatement",
-    "id": "aeee3efb4a33ddd94a78344c9e13134e",
-    "partOf": [
-     {
-      "reference": "MedicationStatement/6061aac217cd957609aaa74589e09f18"
-     }
-    ],
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-2"
-    },
-    "subject": {
-     "reference": "Patient/dc03e0811c5edc614073766f6a78af76"
-    },
-    "effectiveDateTime": "2013-01-22T00:00:00",
-    "dateAsserted": "2013-01-23T00:00:00"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationStatement/aeee3efb4a33ddd94a78344c9e13134e",
-    "ifNoneExist": "identifier=aeee3efb4a33ddd94a78344c9e13134e"
+    "url": "MedicationAdministration/eff166503b648c6b10bfb496ca81c3dc",
+    "ifNoneExist": "identifier=eff166503b648c6b10bfb496ca81c3dc"
    }
   }
  ]
