@@ -1,8 +1,8 @@
 {
  "resourceType": "Bundle",
- "id": "345aeef2-b84c-4b08-84c0-694bda98b7cb",
+ "id": "25e88cbb-8cee-484f-9579-0cd83cafa5f1",
  "meta": {
-  "lastUpdated": "2022-09-17T15:06:03+00:00"
+  "lastUpdated": "2022-09-18T10:57:46+00:00"
  },
  "type": "transaction",
  "entry": [
@@ -805,6 +805,32 @@
     "method": "PUT",
     "url": "ActivityDefinition/H2Q-MC-LZZT-IP-Administration-BlindedDoseStrength2",
     "ifNoneExist": "identifier=H2Q-MC-LZZT-IP-Administration-BlindedDoseStrength2"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ActivityDefinition",
+    "id": "H2Q-MC-LZZT-Study-drug-dispensed",
+    "status": "active",
+    "description": "Recording Study Drug Dispensation activity"
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed",
+    "ifNoneExist": "identifier=H2Q-MC-LZZT-Study-drug-dispensed"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "ActivityDefinition",
+    "id": "H2Q-MC-LZZT-Study-drug-returned",
+    "status": "active",
+    "description": "Recording Study Drug Dispensation activity"
+   },
+   "request": {
+    "method": "PUT",
+    "url": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned",
+    "ifNoneExist": "identifier=H2Q-MC-LZZT-Study-drug-returned"
    }
   },
   {
@@ -1858,14 +1884,14 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Plasma-Specimen"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Dispensed",
       "relatedAction": [
        {
-        "actionId": "VISIT-3-H2Q-MC-LZZT-Patient-randomized",
+        "actionId": "VISIT-3-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "title": "ADAS-Cog",
@@ -2122,14 +2148,24 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Plasma-Specimen"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Returned",
       "relatedAction": [
        {
         "actionId": "VISIT-4-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+     },
+     {
+      "title": "Study drug record: Medications Dispensed",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-4-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "title": "Neuropsychiatric Inventory Questionnaire \u2013 Revised",
@@ -2288,14 +2324,24 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Plasma-Specimen"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Returned",
       "relatedAction": [
        {
         "actionId": "VISIT-5-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+     },
+     {
+      "title": "Study drug record: Medications Dispensed",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-5-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "title": "Neuropsychiatric Inventory Questionnaire \u2013 Revised",
@@ -2408,6 +2454,7 @@
     "status": "active",
     "action": [
      {
+      "id": "VISIT-7-H2Q-MC-LZZT-Visit-Date",
       "title": "Record Visit Date",
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Visit-Date"
      },
@@ -2432,8 +2479,24 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Plasma-Specimen"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "title": "Study drug record: Medications Returned",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-7-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+     },
+     {
+      "title": "Study drug record: Medications Dispensed",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-7-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "title": "NPI-X",
@@ -2552,14 +2615,24 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Laboratory-Chem"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Returned",
       "relatedAction": [
        {
         "actionId": "VISIT-8-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+     },
+     {
+      "title": "Study drug record: Medications Dispensed",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-8-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "title": "ADAS-Cog",
@@ -2806,14 +2879,24 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Plasma-Specimen"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Returned",
       "relatedAction": [
        {
         "actionId": "VISIT-9-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+     },
+     {
+      "title": "Study drug record: Medications Dispensed",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-9-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "id": "VISIT-9-H2Q-MC-LZZT-NPI-X",
@@ -3014,14 +3097,24 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Laboratory-Chem"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Returned",
       "relatedAction": [
        {
         "actionId": "VISIT-10-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+     },
+     {
+      "title": "Study drug record: Medications Dispensed",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-10-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "title": "ADAS-Cog",
@@ -3251,14 +3344,24 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Plasma-Specimen"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Returned",
       "relatedAction": [
        {
         "actionId": "VISIT-11-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+     },
+     {
+      "title": "Study drug record: Medications Dispensed",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-11-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "title": "Concomitant Medications",
@@ -3458,14 +3561,24 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Laboratory-Urinalysis"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Returned",
       "relatedAction": [
        {
-        "actionId": "VISIT-11-H2Q-MC-LZZT-Visit-Date",
+        "actionId": "VISIT-12-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+     },
+     {
+      "title": "Study drug record: Medications Dispensed",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-12-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "title": "ADAS-Cog",
@@ -3654,14 +3767,24 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Laboratory-Chem"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Returned",
       "relatedAction": [
        {
         "actionId": "VISIT-13-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+     },
+     {
+      "title": "Study drug record: Medications Dispensed",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-13-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
      },
      {
       "title": "TTS Acceptability Survey",
@@ -3870,14 +3993,14 @@
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Plasma-Specimen"
      },
      {
-      "title": "Study drug record: Medications Dispensed/Returned",
+      "title": "Study drug record: Medications Returned",
       "relatedAction": [
        {
         "actionId": "VISIT-14-H2Q-MC-LZZT-Visit-Date",
         "relationship": "after"
        }
       ],
-      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-record-ET"
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
      },
      {
       "title": "TTS Acceptability Survey",
@@ -4048,6 +4171,16 @@
        }
       ],
       "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-ADAS-Cog"
+     },
+     {
+      "title": "Study drug record: Medications Returned",
+      "relatedAction": [
+       {
+        "actionId": "VISIT-15-H2Q-MC-LZZT-Visit-Date",
+        "relationship": "after"
+       }
+      ],
+      "definitionUri": "ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
      },
      {
       "title": "Clinician's Interview-Based Impression of Change",
@@ -5216,77 +5349,6 @@
     "method": "PUT",
     "url": "Encounter/35524ba432febb8f5ab076d0aacb2ac2",
     "ifNoneExist": "identifier=35524ba432febb8f5ab076d0aacb2ac2"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationRequest",
-    "id": "5684c43216aefe8c3e00f20adf7f113c",
-    "status": "active",
-    "intent": "order",
-    "medicationReference": {
-     "reference": "Medication/H2Q-MC-LZZT-LY246708-Placebo-TTS"
-    },
-    "subject": {
-     "reference": "Patient/d627c29b5e5bc6b2a94fe4ff4c67830a"
-    },
-    "instantiatesCanonical": [
-     "ActivityDefinition/H2Q-MC-LZZT-Placebo-TTS-Admin"
-    ],
-    "dosageInstruction": [
-     {
-      "route": {
-       "coding": [
-        {
-         "code": "45890007"
-        }
-       ],
-       "text": "Transdermal route"
-      },
-      "doseAndRate": [
-       {
-        "type": {
-         "text": "ordered"
-        },
-        "doseQuantity": {
-         "value": 1,
-         "unit": "TPATCH",
-         "system": "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
-        }
-       }
-      ]
-     }
-    ]
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationRequest/5684c43216aefe8c3e00f20adf7f113c",
-    "ifNoneExist": "identifier=5684c43216aefe8c3e00f20adf7f113c"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "MedicationAdministration",
-    "id": "5684c43216aefe8c3e00f20adf7f113c",
-    "status": "completed",
-    "medicationReference": {
-     "reference": "Medication/"
-    },
-    "subject": {
-     "reference": "Patient/d627c29b5e5bc6b2a94fe4ff4c67830a"
-    },
-    "effectivePeriod": {
-     "start": "2013-12-20T00:00:00+00:00",
-     "end": "2013-12-20T12:00:00+00:00"
-    },
-    "request": {
-     "reference": "MedicationRequest/5684c43216aefe8c3e00f20adf7f113c"
-    }
-   },
-   "request": {
-    "method": "PUT",
-    "url": "MedicationAdministration/5684c43216aefe8c3e00f20adf7f113c",
-    "ifNoneExist": "identifier=5684c43216aefe8c3e00f20adf7f113c"
    }
   }
  ]
