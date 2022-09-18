@@ -407,9 +407,9 @@ class Naptha:
                     f"ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
                 ],
                 subject=Reference(reference=f"Patient/{patient_hash_id}"),
-                encounter=Reference(
-                    reference=f"Encounter/{self._encounter_id(patient_hash_id, _prior)}"
-                ),
+                # encounter=Reference(
+                #     reference=f"Encounter/{self._encounter_id(patient_hash_id, _prior)}"
+                # ),
             )
             self.content.add_resource(_medication_dispensed)
             _returned_id = hh(f"{subject_id}-{visit_num}-Statement")
@@ -432,7 +432,7 @@ class Naptha:
                         id=hh(f"{subject_id}-{visit_num}-{idx}"),
                         partOf=[
                             Reference(
-                                reference=f"MedicationStatement/{hh(f'{subject_id}-{visit_num}')}"
+                                reference=f"MedicationStatement/{_returned_id}"
                             )
                         ],
                         status="completed",
