@@ -149,7 +149,15 @@ class Naptha:
         cloned = self._content.clone_subject(subject_id)
         return Naptha(templatefile=None, templatecontent=cloned)
 
-    def merge_ex(self, subject_id: Optional[str] = None, blinded: bool = False):
+    def merge_ex(
+        self,
+        subject_id: Optional[str] = None,
+        blinded: bool = False,
+        d_subject_id: Optional[str] = None,
+    ):
+        """
+        Merge a dataset into the template
+        """
         """
         Merge a dataset into the template
         """
@@ -160,9 +168,11 @@ class Naptha:
                 return
         if subject_id not in self.get_subjects():
             raise ValueError(f"Subject {subject_id} does not exist")
-        print("Adding medications for {}".format(subject_id))
+        # we remap the subjects, reuse the data
+        dest_subject_id = d_subject_id if d_subject_id is not None else subject_id
+        print("Adding medications for {}".format(dest_subject_id))
 
-        patient_hash_id = hh(subject_id)
+        patient_hash_id = hh(dest_subject_id)
         # get the set of records for a subject
         ex = self.get_subject_ex(subject_id)
         dm = self.get_subject_dm(subject_id)
@@ -290,7 +300,7 @@ class Naptha:
                 # add the medication request to the content
                 # self.content.add_entry(medication_request)
                 records.append(medication_admin)
-        print(f"Generated {len(records)} medication administrations for {subject_id}")
+        print(f"Generated {len(records)} medication administrations for {dest_subject_id}")
         for record in records:
             self.content.add_resource(record)
         print("Done")
@@ -431,9 +441,7 @@ class Naptha:
                     _ms_dt = MedicationStatement(
                         id=hh(f"{subject_id}-{visit_num}-{idx}"),
                         partOf=[
-                            Reference(
-                                reference=f"MedicationStatement/{_returned_id}"
-                            )
+                            Reference(reference=f"MedicationStatement/{_returned_id}")
                         ],
                         status="completed",
                         subject=Reference(reference=f"Patient/{patient_hash_id}"),

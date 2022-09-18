@@ -13,7 +13,7 @@ def process_file(filename, blinded=False):
     (spec, site, _id) = subject_id.split('-')
     if int(_id) > 2000:
         return
-    _subject_id = "-".join([spec, site, str(int(_id) + 1000) ])
+    _subject_id = "-".join([spec, site, str(int(_id) + 2000) ])
     try:
         print("Cloning {} to {}".format(subject_id, _subject_id))
         _ds = ds.clone(_subject_id)
