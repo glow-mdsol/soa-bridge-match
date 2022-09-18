@@ -11,7 +11,9 @@ def process_file(filename, blinded=False):
     subject_id = os.path.basename(filename).split('_')[3]
     assert subject_id.startswith('01-701')
     (spec, site, _id) = subject_id.split('-')
-    _subject_id = "-".join([spec, site, str(int(_id) + 1000 + random.randint(0, 100))])
+    if int(_id) > 2000:
+        return
+    _subject_id = "-".join([spec, site, str(int(_id) + 1000) ])
     try:
         print("Cloning {} to {}".format(subject_id, _subject_id))
         _ds = ds.clone(_subject_id)
