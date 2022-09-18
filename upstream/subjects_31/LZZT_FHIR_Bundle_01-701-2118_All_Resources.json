@@ -1,6 +1,6 @@
 {
  "resourceType": "Bundle",
- "id": "cc58e625-ba34-4260-9f5c-2f38d6c70609",
+ "id": "02b05626-ec84-4367-a82d-bbe4c206a5c5",
  "type": "transaction",
  "entry": [
   {
@@ -62,8 +62,8 @@
       "valueCode": "M"
      }
     ],
-    "gender": "male",
-    "birthDate": "1960-07-04",
+    "gender": "female",
+    "birthDate": "1958-03-04",
     "managingOrganization": {
      "reference": "Organization/b4a528955b84f584974e92d025a75d1f"
     }
@@ -36493,6 +36493,28 @@
   },
   {
    "resource": {
+    "resourceType": "MedicationRequest",
+    "id": "30afc913d8970140034f0056c823f63d",
+    "status": "active",
+    "intent": "order",
+    "medicationReference": {
+     "reference": "Medication/H2Q-MC-LZZT-LY246708-1"
+    },
+    "subject": {
+     "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
+    },
+    "instantiatesCanonical": [
+     "ActivityDefinition/H2Q-MC-LZZT-IP-Administration"
+    ]
+   },
+   "request": {
+    "method": "PUT",
+    "url": "MedicationRequest/30afc913d8970140034f0056c823f63d",
+    "ifNoneExist": "identifier=30afc913d8970140034f0056c823f63d"
+   }
+  },
+  {
+   "resource": {
     "resourceType": "MedicationAdministration",
     "id": "ce87d97af8695b1e02ac7dcf1eb5e97e",
     "status": "completed",
@@ -36503,8 +36525,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-12T08:35:00+00:00",
-     "end": "2014-03-12T20:35:00+00:00"
+     "start": "2014-03-12T08:23:00+00:00",
+     "end": "2014-03-12T20:23:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36525,8 +36550,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-13T08:11:00+00:00",
-     "end": "2014-03-13T20:11:00+00:00"
+     "start": "2014-03-13T08:18:00+00:00",
+     "end": "2014-03-13T20:18:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36547,8 +36575,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-14T08:05:00+00:00",
-     "end": "2014-03-14T20:05:00+00:00"
+     "start": "2014-03-14T08:00:00+00:00",
+     "end": "2014-03-14T20:00:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36569,8 +36600,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-15T08:17:00+00:00",
-     "end": "2014-03-15T20:17:00+00:00"
+     "start": "2014-03-15T08:03:00+00:00",
+     "end": "2014-03-15T20:03:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36591,8 +36625,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-16T08:59:00+00:00",
-     "end": "2014-03-16T20:59:00+00:00"
+     "start": "2014-03-16T08:09:00+00:00",
+     "end": "2014-03-16T20:09:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36613,8 +36650,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-17T08:23:00+00:00",
-     "end": "2014-03-17T20:23:00+00:00"
+     "start": "2014-03-17T08:00:00+00:00",
+     "end": "2014-03-17T20:00:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36635,8 +36675,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-18T08:13:00+00:00",
-     "end": "2014-03-18T20:13:00+00:00"
+     "start": "2014-03-18T08:04:00+00:00",
+     "end": "2014-03-18T20:04:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36657,8 +36700,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-19T08:06:00+00:00",
-     "end": "2014-03-19T20:06:00+00:00"
+     "start": "2014-03-19T08:58:00+00:00",
+     "end": "2014-03-19T20:58:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36679,8 +36725,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-20T08:36:00+00:00",
-     "end": "2014-03-20T20:36:00+00:00"
+     "start": "2014-03-20T08:54:00+00:00",
+     "end": "2014-03-20T20:54:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36701,8 +36750,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-21T08:43:00+00:00",
-     "end": "2014-03-21T20:43:00+00:00"
+     "start": "2014-03-21T08:17:00+00:00",
+     "end": "2014-03-21T20:17:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36723,8 +36775,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-22T08:00:00+00:00",
-     "end": "2014-03-22T20:00:00+00:00"
+     "start": "2014-03-22T08:21:00+00:00",
+     "end": "2014-03-22T20:21:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36745,8 +36800,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-23T08:51:00+00:00",
-     "end": "2014-03-23T20:51:00+00:00"
+     "start": "2014-03-23T08:11:00+00:00",
+     "end": "2014-03-23T20:11:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36767,8 +36825,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-24T08:47:00+00:00",
-     "end": "2014-03-24T20:47:00+00:00"
+     "start": "2014-03-24T08:37:00+00:00",
+     "end": "2014-03-24T20:37:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
@@ -36789,14 +36850,39 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-25T08:43:00+00:00",
-     "end": "2014-03-25T20:43:00+00:00"
+     "start": "2014-03-25T08:12:00+00:00",
+     "end": "2014-03-25T20:12:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/30afc913d8970140034f0056c823f63d"
     }
    },
    "request": {
     "method": "PUT",
     "url": "MedicationAdministration/22e188ae747040cfecb9dc0bf21bfbae",
     "ifNoneExist": "identifier=22e188ae747040cfecb9dc0bf21bfbae"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "MedicationRequest",
+    "id": "dacd2758d52b71ee1cb14fed7dde2447",
+    "status": "active",
+    "intent": "order",
+    "medicationReference": {
+     "reference": "Medication/H2Q-MC-LZZT-LY246708-1"
+    },
+    "subject": {
+     "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
+    },
+    "instantiatesCanonical": [
+     "ActivityDefinition/H2Q-MC-LZZT-IP-Administration"
+    ]
+   },
+   "request": {
+    "method": "PUT",
+    "url": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447",
+    "ifNoneExist": "identifier=dacd2758d52b71ee1cb14fed7dde2447"
    }
   },
   {
@@ -36811,8 +36897,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-27T08:40:00+00:00",
-     "end": "2014-03-27T20:40:00+00:00"
+     "start": "2014-03-27T08:16:00+00:00",
+     "end": "2014-03-27T20:16:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -36833,8 +36922,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-28T08:54:00+00:00",
-     "end": "2014-03-28T20:54:00+00:00"
+     "start": "2014-03-28T08:17:00+00:00",
+     "end": "2014-03-28T20:17:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -36855,8 +36947,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-29T08:05:00+00:00",
-     "end": "2014-03-29T20:05:00+00:00"
+     "start": "2014-03-29T08:45:00+00:00",
+     "end": "2014-03-29T20:45:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -36877,8 +36972,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-30T09:00:00+00:00",
-     "end": "2014-03-30T21:00:00+00:00"
+     "start": "2014-03-30T08:08:00+00:00",
+     "end": "2014-03-30T20:08:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -36899,8 +36997,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-03-31T08:35:00+00:00",
-     "end": "2014-03-31T20:35:00+00:00"
+     "start": "2014-03-31T08:27:00+00:00",
+     "end": "2014-03-31T20:27:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -36921,8 +37022,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-01T08:52:00+00:00",
-     "end": "2014-04-01T20:52:00+00:00"
+     "start": "2014-04-01T08:02:00+00:00",
+     "end": "2014-04-01T20:02:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -36943,8 +37047,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-02T08:08:00+00:00",
-     "end": "2014-04-02T20:08:00+00:00"
+     "start": "2014-04-02T08:26:00+00:00",
+     "end": "2014-04-02T20:26:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -36965,8 +37072,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-03T08:24:00+00:00",
-     "end": "2014-04-03T20:24:00+00:00"
+     "start": "2014-04-03T08:18:00+00:00",
+     "end": "2014-04-03T20:18:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -36987,8 +37097,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-04T08:20:00+00:00",
-     "end": "2014-04-04T20:20:00+00:00"
+     "start": "2014-04-04T08:42:00+00:00",
+     "end": "2014-04-04T20:42:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37009,8 +37122,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-05T08:44:00+00:00",
-     "end": "2014-04-05T20:44:00+00:00"
+     "start": "2014-04-05T08:49:00+00:00",
+     "end": "2014-04-05T20:49:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37031,8 +37147,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-06T08:12:00+00:00",
-     "end": "2014-04-06T20:12:00+00:00"
+     "start": "2014-04-06T08:47:00+00:00",
+     "end": "2014-04-06T20:47:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37053,8 +37172,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-07T08:02:00+00:00",
-     "end": "2014-04-07T20:02:00+00:00"
+     "start": "2014-04-07T08:15:00+00:00",
+     "end": "2014-04-07T20:15:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37075,8 +37197,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-08T08:09:00+00:00",
-     "end": "2014-04-08T20:09:00+00:00"
+     "start": "2014-04-08T08:26:00+00:00",
+     "end": "2014-04-08T20:26:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37097,8 +37222,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-09T08:12:00+00:00",
-     "end": "2014-04-09T20:12:00+00:00"
+     "start": "2014-04-09T08:05:00+00:00",
+     "end": "2014-04-09T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37119,8 +37247,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-10T08:17:00+00:00",
-     "end": "2014-04-10T20:17:00+00:00"
+     "start": "2014-04-10T08:29:00+00:00",
+     "end": "2014-04-10T20:29:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37141,8 +37272,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-11T08:03:00+00:00",
-     "end": "2014-04-11T20:03:00+00:00"
+     "start": "2014-04-11T08:18:00+00:00",
+     "end": "2014-04-11T20:18:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37163,8 +37297,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-12T08:55:00+00:00",
-     "end": "2014-04-12T20:55:00+00:00"
+     "start": "2014-04-12T08:45:00+00:00",
+     "end": "2014-04-12T20:45:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37185,8 +37322,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-13T08:46:00+00:00",
-     "end": "2014-04-13T20:46:00+00:00"
+     "start": "2014-04-13T08:42:00+00:00",
+     "end": "2014-04-13T20:42:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37207,8 +37347,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-14T09:00:00+00:00",
-     "end": "2014-04-14T21:00:00+00:00"
+     "start": "2014-04-14T08:06:00+00:00",
+     "end": "2014-04-14T20:06:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37229,8 +37372,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-15T08:31:00+00:00",
-     "end": "2014-04-15T20:31:00+00:00"
+     "start": "2014-04-15T08:57:00+00:00",
+     "end": "2014-04-15T20:57:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37251,8 +37397,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-16T08:23:00+00:00",
-     "end": "2014-04-16T20:23:00+00:00"
+     "start": "2014-04-16T08:42:00+00:00",
+     "end": "2014-04-16T20:42:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37273,8 +37422,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-17T08:56:00+00:00",
-     "end": "2014-04-17T20:56:00+00:00"
+     "start": "2014-04-17T08:03:00+00:00",
+     "end": "2014-04-17T20:03:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37295,8 +37447,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-18T08:33:00+00:00",
-     "end": "2014-04-18T20:33:00+00:00"
+     "start": "2014-04-18T08:51:00+00:00",
+     "end": "2014-04-18T20:51:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37317,8 +37472,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-19T08:34:00+00:00",
-     "end": "2014-04-19T20:34:00+00:00"
+     "start": "2014-04-19T08:35:00+00:00",
+     "end": "2014-04-19T20:35:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37339,8 +37497,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-20T08:24:00+00:00",
-     "end": "2014-04-20T20:24:00+00:00"
+     "start": "2014-04-20T08:36:00+00:00",
+     "end": "2014-04-20T20:36:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37361,8 +37522,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-21T08:17:00+00:00",
-     "end": "2014-04-21T20:17:00+00:00"
+     "start": "2014-04-21T08:58:00+00:00",
+     "end": "2014-04-21T20:58:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37383,8 +37547,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-22T08:38:00+00:00",
-     "end": "2014-04-22T20:38:00+00:00"
+     "start": "2014-04-22T08:05:00+00:00",
+     "end": "2014-04-22T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37405,8 +37572,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-23T08:10:00+00:00",
-     "end": "2014-04-23T20:10:00+00:00"
+     "start": "2014-04-23T08:30:00+00:00",
+     "end": "2014-04-23T20:30:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37427,8 +37597,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-24T08:03:00+00:00",
-     "end": "2014-04-24T20:03:00+00:00"
+     "start": "2014-04-24T08:51:00+00:00",
+     "end": "2014-04-24T20:51:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37449,8 +37622,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-25T09:00:00+00:00",
-     "end": "2014-04-25T21:00:00+00:00"
+     "start": "2014-04-25T08:58:00+00:00",
+     "end": "2014-04-25T20:58:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37471,8 +37647,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-26T08:26:00+00:00",
-     "end": "2014-04-26T20:26:00+00:00"
+     "start": "2014-04-26T08:31:00+00:00",
+     "end": "2014-04-26T20:31:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37493,8 +37672,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-27T08:17:00+00:00",
-     "end": "2014-04-27T20:17:00+00:00"
+     "start": "2014-04-27T08:50:00+00:00",
+     "end": "2014-04-27T20:50:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37515,8 +37697,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-28T08:23:00+00:00",
-     "end": "2014-04-28T20:23:00+00:00"
+     "start": "2014-04-28T08:45:00+00:00",
+     "end": "2014-04-28T20:45:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37537,8 +37722,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-29T08:21:00+00:00",
-     "end": "2014-04-29T20:21:00+00:00"
+     "start": "2014-04-29T08:12:00+00:00",
+     "end": "2014-04-29T20:12:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37559,8 +37747,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-04-30T08:11:00+00:00",
-     "end": "2014-04-30T20:11:00+00:00"
+     "start": "2014-04-30T08:35:00+00:00",
+     "end": "2014-04-30T20:35:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37581,8 +37772,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-01T08:49:00+00:00",
-     "end": "2014-05-01T20:49:00+00:00"
+     "start": "2014-05-01T09:00:00+00:00",
+     "end": "2014-05-01T21:00:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37603,8 +37797,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-02T08:28:00+00:00",
-     "end": "2014-05-02T20:28:00+00:00"
+     "start": "2014-05-02T08:20:00+00:00",
+     "end": "2014-05-02T20:20:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37625,8 +37822,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-03T08:58:00+00:00",
-     "end": "2014-05-03T20:58:00+00:00"
+     "start": "2014-05-03T08:16:00+00:00",
+     "end": "2014-05-03T20:16:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37647,8 +37847,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-04T08:10:00+00:00",
-     "end": "2014-05-04T20:10:00+00:00"
+     "start": "2014-05-04T08:09:00+00:00",
+     "end": "2014-05-04T20:09:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37669,8 +37872,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-05T08:32:00+00:00",
-     "end": "2014-05-05T20:32:00+00:00"
+     "start": "2014-05-05T08:14:00+00:00",
+     "end": "2014-05-05T20:14:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37691,8 +37897,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-06T08:41:00+00:00",
-     "end": "2014-05-06T20:41:00+00:00"
+     "start": "2014-05-06T08:37:00+00:00",
+     "end": "2014-05-06T20:37:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37713,8 +37922,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-07T08:44:00+00:00",
-     "end": "2014-05-07T20:44:00+00:00"
+     "start": "2014-05-07T08:35:00+00:00",
+     "end": "2014-05-07T20:35:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37735,8 +37947,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-08T08:03:00+00:00",
-     "end": "2014-05-08T20:03:00+00:00"
+     "start": "2014-05-08T08:12:00+00:00",
+     "end": "2014-05-08T20:12:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37757,8 +37972,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-09T08:23:00+00:00",
-     "end": "2014-05-09T20:23:00+00:00"
+     "start": "2014-05-09T08:30:00+00:00",
+     "end": "2014-05-09T20:30:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37779,8 +37997,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-10T08:27:00+00:00",
-     "end": "2014-05-10T20:27:00+00:00"
+     "start": "2014-05-10T08:15:00+00:00",
+     "end": "2014-05-10T20:15:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37801,8 +38022,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-11T08:17:00+00:00",
-     "end": "2014-05-11T20:17:00+00:00"
+     "start": "2014-05-11T08:08:00+00:00",
+     "end": "2014-05-11T20:08:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37823,8 +38047,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-12T08:30:00+00:00",
-     "end": "2014-05-12T20:30:00+00:00"
+     "start": "2014-05-12T08:22:00+00:00",
+     "end": "2014-05-12T20:22:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37845,8 +38072,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-13T08:49:00+00:00",
-     "end": "2014-05-13T20:49:00+00:00"
+     "start": "2014-05-13T08:09:00+00:00",
+     "end": "2014-05-13T20:09:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37867,8 +38097,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-14T08:37:00+00:00",
-     "end": "2014-05-14T20:37:00+00:00"
+     "start": "2014-05-14T08:03:00+00:00",
+     "end": "2014-05-14T20:03:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37889,8 +38122,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-15T08:10:00+00:00",
-     "end": "2014-05-15T20:10:00+00:00"
+     "start": "2014-05-15T08:13:00+00:00",
+     "end": "2014-05-15T20:13:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37911,8 +38147,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-16T08:42:00+00:00",
-     "end": "2014-05-16T20:42:00+00:00"
+     "start": "2014-05-16T08:31:00+00:00",
+     "end": "2014-05-16T20:31:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37933,8 +38172,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-17T08:17:00+00:00",
-     "end": "2014-05-17T20:17:00+00:00"
+     "start": "2014-05-17T08:33:00+00:00",
+     "end": "2014-05-17T20:33:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37955,8 +38197,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-18T08:57:00+00:00",
-     "end": "2014-05-18T20:57:00+00:00"
+     "start": "2014-05-18T08:40:00+00:00",
+     "end": "2014-05-18T20:40:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37977,8 +38222,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-19T08:16:00+00:00",
-     "end": "2014-05-19T20:16:00+00:00"
+     "start": "2014-05-19T08:01:00+00:00",
+     "end": "2014-05-19T20:01:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -37999,8 +38247,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-20T08:57:00+00:00",
-     "end": "2014-05-20T20:57:00+00:00"
+     "start": "2014-05-20T08:48:00+00:00",
+     "end": "2014-05-20T20:48:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38021,8 +38272,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-21T08:40:00+00:00",
-     "end": "2014-05-21T20:40:00+00:00"
+     "start": "2014-05-21T08:30:00+00:00",
+     "end": "2014-05-21T20:30:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38043,8 +38297,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-22T08:51:00+00:00",
-     "end": "2014-05-22T20:51:00+00:00"
+     "start": "2014-05-22T09:00:00+00:00",
+     "end": "2014-05-22T21:00:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38065,8 +38322,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-23T08:50:00+00:00",
-     "end": "2014-05-23T20:50:00+00:00"
+     "start": "2014-05-23T08:40:00+00:00",
+     "end": "2014-05-23T20:40:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38087,8 +38347,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-24T08:41:00+00:00",
-     "end": "2014-05-24T20:41:00+00:00"
+     "start": "2014-05-24T08:14:00+00:00",
+     "end": "2014-05-24T20:14:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38109,8 +38372,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-25T08:49:00+00:00",
-     "end": "2014-05-25T20:49:00+00:00"
+     "start": "2014-05-25T08:21:00+00:00",
+     "end": "2014-05-25T20:21:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38131,8 +38397,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-26T08:13:00+00:00",
-     "end": "2014-05-26T20:13:00+00:00"
+     "start": "2014-05-26T08:15:00+00:00",
+     "end": "2014-05-26T20:15:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38153,8 +38422,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-27T08:31:00+00:00",
-     "end": "2014-05-27T20:31:00+00:00"
+     "start": "2014-05-27T08:06:00+00:00",
+     "end": "2014-05-27T20:06:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38175,8 +38447,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-28T08:32:00+00:00",
-     "end": "2014-05-28T20:32:00+00:00"
+     "start": "2014-05-28T08:14:00+00:00",
+     "end": "2014-05-28T20:14:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38197,8 +38472,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-29T08:41:00+00:00",
-     "end": "2014-05-29T20:41:00+00:00"
+     "start": "2014-05-29T08:39:00+00:00",
+     "end": "2014-05-29T20:39:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38219,8 +38497,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-30T08:54:00+00:00",
-     "end": "2014-05-30T20:54:00+00:00"
+     "start": "2014-05-30T08:55:00+00:00",
+     "end": "2014-05-30T20:55:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38241,8 +38522,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-05-31T08:43:00+00:00",
-     "end": "2014-05-31T20:43:00+00:00"
+     "start": "2014-05-31T08:51:00+00:00",
+     "end": "2014-05-31T20:51:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38263,8 +38547,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-01T08:07:00+00:00",
-     "end": "2014-06-01T20:07:00+00:00"
+     "start": "2014-06-01T08:53:00+00:00",
+     "end": "2014-06-01T20:53:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38285,8 +38572,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-02T08:10:00+00:00",
-     "end": "2014-06-02T20:10:00+00:00"
+     "start": "2014-06-02T08:49:00+00:00",
+     "end": "2014-06-02T20:49:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38307,8 +38597,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-03T08:42:00+00:00",
-     "end": "2014-06-03T20:42:00+00:00"
+     "start": "2014-06-03T08:17:00+00:00",
+     "end": "2014-06-03T20:17:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38329,8 +38622,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-04T08:18:00+00:00",
-     "end": "2014-06-04T20:18:00+00:00"
+     "start": "2014-06-04T08:05:00+00:00",
+     "end": "2014-06-04T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38351,8 +38647,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-05T08:28:00+00:00",
-     "end": "2014-06-05T20:28:00+00:00"
+     "start": "2014-06-05T08:27:00+00:00",
+     "end": "2014-06-05T20:27:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38373,8 +38672,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-06T08:07:00+00:00",
-     "end": "2014-06-06T20:07:00+00:00"
+     "start": "2014-06-06T08:14:00+00:00",
+     "end": "2014-06-06T20:14:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38395,8 +38697,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-07T08:04:00+00:00",
-     "end": "2014-06-07T20:04:00+00:00"
+     "start": "2014-06-07T08:37:00+00:00",
+     "end": "2014-06-07T20:37:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38417,8 +38722,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-08T08:07:00+00:00",
-     "end": "2014-06-08T20:07:00+00:00"
+     "start": "2014-06-08T08:42:00+00:00",
+     "end": "2014-06-08T20:42:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38439,8 +38747,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-09T08:42:00+00:00",
-     "end": "2014-06-09T20:42:00+00:00"
+     "start": "2014-06-09T08:40:00+00:00",
+     "end": "2014-06-09T20:40:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38461,8 +38772,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-10T08:07:00+00:00",
-     "end": "2014-06-10T20:07:00+00:00"
+     "start": "2014-06-10T08:22:00+00:00",
+     "end": "2014-06-10T20:22:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38483,8 +38797,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-11T08:34:00+00:00",
-     "end": "2014-06-11T20:34:00+00:00"
+     "start": "2014-06-11T08:48:00+00:00",
+     "end": "2014-06-11T20:48:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38505,8 +38822,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-12T08:30:00+00:00",
-     "end": "2014-06-12T20:30:00+00:00"
+     "start": "2014-06-12T08:24:00+00:00",
+     "end": "2014-06-12T20:24:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38527,8 +38847,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-13T08:18:00+00:00",
-     "end": "2014-06-13T20:18:00+00:00"
+     "start": "2014-06-13T08:58:00+00:00",
+     "end": "2014-06-13T20:58:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38549,8 +38872,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-14T08:18:00+00:00",
-     "end": "2014-06-14T20:18:00+00:00"
+     "start": "2014-06-14T08:31:00+00:00",
+     "end": "2014-06-14T20:31:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38571,8 +38897,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-15T08:40:00+00:00",
-     "end": "2014-06-15T20:40:00+00:00"
+     "start": "2014-06-15T08:58:00+00:00",
+     "end": "2014-06-15T20:58:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38593,8 +38922,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-16T08:51:00+00:00",
-     "end": "2014-06-16T20:51:00+00:00"
+     "start": "2014-06-16T08:14:00+00:00",
+     "end": "2014-06-16T20:14:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38615,8 +38947,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-17T08:30:00+00:00",
-     "end": "2014-06-17T20:30:00+00:00"
+     "start": "2014-06-17T08:28:00+00:00",
+     "end": "2014-06-17T20:28:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38637,8 +38972,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-18T08:39:00+00:00",
-     "end": "2014-06-18T20:39:00+00:00"
+     "start": "2014-06-18T08:38:00+00:00",
+     "end": "2014-06-18T20:38:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38659,8 +38997,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-19T08:11:00+00:00",
-     "end": "2014-06-19T20:11:00+00:00"
+     "start": "2014-06-19T08:34:00+00:00",
+     "end": "2014-06-19T20:34:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38681,8 +39022,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-20T08:37:00+00:00",
-     "end": "2014-06-20T20:37:00+00:00"
+     "start": "2014-06-20T08:43:00+00:00",
+     "end": "2014-06-20T20:43:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38703,8 +39047,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-21T08:52:00+00:00",
-     "end": "2014-06-21T20:52:00+00:00"
+     "start": "2014-06-21T08:06:00+00:00",
+     "end": "2014-06-21T20:06:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38725,8 +39072,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-22T08:07:00+00:00",
-     "end": "2014-06-22T20:07:00+00:00"
+     "start": "2014-06-22T08:49:00+00:00",
+     "end": "2014-06-22T20:49:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38747,8 +39097,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-23T08:30:00+00:00",
-     "end": "2014-06-23T20:30:00+00:00"
+     "start": "2014-06-23T08:04:00+00:00",
+     "end": "2014-06-23T20:04:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38769,8 +39122,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-24T08:25:00+00:00",
-     "end": "2014-06-24T20:25:00+00:00"
+     "start": "2014-06-24T08:03:00+00:00",
+     "end": "2014-06-24T20:03:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38791,8 +39147,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-25T08:30:00+00:00",
-     "end": "2014-06-25T20:30:00+00:00"
+     "start": "2014-06-25T08:06:00+00:00",
+     "end": "2014-06-25T20:06:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38813,8 +39172,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-26T08:12:00+00:00",
-     "end": "2014-06-26T20:12:00+00:00"
+     "start": "2014-06-26T08:05:00+00:00",
+     "end": "2014-06-26T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38835,8 +39197,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-27T08:19:00+00:00",
-     "end": "2014-06-27T20:19:00+00:00"
+     "start": "2014-06-27T08:05:00+00:00",
+     "end": "2014-06-27T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38857,8 +39222,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-28T08:11:00+00:00",
-     "end": "2014-06-28T20:11:00+00:00"
+     "start": "2014-06-28T08:01:00+00:00",
+     "end": "2014-06-28T20:01:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38879,8 +39247,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-29T08:32:00+00:00",
-     "end": "2014-06-29T20:32:00+00:00"
+     "start": "2014-06-29T08:58:00+00:00",
+     "end": "2014-06-29T20:58:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38901,8 +39272,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-06-30T08:25:00+00:00",
-     "end": "2014-06-30T20:25:00+00:00"
+     "start": "2014-06-30T08:05:00+00:00",
+     "end": "2014-06-30T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38923,8 +39297,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-01T08:38:00+00:00",
-     "end": "2014-07-01T20:38:00+00:00"
+     "start": "2014-07-01T08:05:00+00:00",
+     "end": "2014-07-01T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38945,8 +39322,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-02T08:24:00+00:00",
-     "end": "2014-07-02T20:24:00+00:00"
+     "start": "2014-07-02T08:44:00+00:00",
+     "end": "2014-07-02T20:44:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38967,8 +39347,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-03T08:33:00+00:00",
-     "end": "2014-07-03T20:33:00+00:00"
+     "start": "2014-07-03T08:14:00+00:00",
+     "end": "2014-07-03T20:14:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -38989,8 +39372,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-04T08:38:00+00:00",
-     "end": "2014-07-04T20:38:00+00:00"
+     "start": "2014-07-04T08:44:00+00:00",
+     "end": "2014-07-04T20:44:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39013,6 +39399,9 @@
     "effectivePeriod": {
      "start": "2014-07-05T08:06:00+00:00",
      "end": "2014-07-05T20:06:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39033,8 +39422,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-06T08:59:00+00:00",
-     "end": "2014-07-06T20:59:00+00:00"
+     "start": "2014-07-06T08:10:00+00:00",
+     "end": "2014-07-06T20:10:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39055,8 +39447,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-07T08:20:00+00:00",
-     "end": "2014-07-07T20:20:00+00:00"
+     "start": "2014-07-07T08:21:00+00:00",
+     "end": "2014-07-07T20:21:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39077,8 +39472,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-08T08:07:00+00:00",
-     "end": "2014-07-08T20:07:00+00:00"
+     "start": "2014-07-08T08:25:00+00:00",
+     "end": "2014-07-08T20:25:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39099,8 +39497,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-09T08:39:00+00:00",
-     "end": "2014-07-09T20:39:00+00:00"
+     "start": "2014-07-09T08:07:00+00:00",
+     "end": "2014-07-09T20:07:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39121,8 +39522,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-10T08:45:00+00:00",
-     "end": "2014-07-10T20:45:00+00:00"
+     "start": "2014-07-10T08:28:00+00:00",
+     "end": "2014-07-10T20:28:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39143,8 +39547,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-11T08:33:00+00:00",
-     "end": "2014-07-11T20:33:00+00:00"
+     "start": "2014-07-11T08:18:00+00:00",
+     "end": "2014-07-11T20:18:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39165,8 +39572,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-12T08:18:00+00:00",
-     "end": "2014-07-12T20:18:00+00:00"
+     "start": "2014-07-12T08:20:00+00:00",
+     "end": "2014-07-12T20:20:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39187,8 +39597,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-13T08:07:00+00:00",
-     "end": "2014-07-13T20:07:00+00:00"
+     "start": "2014-07-13T08:49:00+00:00",
+     "end": "2014-07-13T20:49:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39209,8 +39622,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-14T08:39:00+00:00",
-     "end": "2014-07-14T20:39:00+00:00"
+     "start": "2014-07-14T08:45:00+00:00",
+     "end": "2014-07-14T20:45:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39231,8 +39647,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-15T08:54:00+00:00",
-     "end": "2014-07-15T20:54:00+00:00"
+     "start": "2014-07-15T08:45:00+00:00",
+     "end": "2014-07-15T20:45:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39253,8 +39672,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-16T08:08:00+00:00",
-     "end": "2014-07-16T20:08:00+00:00"
+     "start": "2014-07-16T08:34:00+00:00",
+     "end": "2014-07-16T20:34:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39275,8 +39697,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-17T08:22:00+00:00",
-     "end": "2014-07-17T20:22:00+00:00"
+     "start": "2014-07-17T08:44:00+00:00",
+     "end": "2014-07-17T20:44:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39297,8 +39722,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-18T09:00:00+00:00",
-     "end": "2014-07-18T21:00:00+00:00"
+     "start": "2014-07-18T08:22:00+00:00",
+     "end": "2014-07-18T20:22:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39319,8 +39747,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-19T08:37:00+00:00",
-     "end": "2014-07-19T20:37:00+00:00"
+     "start": "2014-07-19T08:51:00+00:00",
+     "end": "2014-07-19T20:51:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39341,8 +39772,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-20T08:52:00+00:00",
-     "end": "2014-07-20T20:52:00+00:00"
+     "start": "2014-07-20T08:05:00+00:00",
+     "end": "2014-07-20T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39363,8 +39797,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-21T08:19:00+00:00",
-     "end": "2014-07-21T20:19:00+00:00"
+     "start": "2014-07-21T08:29:00+00:00",
+     "end": "2014-07-21T20:29:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39385,8 +39822,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-22T08:17:00+00:00",
-     "end": "2014-07-22T20:17:00+00:00"
+     "start": "2014-07-22T08:52:00+00:00",
+     "end": "2014-07-22T20:52:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39407,8 +39847,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-23T08:20:00+00:00",
-     "end": "2014-07-23T20:20:00+00:00"
+     "start": "2014-07-23T08:05:00+00:00",
+     "end": "2014-07-23T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39429,8 +39872,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-24T08:25:00+00:00",
-     "end": "2014-07-24T20:25:00+00:00"
+     "start": "2014-07-24T08:54:00+00:00",
+     "end": "2014-07-24T20:54:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39451,8 +39897,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-25T08:52:00+00:00",
-     "end": "2014-07-25T20:52:00+00:00"
+     "start": "2014-07-25T08:57:00+00:00",
+     "end": "2014-07-25T20:57:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39473,8 +39922,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-26T08:40:00+00:00",
-     "end": "2014-07-26T20:40:00+00:00"
+     "start": "2014-07-26T08:17:00+00:00",
+     "end": "2014-07-26T20:17:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39495,8 +39947,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-27T08:31:00+00:00",
-     "end": "2014-07-27T20:31:00+00:00"
+     "start": "2014-07-27T08:44:00+00:00",
+     "end": "2014-07-27T20:44:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39517,8 +39972,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-28T08:47:00+00:00",
-     "end": "2014-07-28T20:47:00+00:00"
+     "start": "2014-07-28T08:32:00+00:00",
+     "end": "2014-07-28T20:32:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39539,8 +39997,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-29T08:58:00+00:00",
-     "end": "2014-07-29T20:58:00+00:00"
+     "start": "2014-07-29T08:24:00+00:00",
+     "end": "2014-07-29T20:24:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39561,8 +40022,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-30T08:21:00+00:00",
-     "end": "2014-07-30T20:21:00+00:00"
+     "start": "2014-07-30T08:03:00+00:00",
+     "end": "2014-07-30T20:03:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39583,8 +40047,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-07-31T08:08:00+00:00",
-     "end": "2014-07-31T20:08:00+00:00"
+     "start": "2014-07-31T08:48:00+00:00",
+     "end": "2014-07-31T20:48:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39605,8 +40072,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-01T08:34:00+00:00",
-     "end": "2014-08-01T20:34:00+00:00"
+     "start": "2014-08-01T08:10:00+00:00",
+     "end": "2014-08-01T20:10:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39627,8 +40097,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-02T08:08:00+00:00",
-     "end": "2014-08-02T20:08:00+00:00"
+     "start": "2014-08-02T08:57:00+00:00",
+     "end": "2014-08-02T20:57:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39649,8 +40122,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-03T08:44:00+00:00",
-     "end": "2014-08-03T20:44:00+00:00"
+     "start": "2014-08-03T08:14:00+00:00",
+     "end": "2014-08-03T20:14:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39671,8 +40147,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-04T08:50:00+00:00",
-     "end": "2014-08-04T20:50:00+00:00"
+     "start": "2014-08-04T08:08:00+00:00",
+     "end": "2014-08-04T20:08:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39693,8 +40172,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-05T08:37:00+00:00",
-     "end": "2014-08-05T20:37:00+00:00"
+     "start": "2014-08-05T08:31:00+00:00",
+     "end": "2014-08-05T20:31:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39715,8 +40197,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-06T08:39:00+00:00",
-     "end": "2014-08-06T20:39:00+00:00"
+     "start": "2014-08-06T08:48:00+00:00",
+     "end": "2014-08-06T20:48:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39737,8 +40222,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-07T09:00:00+00:00",
-     "end": "2014-08-07T21:00:00+00:00"
+     "start": "2014-08-07T08:04:00+00:00",
+     "end": "2014-08-07T20:04:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39759,8 +40247,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-08T08:19:00+00:00",
-     "end": "2014-08-08T20:19:00+00:00"
+     "start": "2014-08-08T08:05:00+00:00",
+     "end": "2014-08-08T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39781,8 +40272,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-09T08:00:00+00:00",
-     "end": "2014-08-09T20:00:00+00:00"
+     "start": "2014-08-09T08:17:00+00:00",
+     "end": "2014-08-09T20:17:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39803,8 +40297,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-10T08:45:00+00:00",
-     "end": "2014-08-10T20:45:00+00:00"
+     "start": "2014-08-10T08:14:00+00:00",
+     "end": "2014-08-10T20:14:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39825,8 +40322,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-11T08:02:00+00:00",
-     "end": "2014-08-11T20:02:00+00:00"
+     "start": "2014-08-11T08:17:00+00:00",
+     "end": "2014-08-11T20:17:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39847,8 +40347,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-12T08:59:00+00:00",
-     "end": "2014-08-12T20:59:00+00:00"
+     "start": "2014-08-12T08:05:00+00:00",
+     "end": "2014-08-12T20:05:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39869,8 +40372,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-13T08:30:00+00:00",
-     "end": "2014-08-13T20:30:00+00:00"
+     "start": "2014-08-13T08:43:00+00:00",
+     "end": "2014-08-13T20:43:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39891,8 +40397,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-14T08:13:00+00:00",
-     "end": "2014-08-14T20:13:00+00:00"
+     "start": "2014-08-14T08:15:00+00:00",
+     "end": "2014-08-14T20:15:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39913,8 +40422,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-15T08:09:00+00:00",
-     "end": "2014-08-15T20:09:00+00:00"
+     "start": "2014-08-15T08:36:00+00:00",
+     "end": "2014-08-15T20:36:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39935,8 +40447,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-16T08:09:00+00:00",
-     "end": "2014-08-16T20:09:00+00:00"
+     "start": "2014-08-16T08:04:00+00:00",
+     "end": "2014-08-16T20:04:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39957,8 +40472,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-17T08:00:00+00:00",
-     "end": "2014-08-17T20:00:00+00:00"
+     "start": "2014-08-17T08:53:00+00:00",
+     "end": "2014-08-17T20:53:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -39979,8 +40497,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-18T08:30:00+00:00",
-     "end": "2014-08-18T20:30:00+00:00"
+     "start": "2014-08-18T08:36:00+00:00",
+     "end": "2014-08-18T20:36:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -40001,8 +40522,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-19T08:01:00+00:00",
-     "end": "2014-08-19T20:01:00+00:00"
+     "start": "2014-08-19T08:12:00+00:00",
+     "end": "2014-08-19T20:12:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -40023,8 +40547,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-20T08:55:00+00:00",
-     "end": "2014-08-20T20:55:00+00:00"
+     "start": "2014-08-20T08:17:00+00:00",
+     "end": "2014-08-20T20:17:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -40045,8 +40572,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-21T08:30:00+00:00",
-     "end": "2014-08-21T20:30:00+00:00"
+     "start": "2014-08-21T08:42:00+00:00",
+     "end": "2014-08-21T20:42:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -40067,8 +40597,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-22T08:58:00+00:00",
-     "end": "2014-08-22T20:58:00+00:00"
+     "start": "2014-08-22T08:02:00+00:00",
+     "end": "2014-08-22T20:02:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -40089,8 +40622,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-23T08:09:00+00:00",
-     "end": "2014-08-23T20:09:00+00:00"
+     "start": "2014-08-23T08:03:00+00:00",
+     "end": "2014-08-23T20:03:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -40111,8 +40647,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-24T08:21:00+00:00",
-     "end": "2014-08-24T20:21:00+00:00"
+     "start": "2014-08-24T08:57:00+00:00",
+     "end": "2014-08-24T20:57:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -40133,8 +40672,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-25T08:02:00+00:00",
-     "end": "2014-08-25T20:02:00+00:00"
+     "start": "2014-08-25T08:57:00+00:00",
+     "end": "2014-08-25T20:57:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
@@ -40155,14 +40697,39 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-26T08:28:00+00:00",
-     "end": "2014-08-26T20:28:00+00:00"
+     "start": "2014-08-26T08:34:00+00:00",
+     "end": "2014-08-26T20:34:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/dacd2758d52b71ee1cb14fed7dde2447"
     }
    },
    "request": {
     "method": "PUT",
     "url": "MedicationAdministration/5a137c9f012d504bb4b6eb1557f0cca3",
     "ifNoneExist": "identifier=5a137c9f012d504bb4b6eb1557f0cca3"
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "MedicationRequest",
+    "id": "ee3b133a8a2c9e23f0cd96023b448887",
+    "status": "active",
+    "intent": "order",
+    "medicationReference": {
+     "reference": "Medication/H2Q-MC-LZZT-LY246708-1"
+    },
+    "subject": {
+     "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
+    },
+    "instantiatesCanonical": [
+     "ActivityDefinition/H2Q-MC-LZZT-IP-Administration"
+    ]
+   },
+   "request": {
+    "method": "PUT",
+    "url": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887",
+    "ifNoneExist": "identifier=ee3b133a8a2c9e23f0cd96023b448887"
    }
   },
   {
@@ -40177,8 +40744,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-28T08:50:00+00:00",
-     "end": "2014-08-28T20:50:00+00:00"
+     "start": "2014-08-28T08:12:00+00:00",
+     "end": "2014-08-28T20:12:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40199,8 +40769,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-29T08:04:00+00:00",
-     "end": "2014-08-29T20:04:00+00:00"
+     "start": "2014-08-29T08:12:00+00:00",
+     "end": "2014-08-29T20:12:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40221,8 +40794,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-30T08:14:00+00:00",
-     "end": "2014-08-30T20:14:00+00:00"
+     "start": "2014-08-30T08:58:00+00:00",
+     "end": "2014-08-30T20:58:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40243,8 +40819,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-08-31T08:47:00+00:00",
-     "end": "2014-08-31T20:47:00+00:00"
+     "start": "2014-08-31T08:53:00+00:00",
+     "end": "2014-08-31T20:53:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40265,8 +40844,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-09-01T08:20:00+00:00",
-     "end": "2014-09-01T20:20:00+00:00"
+     "start": "2014-09-01T08:43:00+00:00",
+     "end": "2014-09-01T20:43:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40287,8 +40869,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-09-02T08:15:00+00:00",
-     "end": "2014-09-02T20:15:00+00:00"
+     "start": "2014-09-02T08:51:00+00:00",
+     "end": "2014-09-02T20:51:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40309,8 +40894,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-09-03T08:33:00+00:00",
-     "end": "2014-09-03T20:33:00+00:00"
+     "start": "2014-09-03T08:44:00+00:00",
+     "end": "2014-09-03T20:44:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40331,8 +40919,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-09-04T08:51:00+00:00",
-     "end": "2014-09-04T20:51:00+00:00"
+     "start": "2014-09-04T09:00:00+00:00",
+     "end": "2014-09-04T21:00:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40353,8 +40944,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-09-05T08:18:00+00:00",
-     "end": "2014-09-05T20:18:00+00:00"
+     "start": "2014-09-05T08:04:00+00:00",
+     "end": "2014-09-05T20:04:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40375,8 +40969,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-09-06T08:04:00+00:00",
-     "end": "2014-09-06T20:04:00+00:00"
+     "start": "2014-09-06T08:22:00+00:00",
+     "end": "2014-09-06T20:22:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40397,8 +40994,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-09-07T08:39:00+00:00",
-     "end": "2014-09-07T20:39:00+00:00"
+     "start": "2014-09-07T08:52:00+00:00",
+     "end": "2014-09-07T20:52:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {
@@ -40419,8 +41019,11 @@
      "reference": "Patient/61e380b2fe0df4c22fa4cada8ac25ed6"
     },
     "effectivePeriod": {
-     "start": "2014-09-08T08:27:00+00:00",
-     "end": "2014-09-08T20:27:00+00:00"
+     "start": "2014-09-08T08:15:00+00:00",
+     "end": "2014-09-08T20:15:00+00:00"
+    },
+    "request": {
+     "reference": "MedicationRequest/ee3b133a8a2c9e23f0cd96023b448887"
     }
    },
    "request": {

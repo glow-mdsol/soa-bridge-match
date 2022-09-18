@@ -257,6 +257,7 @@ class Naptha:
                 medicationReference=Reference(reference=f"Medication/{get_med(arm)}"),
                 subject=Reference(reference=f"Patient/{patient_hash_id}"),
             )
+            records.append(mr)
             print(
                 f"Adding medication for {subject_id} from {record.EXSTDTC} to {record.EXENDTC} ({delta} days)"
             )
@@ -289,6 +290,7 @@ class Naptha:
                     medicationReference=Reference(
                         reference=f"Medication/{get_med(arm)}"
                     ),
+                    request=Reference(reference=f"MedicationRequest/{_mr_id}"),
                     subject=Reference(reference=f"Patient/{patient_hash_id}"),
                     effectivePeriod=Period(
                         start=_start_time,
@@ -304,11 +306,6 @@ class Naptha:
         for record in records:
             self.content.add_resource(record)
         print("Done")
-
-    def _encounter_id(self, patient_hash_id, visit_number):
-        care_plan_description = f"{patient_hash_id}-{visit_number}-CarePlan"
-        care_plan_id = hh(care_plan_description)
-        return hh(f"{care_plan_id}-{visit_number}-Encounter")
 
     def merge_ex_statement(
         self,
@@ -396,7 +393,7 @@ class Naptha:
             request=Reference(reference=f"MedicationRequest/{_tts_id}"),
         )
         self.content.add_resource(tts_admin)
-        _dates = visits = {x.VISITNUM: x.SVSTDTC for x in sv.itertuples()}
+        _dates = {x.VISITNUM: x.SVSTDTC for x in sv.itertuples()}
         visit_nums = sorted(_dates.keys())
         for visit_num in visit_nums:
             # ignore non-treatment visits
@@ -467,7 +464,10 @@ class Naptha:
         patient_hash_id = hh(subject_id)
         # slice the dataset
         sv = self.get_subject_sv(subject_id)
+        _dates = {x.VISITNUM: x.SVSTDTC for x in sv.itertuples()}
         prior_visit = float(visit_number.split(".")[0])
+        if prior_visit not in _dates:
+            return False
         before = to_datetime(sv[sv.VISITNUM == prior_visit]["SVSTDTC"].values[0])
         visdt = before + datetime.timedelta(days=random.randint(1, 7))
         # generate the careplan
@@ -620,6 +620,7 @@ class Naptha:
                 encounter=Reference(reference=f"Encounter/{_encounter_id}"),
                 basedOn=[Reference(reference=f"CarePlan/{care_plan_id}")],
             )
+        return True
 
     def merge_sv(self, subject_id: Optional[str] = None):
         """
