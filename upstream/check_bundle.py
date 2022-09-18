@@ -8,10 +8,11 @@ def check_file(filename):
         bundle = Bundle.parse_file(filename)
         for entry in bundle.entry:
             _id = entry.resource.id
-            if 'url' not in entry.request:
-                _patch_id = entry.request.url.split('/')[-1]
-                if _id != _patch_id:
-                    print("resource {_id} does not match patch {_patch_id} in {filename}".format(**locals()))
+            if entry.request:
+                if 'url' not in entry.request:
+                    _patch_id = entry.request.url.split('/')[-1]
+                    if _id != _patch_id:
+                        print("resource {_id} does not match patch {_patch_id} in {filename}".format(**locals()))
 
 def check_dir(dirname):
     for filename in os.listdir(dirname):
