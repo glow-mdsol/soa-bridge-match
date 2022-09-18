@@ -32,9 +32,12 @@ class SourcedBundle:
     Wraps the bundle and generation thereof.
     """
 
-    def __init__(self, bundle: Optional[Bundle],
-                 identifier: Optional[str],
-                 filename: Optional[str]) -> None:
+    def __init__(
+        self,
+        bundle: Optional[Bundle],
+        identifier: Optional[str],
+        filename: Optional[str],
+    ) -> None:
         self._resources = []
         self._identifier = identifier if identifier else uuid.uuid4().hex
         self._filename = filename if filename else None
@@ -50,7 +53,11 @@ class SourcedBundle:
 
     @property
     def filename(self) -> str:
-        return os.path.basename(self._filename) if self._filename else f"{self._identifier}.json"
+        return (
+            os.path.basename(self._filename)
+            if self._filename
+            else f"{self._identifier}.json"
+        )
 
     @property
     def dirname(self) -> str:
@@ -58,51 +65,60 @@ class SourcedBundle:
 
     @property
     def plan_definitions(self) -> List[str]:
-        if 'PlanDefinition' not in self._entities:
+        if "PlanDefinition" not in self._entities:
             for entry in self._bundle.entry:
-                if entry.resource.resource_type == 'PlanDefinition':
-                    self._entities.setdefault('PlanDefinition', []).append(entry.resource.id)
-        return self._entities.get('PlanDefinition', [])
+                if entry.resource.resource_type == "PlanDefinition":
+                    self._entities.setdefault("PlanDefinition", []).append(
+                        entry.resource.id
+                    )
+        return self._entities.get("PlanDefinition", [])
 
     @property
     def subjects(self) -> List[str]:
         """
         Extracts the list of subjects from the bundle
         """
-        if 'ResearchSubject' not in self._entities:
+        if "ResearchSubject" not in self._entities:
             for entry in self._bundle.entry:
-                if entry.resource.resource_type == 'ResearchSubject':
-                    self._entities.setdefault('ResearchSubject', []).append(entry.resource.id)
-        return self._entities.get('ResearchSubject', [])
+                if entry.resource.resource_type == "ResearchSubject":
+                    self._entities.setdefault("ResearchSubject", []).append(
+                        entry.resource.id
+                    )
+        return self._entities.get("ResearchSubject", [])
 
     @property
     def studies(self) -> List[str]:
         """
         Extracts the list of studies from the bundle
         """
-        if 'ResearchStudy' not in self._entities:
+        if "ResearchStudy" not in self._entities:
             for entry in self._bundle.entry:
-                if entry.resource.resource_type == 'ResearchStudy':
-                    self._entities.setdefault('ResearchStudy', []).append(entry.resource.id)
-        return self._entities.get('ResearchStudy', [])
+                if entry.resource.resource_type == "ResearchStudy":
+                    self._entities.setdefault("ResearchStudy", []).append(
+                        entry.resource.id
+                    )
+        return self._entities.get("ResearchStudy", [])
 
     @property
     def patients(self) -> List[Patient]:
         """
         Extracts the list of patients from the bundle
         """
-        if 'Patient' not in self._entities:
+        if "Patient" not in self._entities:
             for entry in self._bundle.entry:
-                if entry.resource.resource_type == 'Patient':
-                    self._entities.setdefault('Patient', []).append(entry.resource.id)
-        return self._entities.get('Patient', [])
+                if entry.resource.resource_type == "Patient":
+                    self._entities.setdefault("Patient", []).append(entry.resource.id)
+        return self._entities.get("Patient", [])
 
     def subject(self, subject_id: str) -> Optional[ResearchSubject]:
         """
         Get a Patient Resource
         """
         for entry in self._bundle.entry:
-            if entry.resource.resource_type == 'ResearchSubject' and entry.resource.id == subject_id:
+            if (
+                entry.resource.resource_type == "ResearchSubject"
+                and entry.resource.id == subject_id
+            ):
                 return entry.resource
         return None
 
@@ -111,7 +127,10 @@ class SourcedBundle:
         Get a Patient Resource
         """
         for entry in self._bundle.entry:
-            if entry.resource.resource_type == 'Patient' and entry.resource.id == patient_id:
+            if (
+                entry.resource.resource_type == "Patient"
+                and entry.resource.id == patient_id
+            ):
                 return entry.resource
         return None
 
@@ -120,7 +139,10 @@ class SourcedBundle:
         Get a Study Resource
         """
         for entry in self._bundle.entry:
-            if entry.resource.resource_type == 'ResearchStudy' and entry.resource.id == study_id:
+            if (
+                entry.resource.resource_type == "ResearchStudy"
+                and entry.resource.id == study_id
+            ):
                 return entry.resource
         return None
 
@@ -131,9 +153,12 @@ class SourcedBundle:
             self._bundle = Bundle(id=self._identifier, type="transaction")
         return self._bundle
 
-    def dump(self, target_dir: Optional[str] = None,
-             name: Optional[str] = None,
-             bundle: Optional[Bundle] = None) -> None:
+    def dump(
+        self,
+        target_dir: Optional[str] = None,
+        name: Optional[str] = None,
+        bundle: Optional[Bundle] = None,
+    ) -> None:
         """
         Dumps a bundle to a directory
         """
@@ -147,7 +172,7 @@ class SourcedBundle:
             fname = os.path.join(target_dir, _fname)
         else:
             fname = os.path.join(self.dirname, _fname)
-        with open(fname, 'w') as f:
+        with open(fname, "w") as f:
             if bundle:
                 f.write(bundle.json(indent=2))
             else:
@@ -158,7 +183,7 @@ class SourcedBundle:
         if subject_id not in self.subjects:
             raise ValueError(f"Subject {subject_id} does not exist")
         # get the patient ID
-        patient_id = self.subject(subject_id).individual.reference.split('/')[-1]
+        patient_id = self.subject(subject_id).individual.reference.split("/")[-1]
         lab_obs = self.synthea_bridge.get_lab_observation()
         lab_obs.subject.reference = f"Patient/{patient_id}"
         lab_obs.fhir_comments = ["This is a synthetic observation"]
@@ -172,7 +197,7 @@ class SourcedBundle:
         if subject_id not in self.subjects:
             raise ValueError(f"Subject {subject_id} does not exist")
         # get the patient ID
-        patient_id = self.subject(subject_id).individual.reference.split('/')[-1]
+        patient_id = self.subject(subject_id).individual.reference.split("/")[-1]
         vital_obs = self.synthea_bridge.get_vital_observation()
         vital_obs.subject.reference = f"Patient/{patient_id}"
         vital_obs.fhir_comments = ["This is a synthetic observation"]
@@ -186,15 +211,24 @@ class SourcedBundle:
         Adds a resource to the bundle
         """
         for entry in self._bundle.entry:
-            if entry.resource.resource_type == resource.resource_type and entry.resource.id == resource.id:
-                print(f"Resource {resource.resource_type}/{resource.id} already exists in bundle")
+            if (
+                entry.resource.resource_type == resource.resource_type
+                and entry.resource.id == resource.id
+            ):
+                print(
+                    f"Resource {resource.resource_type}/{resource.id} already exists in bundle"
+                )
                 return
         else:
             # print("Adding resource to bundle: {}".format(resource.resource_type))
-            entry = BundleEntry(resource=resource,
-                                request=BundleEntryRequest(method="PUT",
-                                                           url=f"{resource.resource_type}/{resource.id}",
-                                                           ifNoneExist=f"identifier={resource.id}"))
+            entry = BundleEntry(
+                resource=resource,
+                request=BundleEntryRequest(
+                    method="PUT",
+                    url=f"{resource.resource_type}/{resource.id}",
+                    ifNoneExist=f"identifier={resource.id}",
+                ),
+            )
             self._bundle.entry.append(entry)
 
     def clone_subject(self, new_subject_id: str) -> SourcedBundle:
@@ -207,14 +241,23 @@ class SourcedBundle:
         # Get the old subject ID
         _old_subject_id = _subject.id
         # get the patient identifer
-        _patient_id = _subject.individual.reference.split('/')[-1]
+        _patient_id = _subject.individual.reference.split("/")[-1]
         # hashed id
-        _new_patient_id = hashlib.md5(new_subject_id.encode('utf-8')).hexdigest()
+        _new_patient_id = hashlib.md5(new_subject_id.encode("utf-8")).hexdigest()
         # create a new bundle
-        _bundle = Bundle(id=str(uuid.uuid4()), type="transaction", entry=[])
-        id_cache = {}
+        _bundle_id = str(uuid.uuid4())
+        _bundle = Bundle(id=_bundle_id, type="transaction", entry=[])
+        _new = SourcedBundle(
+            _bundle,
+            identifier=_bundle_id,
+            filename=self.filename.replace(_old_subject_id, new_subject_id),
+        )
+
         for entry in self._bundle.entry:  # type: BundleEntry
-            if entry.resource.resource_type == 'Patient' and entry.resource.id == _patient_id:
+            if (
+                entry.resource.resource_type == "Patient"
+                and entry.resource.id == _patient_id
+            ):
                 # remap the patient
                 patient = entry.resource.copy()  # type: Patient
                 # clone the patient
@@ -230,38 +273,47 @@ class SourcedBundle:
                 #     resource.link = []
                 # patient.link.append(link)
                 # patient.fhir_comments = ["Cloned from Subject {}".format(_old_subject_id)]
-                _entry = BundleEntry(resource=patient,
-                                     request=BundleEntryRequest(method="PUT",
-                                                                url=f"{resource.resource_type}/{resource.id}",
-                                                                ifNoneExist=f"identifier={resource.id}"))
+                _new.add_resource(patient)
+                # _entry = BundleEntry(resource=patient,
+                #                      request=BundleEntryRequest(method="PUT",
+                #                                                 url=f"{resource.resource_type}/{resource.id}",
+                #                                                 ifNoneExist=f"identifier={resource.id}"))
 
-                # add the patient to the bundle
-                _bundle.entry.append(_entry)
-            elif entry.resource.resource_type == 'ResearchSubject' \
-                    and entry.resource.id == _subject.id:
+                # # add the patient to the bundle
+                # _bundle.entry.append(_entry)
+            elif (
+                entry.resource.resource_type == "ResearchSubject"
+                and entry.resource.id == _subject.id
+            ):
                 resource = entry.resource.copy()
                 # clone the subject
                 resource.id = new_subject_id
                 resource.individual.reference = f"Patient/{_new_patient_id}"
 
-                _entry = BundleEntry(resource=resource,
-                                     request=BundleEntryRequest(method="PUT",
-                                                                url=f"{resource.resource_type}/{resource.id}",
-                                                                ifNoneExist=f"identifier={resource.id}"))
+                _new.add_resource(resource)
+                # _entry = BundleEntry(resource=resource,
+                #                      request=BundleEntryRequest(method="PUT",
+                #                                                 url=f"{resource.resource_type}/{resource.id}",
+                #                                                 ifNoneExist=f"identifier={resource.id}"))
 
-                # add the subject to the bundle
-                _bundle.entry.append(_entry)
-            elif entry.resource.resource_type in ("ResearchStudy", "Group", "Organization",
-                                                  "Practitioner", "Medication") \
-                    or entry.resource.resource_type.endswith('Definition'):
+                # # add the subject to the bundle
+                # _bundle.entry.append(_entry)
+            elif entry.resource.resource_type in (
+                "ResearchStudy",
+                "Group",
+                "Organization",
+                "Practitioner",
+                "Medication",
+            ) or entry.resource.resource_type.endswith("Definition"):
+                _new.add_resource(entry.resource)
                 # add the common entities to the bundle
-                _bundle.entry.append(entry)
+                # _bundle.entry.append(entry)
             elif entry.resource.subject.reference == f"Patient/{_patient_id}":
                 # id resources where the subject is the patient
                 resource = entry.resource.copy()
                 resource.subject.reference = f"Patient/{_new_patient_id}"
                 resource.subject.display = _new_patient_id
-                if getattr(resource.subject, 'display', None):
+                if getattr(resource.subject, "display", None):
                     resource.subject.display = new_subject_id
                 if resource.resource_type == "CarePlan":
                     # clear this up
@@ -269,37 +321,33 @@ class SourcedBundle:
 
                 # need a deterministic id
                 hashed_id = hashlib.md5(
-                    f"{_patient_id}-{resource.resource_type}-{resource.id}".encode('utf-8')).hexdigest()
+                    f"{_patient_id}-{resource.resource_type}-{resource.id}".encode(
+                        "utf-8"
+                    )
+                ).hexdigest()
                 # need to map the IDs
                 resource.id = hashed_id
-                if getattr(resource, 'contained', None):
+                if getattr(resource, "contained", None):
                     for contained in resource.contained:
                         # Look for contained references
-                        if hasattr(contained, 'subject'):
+                        if hasattr(contained, "subject"):
                             # map to the new ID
                             contained.subject.reference = f"Patient/{_new_patient_id}"
-                _entry = BundleEntry(resource=resource,
-                                     request=BundleEntryRequest(method="PUT",
-                                                                url=f"{resource.resource_type}/{resource.id}",
-                                                                ifNoneExist=f"identifier={resource.id}"))
                 # add the cloned entity
-                _bundle.entry.append(_entry)
+                _new.add_resource(resource)
             else:
                 # add the rest of the entities
                 _resource = entry.resource.copy()
                 # replace the ID
                 _id = uuid.uuid4()
                 _resource.id = str(_id)
-                _entry = BundleEntry(resource=_resource,
-                                     request=BundleEntryRequest(method="PUT",
-                                                                url=f"{resource.resource_type}/{_id}",
-                                                                ifNoneExist=f"identifier={_id}"))
-                _bundle.entry.append(_entry)
-
-            instance = SourcedBundle(bundle=_bundle,
-                                     identifier=str(_bundle.identifier),
-                                     filename=self.filename.replace(_old_subject_id, _new_patient_id))
-        return instance 
+                _new.add_resource(_resource)
+                # _entry = BundleEntry(resource=_resource,
+                #                      request=BundleEntryRequest(method="PUT",
+                #                                                 url=f"{resource.resource_type}/{_id}",
+                #                                                 ifNoneExist=f"identifier={_id}"))
+                # _bundle.entry.append(_entry)
+        return _new
 
     @classmethod
     def from_bundle_file(cls, filename: str):
