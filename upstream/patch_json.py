@@ -25,7 +25,7 @@ STATUS = dict(Observation=dict(status="final"),
 
 SUBJECT_MAP = {}
 
-IP_ID = "H2Q-MC-LZZT-LY246708"
+IP_ID = "H2Q-MC-LZZT-LY246708-IP"
 
 
 def update_references(parent: dict):
@@ -268,14 +268,6 @@ def patch_file(filename, output_dir):
         )
         data['entry'].append(site_entry)
         # add a record for the medication (IP)
-        medication_entry = dict(resource=dict(
-            resourceType='Medication',
-            id=IP_ID),
-            request=dict(method='PUT',
-                         url=f'Medication/{IP_ID}',
-                         ifNoneExist=f"id={IP_ID}")
-        )
-        data['entry'].append(medication_entry)
         # check we haven't made a new subject or two
         assert len(patients) == len(subjects)
         with open(f"{prefix}_patched{ext}", 'w') as f:
