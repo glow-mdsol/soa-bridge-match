@@ -1,8 +1,8 @@
 {
  "resourceType": "Bundle",
- "id": "823f001f-b9c2-45b6-8c7d-5c3a5b68d7f6",
+ "id": "64cd1588-79ba-4988-8f84-1008cb4aae35",
  "meta": {
-  "lastUpdated": "2022-09-18T11:33:14+00:00"
+  "lastUpdated": "2022-09-18T11:56:10+00:00"
  },
  "type": "transaction",
  "entry": [
@@ -5254,17 +5254,6 @@
     "method": "PUT",
     "url": "Organization/b4a528955b84f584974e92d025a75d1f",
     "ifNoneExist": "id=b4a528955b84f584974e92d025a75d1f"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "Medication",
-    "id": "H2Q-MC-LZZT-LY246708"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "Medication/H2Q-MC-LZZT-LY246708",
-    "ifNoneExist": "id=H2Q-MC-LZZT-LY246708"
    }
   },
   {

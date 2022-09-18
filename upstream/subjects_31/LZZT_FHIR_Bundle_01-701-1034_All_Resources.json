@@ -1,8 +1,8 @@
 {
  "resourceType": "Bundle",
- "id": "1f3f0c6e-75e8-40b2-bcd8-fcf766d4b1c9",
+ "id": "6f3b3b14-1646-46ae-8764-cd3afa3e6533",
  "meta": {
-  "lastUpdated": "2022-09-18T11:33:14+00:00"
+  "lastUpdated": "2022-09-18T11:56:10+00:00"
  },
  "type": "transaction",
  "entry": [
@@ -6782,7 +6782,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "ae910272-8057-4ec3-a9a8-237295776e55",
+    "id": "68a74f37-222a-4f0e-9d7f-c216f82edb9f",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -6836,8 +6836,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/ae910272-8057-4ec3-a9a8-237295776e55",
-    "ifNoneExist": "identifier=ae910272-8057-4ec3-a9a8-237295776e55"
+    "url": "Observation/68a74f37-222a-4f0e-9d7f-c216f82edb9f",
+    "ifNoneExist": "identifier=68a74f37-222a-4f0e-9d7f-c216f82edb9f"
    }
   },
   {
@@ -6904,7 +6904,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "bb30903d-08ce-4b76-99d9-b8869d854efb",
+    "id": "4731e991-0e23-4e3e-a05d-51eca260b523",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -6958,8 +6958,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/bb30903d-08ce-4b76-99d9-b8869d854efb",
-    "ifNoneExist": "identifier=bb30903d-08ce-4b76-99d9-b8869d854efb"
+    "url": "Observation/4731e991-0e23-4e3e-a05d-51eca260b523",
+    "ifNoneExist": "identifier=4731e991-0e23-4e3e-a05d-51eca260b523"
    }
   },
   {
@@ -7758,7 +7758,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "ac83c929-dac2-4831-b8e1-a89e123ba687",
+    "id": "7a70993a-68ee-4024-88ce-7cc9347fdaac",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -7812,8 +7812,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/ac83c929-dac2-4831-b8e1-a89e123ba687",
-    "ifNoneExist": "identifier=ac83c929-dac2-4831-b8e1-a89e123ba687"
+    "url": "Observation/7a70993a-68ee-4024-88ce-7cc9347fdaac",
+    "ifNoneExist": "identifier=7a70993a-68ee-4024-88ce-7cc9347fdaac"
    }
   },
   {
@@ -8714,7 +8714,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "eb7da64a-0085-4ac2-a7f4-b74bc02ed23c",
+    "id": "9f878ebc-db23-4ee3-a239-cb4869e8f1a2",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -8759,8 +8759,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/eb7da64a-0085-4ac2-a7f4-b74bc02ed23c",
-    "ifNoneExist": "identifier=eb7da64a-0085-4ac2-a7f4-b74bc02ed23c"
+    "url": "Observation/9f878ebc-db23-4ee3-a239-cb4869e8f1a2",
+    "ifNoneExist": "identifier=9f878ebc-db23-4ee3-a239-cb4869e8f1a2"
    }
   },
   {
@@ -11546,7 +11546,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "b1625aae-7047-4822-93d0-c4ad0f068d6b",
+    "id": "93cfd19c-8db8-46f0-a5d2-b39da27fe18b",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -11600,8 +11600,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/b1625aae-7047-4822-93d0-c4ad0f068d6b",
-    "ifNoneExist": "identifier=b1625aae-7047-4822-93d0-c4ad0f068d6b"
+    "url": "Observation/93cfd19c-8db8-46f0-a5d2-b39da27fe18b",
+    "ifNoneExist": "identifier=93cfd19c-8db8-46f0-a5d2-b39da27fe18b"
    }
   },
   {
@@ -12034,7 +12034,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "36a5bc08-24f3-4ebc-8f55-9b1f28d38161",
+    "id": "80c78e48-fced-4981-964b-bfc7f60fe73d",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -12088,14 +12088,14 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/36a5bc08-24f3-4ebc-8f55-9b1f28d38161",
-    "ifNoneExist": "identifier=36a5bc08-24f3-4ebc-8f55-9b1f28d38161"
+    "url": "Observation/80c78e48-fced-4981-964b-bfc7f60fe73d",
+    "ifNoneExist": "identifier=80c78e48-fced-4981-964b-bfc7f60fe73d"
    }
   },
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "a113f493-786d-4310-9e69-5096e0572eeb",
+    "id": "98f06b0e-6e2c-409b-b181-42acfd6c3373",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -12149,8 +12149,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/a113f493-786d-4310-9e69-5096e0572eeb",
-    "ifNoneExist": "identifier=a113f493-786d-4310-9e69-5096e0572eeb"
+    "url": "Observation/98f06b0e-6e2c-409b-b181-42acfd6c3373",
+    "ifNoneExist": "identifier=98f06b0e-6e2c-409b-b181-42acfd6c3373"
    }
   },
   {
@@ -12461,7 +12461,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "02b39c2e-874c-46f2-a08c-288925578da7",
+    "id": "425c2b8b-23e6-4900-bd29-e2c92f913773",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -12515,8 +12515,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/02b39c2e-874c-46f2-a08c-288925578da7",
-    "ifNoneExist": "identifier=02b39c2e-874c-46f2-a08c-288925578da7"
+    "url": "Observation/425c2b8b-23e6-4900-bd29-e2c92f913773",
+    "ifNoneExist": "identifier=425c2b8b-23e6-4900-bd29-e2c92f913773"
    }
   },
   {
@@ -13641,7 +13641,7 @@
   {
    "resource": {
     "resourceType": "Observation",
-    "id": "3ee12f0e-0925-4e0f-96da-17854a5461b3",
+    "id": "23148619-af51-4840-90ca-dc611431b323",
     "meta": {
      "profile": [
       "http://hl7.org/fhir/StructureDefinition/vitalsigns"
@@ -13686,8 +13686,8 @@
    },
    "request": {
     "method": "PUT",
-    "url": "Observation/3ee12f0e-0925-4e0f-96da-17854a5461b3",
-    "ifNoneExist": "identifier=3ee12f0e-0925-4e0f-96da-17854a5461b3"
+    "url": "Observation/23148619-af51-4840-90ca-dc611431b323",
+    "ifNoneExist": "identifier=23148619-af51-4840-90ca-dc611431b323"
    }
   },
   {
@@ -33371,7 +33371,7 @@
     "suspectEntity": [
      {
       "instance": {
-       "reference": "Medication/H2Q-MC-LZZT-LY246708"
+       "reference": "Medication/H2Q-MC-LZZT-LY246708-IP"
       },
       "causality": [
        {
@@ -33463,7 +33463,7 @@
     "suspectEntity": [
      {
       "instance": {
-       "reference": "Medication/H2Q-MC-LZZT-LY246708"
+       "reference": "Medication/H2Q-MC-LZZT-LY246708-IP"
       },
       "causality": [
        {
@@ -38665,17 +38665,6 @@
     "method": "PUT",
     "url": "Organization/b4a528955b84f584974e92d025a75d1f",
     "ifNoneExist": "id=b4a528955b84f584974e92d025a75d1f"
-   }
-  },
-  {
-   "resource": {
-    "resourceType": "Medication",
-    "id": "H2Q-MC-LZZT-LY246708"
-   },
-   "request": {
-    "method": "PUT",
-    "url": "Medication/H2Q-MC-LZZT-LY246708",
-    "ifNoneExist": "id=H2Q-MC-LZZT-LY246708"
    }
   },
   {
