@@ -4,6 +4,8 @@ import random
 
 from soa_bridge_match.dataset import Naptha
 
+# Subject IDs -> 3000 -3999
+
 def process_file(filename, blinded=False):
     # getting the bundle
     print("Processing file: {}".format(filename))

@@ -17,6 +17,7 @@ from fhir.resources.dosage import Dosage
 from fhir.resources.fhirtypes import (
     DosageDoseAndRateType,
     ObservationReferenceRangeType,
+    Canonical,
 )
 from fhir.resources.encounter import Encounter
 from fhir.resources.identifier import Identifier
@@ -149,9 +150,12 @@ class Naptha:
         cloned = self._content.clone_subject(subject_id)
         return Naptha(templatefile=None, templatecontent=cloned)
 
-    def _add_tts_admin(self, subject_id: str):
+    def _add_tts_admin(self, subject_id: str, visit_date: datetime.datetime):
         # Add the TTS-Test
+        print("Adding TTS-admin for {}".format(subject_id))
         records = []
+        patient_hash_id = hh(subject_id)
+
         _tts_id = hh(f"{subject_id}-TTS-Test-Request")
         tts_test_request = MedicationRequest(
             id=_tts_id,
@@ -160,7 +164,9 @@ class Naptha:
                 reference=f"Medication/H2Q-MC-LZZT-LY246708-Placebo-TTS"
             ),
             subject=Reference(reference=f"Patient/{patient_hash_id}"),
-            instantiatesCanonical=[f"ActivityDefinition/H2Q-MC-LZZT-Placebo-TTS-Admin"],
+            instantiatesCanonical=[
+                "ActivityDefinition/H2Q-MC-LZZT-Placebo-TTS-Admin"
+                ],
             intent="order",
             dosageInstruction=[
                 Dosage(
@@ -185,11 +191,13 @@ class Naptha:
         tts_admin = MedicationAdministration(
             id=_tts_admin_id,
             status="completed",
-            medicationReference=Reference(reference=f"Medication/{get_med(arm)}"),
+            medicationReference=Reference(
+                reference=f"Medication/H2Q-MC-LZZT-LY246708-Placebo-TTS"
+            ),
             subject=Reference(reference=f"Patient/{patient_hash_id}"),
             effectivePeriod=Period(
-                start=visit_1,
-                end=visit_1 + np.timedelta64(12, "h"),
+                start=visit_date,
+                end=visit_date + np.timedelta64(12, "h"),
             ),
             request=Reference(reference=f"MedicationRequest/{_tts_id}"),
         )
@@ -208,16 +216,13 @@ class Naptha:
         if blinded:
             return "H2Q-MC-LZZT-LY246708-IP"
         return medication[arm]
-   
+
     def merge_ex(
         self,
         subject_id: Optional[str] = None,
         blinded: bool = False,
         d_subject_id: Optional[str] = None,
     ):
-        """
-        Merge a dataset into the template
-        """
         """
         Merge a dataset into the template
         """
@@ -230,8 +235,7 @@ class Naptha:
             raise ValueError(f"Subject {subject_id} does not exist")
         # we remap the subjects, reuse the data
         dest_subject_id = d_subject_id if d_subject_id is not None else subject_id
-        print("Adding medications for {}".format(dest_subject_id))
-
+        
         patient_hash_id = hh(dest_subject_id)
         # get the set of records for a subject
         ex = self.get_subject_ex(subject_id)
@@ -241,8 +245,9 @@ class Naptha:
         # get the arm
         arm = dm.ARMCD.unique()[0]
         # Add the TTS-Test
-        for record in self._add_tts_admin(subject_id):
+        for record in self._add_tts_admin(subject_id, visit_date=visit_1):
             self.content.add_resource(record)
+        print("Adding medications for {} (using MedicationAdministration)".format(dest_subject_id))
 
         _med_name = self.get_med(arm, blinded)
         records = []
@@ -260,7 +265,7 @@ class Naptha:
                 intent="order",
                 status="active",
                 instantiatesCanonical=[
-                    f"ActivityDefinition/H2Q-MC-LZZT-IP-Administration"
+                    "ActivityDefinition/H2Q-MC-LZZT-IP-Administration"
                 ],
                 medicationReference=Reference(reference=f"Medication/{_med_name}"),
                 subject=Reference(reference=f"Patient/{patient_hash_id}"),
@@ -297,9 +302,7 @@ class Naptha:
                 medication_admin = MedicationAdministration(
                     id=_id,
                     status="completed",
-                    medicationReference=Reference(
-                        reference=f"Medication/{_med_name}"
-                    ),
+                    medicationReference=Reference(reference=f"Medication/{_med_name}"),
                     request=Reference(reference=f"MedicationRequest/{_mr_id}"),
                     subject=Reference(reference=f"Patient/{patient_hash_id}"),
                     effectivePeriod=Period(
@@ -312,7 +315,9 @@ class Naptha:
                 # add the medication request to the content
                 # self.content.add_entry(medication_request)
                 records.append(medication_admin)
-        print(f"Generated {len(records)} medication administrations for {dest_subject_id}")
+        print(
+            f"Generated {len(records)} medication administrations for {dest_subject_id}"
+        )
         for record in records:
             self.content.add_resource(record)
         print("Done")
@@ -324,7 +329,7 @@ class Naptha:
         d_subject_id: Optional[str] = None,
     ):
         """
-        Merge a dataset into the template (using MedicationAdministration records)
+        Merge a dataset into the template (using MedicationStatement records)
         """
         if subject_id is None:
             for _subject_id in self.get_subjects():
@@ -335,19 +340,18 @@ class Naptha:
             raise ValueError(f"Subject {subject_id} does not exist")
         # we remap the subjects, reuse the data
         dest_subject_id = d_subject_id if d_subject_id is not None else subject_id
-        print("Adding medications for {}".format(dest_subject_id))
 
         patient_hash_id = hh(dest_subject_id)
         # get the set of records for a subject (source_subject)
         ex = self.get_subject_ex(subject_id)
         dm = self.get_subject_dm(subject_id)
         sv = self.get_subject_sv(subject_id)
-        # visit_1 = sv[sv["VISITNUM"] == 1.0].SVSTDTC.values[0]
+        visit_1 = sv[sv["VISITNUM"] == 1.0].SVSTDTC.values[0]
         # get the arm
         arm = dm.ARMCD.unique()[0]
-
-        for record in self._add_tts_admin(subject_id):
+        for record in self._add_tts_admin(subject_id, visit_date=visit_1):
             self.content.add_resource(record)
+        print("Adding medications for {} using MedicationStatement".format(dest_subject_id))
         records = []
         _med_nam = self.get_med(arm, blinded)
         _dates = {x.VISITNUM: x.SVSTDTC for x in sv.itertuples()}
@@ -367,10 +371,10 @@ class Naptha:
                 status="completed",
                 intent="order",
                 medicationReference=Reference(reference=f"Medication/{_med_nam}"),
-                instantiatesCanonical=[
-                    f"ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
-                ],
                 subject=Reference(reference=f"Patient/{patient_hash_id}"),
+                instantiatesCanonical=[
+                    "ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
+                ],
                 # encounter=Reference(
                 #     reference=f"Encounter/{self._encounter_id(patient_hash_id, _prior)}"
                 # ),
@@ -384,9 +388,6 @@ class Naptha:
                 subject=Reference(reference=f"Patient/{patient_hash_id}"),
                 medicationReference=Reference(reference=f"Medication/{_med_nam}"),
                 dateAsserted=_dates[visit_num],
-                instantiatesCanonical=[
-                    f"ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
-                ],
                 basedOn=[Reference(reference=f"MedicationRequest/{_dispensed_id}")],
             )
             self.content.add_resource(_ms)
@@ -403,7 +404,7 @@ class Naptha:
                         status="completed",
                         subject=Reference(reference=f"Patient/{patient_hash_id}"),
                         medicationReference=Reference(
-                            reference=f"Medication/{get_med(arm)}"
+                            reference=f"Medication/{_med_nam}"
                         ),
                         dateAsserted=_dates[visit_num],
                         effectiveDateTime=_dt,

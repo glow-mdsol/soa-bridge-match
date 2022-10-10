@@ -3,6 +3,9 @@ import argparse
 
 from soa_bridge_match.dataset import Naptha
 
+# Using the MedicationAdiministration resource to record the data
+# Subject IDs -> 2000 - 2999
+
 def process_file(filename, blinded=False):
     # getting the bundle
     print("Processing file: {}".format(filename))
