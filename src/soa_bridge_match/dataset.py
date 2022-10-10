@@ -149,6 +149,66 @@ class Naptha:
         cloned = self._content.clone_subject(subject_id)
         return Naptha(templatefile=None, templatecontent=cloned)
 
+    def _add_tts_admin(self, subject_id: str):
+        # Add the TTS-Test
+        records = []
+        _tts_id = hh(f"{subject_id}-TTS-Test-Request")
+        tts_test_request = MedicationRequest(
+            id=_tts_id,
+            status="active",
+            medicationReference=Reference(
+                reference=f"Medication/H2Q-MC-LZZT-LY246708-Placebo-TTS"
+            ),
+            subject=Reference(reference=f"Patient/{patient_hash_id}"),
+            instantiatesCanonical=[f"ActivityDefinition/H2Q-MC-LZZT-Placebo-TTS-Admin"],
+            intent="order",
+            dosageInstruction=[
+                Dosage(
+                    route=CodeableConcept(
+                        coding=[Coding(code="45890007")], text="Transdermal route"
+                    ),
+                    doseAndRate=[
+                        DosageDoseAndRateType(
+                            type=CodeableConcept(text="ordered"),
+                            doseQuantity=Quantity(
+                                value=1,
+                                unit="TPATCH",
+                                system="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+                            ),
+                        )
+                    ],
+                )
+            ],
+        )
+        records.append(tts_test_request)
+        _tts_admin_id = hh(f"{subject_id}-TTS-Test-Request")
+        tts_admin = MedicationAdministration(
+            id=_tts_admin_id,
+            status="completed",
+            medicationReference=Reference(reference=f"Medication/{get_med(arm)}"),
+            subject=Reference(reference=f"Patient/{patient_hash_id}"),
+            effectivePeriod=Period(
+                start=visit_1,
+                end=visit_1 + np.timedelta64(12, "h"),
+            ),
+            request=Reference(reference=f"MedicationRequest/{_tts_id}"),
+        )
+        records.append(tts_admin)
+        return records
+
+    def get_med(self, arm: str, blinded: bool = False) -> str:
+        # returns the assigned medication for a given arm
+        # or a placeholder if blinded
+        medication = {
+            "Pbo": "H2Q-MC-LZZT-LY246708-1",
+            "Xan_Hi": "H2Q-MC-LZZT-LY246708-3",
+            "Xan_Lo": "H2Q-MC-LZZT-LY246708-2",
+            "Scrnfail": "",
+        }
+        if blinded:
+            return "H2Q-MC-LZZT-LY246708-IP"
+        return medication[arm]
+   
     def merge_ex(
         self,
         subject_id: Optional[str] = None,
@@ -180,64 +240,12 @@ class Naptha:
         visit_1 = sv[sv["VISITNUM"] == 1.0].SVSTDTC.values[0]
         # get the arm
         arm = dm.ARMCD.unique()[0]
-        # Medication Request
-        def get_med(arm):
-            # returns the assigned medication for a given arm
-            # or a placeholder if blinded
-            medication = {
-                "Pbo": "H2Q-MC-LZZT-LY246708-1",
-                "Xan_Hi": "H2Q-MC-LZZT-LY246708-3",
-                "Xan_Lo": "H2Q-MC-LZZT-LY246708-2",
-                "Scrnfail": "",
-            }
-            if blinded:
-                return "H2Q-MC-LZZT-LY246708-IP"
-            return medication[arm]
-
-        records = []
         # Add the TTS-Test
-        _tts_id = hh(f"{subject_id}-TTS-Test-Request")
-        tts_test_request = MedicationRequest(
-            id=_tts_id,
-            status="active",
-            medicationReference=Reference(
-                reference=f"Medication/H2Q-MC-LZZT-LY246708-Placebo-TTS"
-            ),
-            subject=Reference(reference=f"Patient/{patient_hash_id}"),
-            instantiatesCanonical=[f"ActivityDefinition/H2Q-MC-LZZT-Placebo-TTS-Admin"],
-            intent="order",
-            dosageInstruction=[
-                Dosage(
-                    route=CodeableConcept(
-                        coding=[Coding(code="45890007")], text="Transdermal route"
-                    ),
-                    doseAndRate=[
-                        DosageDoseAndRateType(
-                            type=CodeableConcept(text="ordered"),
-                            doseQuantity=Quantity(
-                                value=1,
-                                unit="TPATCH",
-                                system="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
-                            ),
-                        )
-                    ],
-                )
-            ],
-        )
-        self.content.add_resource(tts_test_request)
-        _tts_admin_id = hh(f"{subject_id}-TTS-Test-Request")
-        tts_admin = MedicationAdministration(
-            id=_tts_admin_id,
-            status="completed",
-            medicationReference=Reference(reference=f"Medication/{get_med(arm)}"),
-            subject=Reference(reference=f"Patient/{patient_hash_id}"),
-            effectivePeriod=Period(
-                start=visit_1,
-                end=visit_1 + np.timedelta64(12, "h"),
-            ),
-            request=Reference(reference=f"MedicationRequest/{_tts_id}"),
-        )
-        self.content.add_resource(tts_admin)
+        for record in self._add_tts_admin(subject_id):
+            self.content.add_resource(record)
+
+        _med_name = self.get_med(arm, blinded)
+        records = []
         # get the medication request
         for offset, record in ex.iterrows():
             if pd.isna(record.EXENDTC):
@@ -254,7 +262,7 @@ class Naptha:
                 instantiatesCanonical=[
                     f"ActivityDefinition/H2Q-MC-LZZT-IP-Administration"
                 ],
-                medicationReference=Reference(reference=f"Medication/{get_med(arm)}"),
+                medicationReference=Reference(reference=f"Medication/{_med_name}"),
                 subject=Reference(reference=f"Patient/{patient_hash_id}"),
             )
             records.append(mr)
@@ -270,7 +278,9 @@ class Naptha:
                 delta = floor(delta)
             # medication_request = MedicationRequest(id=_mr_id)
             for dt in range(delta):
+                # date for the medication administration
                 _date = record.EXSTDTC + datetime.timedelta(days=dt)
+                # create a hash id for the medication administration based on the EXSEQ and offset
                 _id = hh(f"{subject_id}-{record.EXSEQ}-{dt}")
                 _stt = datetime.datetime.combine(
                     _date, datetime.time(8, 0, 0), tzinfo=pytz.UTC
@@ -288,7 +298,7 @@ class Naptha:
                     id=_id,
                     status="completed",
                     medicationReference=Reference(
-                        reference=f"Medication/{get_med(arm)}"
+                        reference=f"Medication/{_med_name}"
                     ),
                     request=Reference(reference=f"MedicationRequest/{_mr_id}"),
                     subject=Reference(reference=f"Patient/{patient_hash_id}"),
@@ -314,7 +324,7 @@ class Naptha:
         d_subject_id: Optional[str] = None,
     ):
         """
-        Merge a dataset into the template
+        Merge a dataset into the template (using MedicationAdministration records)
         """
         if subject_id is None:
             for _subject_id in self.get_subjects():
@@ -332,67 +342,14 @@ class Naptha:
         ex = self.get_subject_ex(subject_id)
         dm = self.get_subject_dm(subject_id)
         sv = self.get_subject_sv(subject_id)
-        visit_1 = sv[sv["VISITNUM"] == 1.0].SVSTDTC.values[0]
+        # visit_1 = sv[sv["VISITNUM"] == 1.0].SVSTDTC.values[0]
         # get the arm
         arm = dm.ARMCD.unique()[0]
-        # Medication Request
-        def get_med(arm):
-            # returns the assigned medication for a given arm
-            # or a placeholder if blinded
-            medication = {
-                "Pbo": "H2Q-MC-LZZT-LY246708-1",
-                "Xan_Hi": "H2Q-MC-LZZT-LY246708-3",
-                "Xan_Lo": "H2Q-MC-LZZT-LY246708-2",
-                "Scrnfail": "",
-            }
-            if blinded:
-                return "H2Q-MC-LZZT-LY246708-IP"
-            return medication[arm]
 
+        for record in self._add_tts_admin(subject_id):
+            self.content.add_resource(record)
         records = []
-        # Add the TTS-Test
-        _tts_id = hh(f"{subject_id}-TTS-Test-Request")
-        tts_test_request = MedicationRequest(
-            id=_tts_id,
-            status="active",
-            medicationReference=Reference(
-                reference=f"Medication/H2Q-MC-LZZT-LY246708-Placebo-TTS"
-            ),
-            subject=Reference(reference=f"Patient/{patient_hash_id}"),
-            instantiatesCanonical=[f"ActivityDefinition/H2Q-MC-LZZT-Placebo-TTS-Admin"],
-            intent="order",
-            dosageInstruction=[
-                Dosage(
-                    route=CodeableConcept(
-                        coding=[Coding(code="45890007")], text="Transdermal route"
-                    ),
-                    doseAndRate=[
-                        DosageDoseAndRateType(
-                            type=CodeableConcept(text="ordered"),
-                            doseQuantity=Quantity(
-                                value=1,
-                                unit="TPATCH",
-                                system="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
-                            ),
-                        )
-                    ],
-                )
-            ],
-        )
-        self.content.add_resource(tts_test_request)
-        _tts_admin_id = hh(f"{subject_id}-TTS-Test-Request")
-        tts_admin = MedicationAdministration(
-            id=_tts_admin_id,
-            status="completed",
-            medicationReference=Reference(reference=f"Medication/{get_med(arm)}"),
-            subject=Reference(reference=f"Patient/{patient_hash_id}"),
-            effectivePeriod=Period(
-                start=visit_1,
-                end=visit_1 + np.timedelta64(12, "h"),
-            ),
-            request=Reference(reference=f"MedicationRequest/{_tts_id}"),
-        )
-        self.content.add_resource(tts_admin)
+        _med_nam = self.get_med(arm, blinded)
         _dates = {x.VISITNUM: x.SVSTDTC for x in sv.itertuples()}
         visit_nums = sorted(_dates.keys())
         for visit_num in visit_nums:
@@ -409,7 +366,7 @@ class Naptha:
                 id=_dispensed_id,
                 status="completed",
                 intent="order",
-                medicationReference=Reference(reference=f"Medication/{get_med(arm)}"),
+                medicationReference=Reference(reference=f"Medication/{_med_nam}"),
                 instantiatesCanonical=[
                     f"ActivityDefinition/H2Q-MC-LZZT-Study-drug-dispensed"
                 ],
@@ -425,9 +382,12 @@ class Naptha:
                 id=_returned_id,
                 status="completed",
                 subject=Reference(reference=f"Patient/{patient_hash_id}"),
-                medicationReference=Reference(reference=f"Medication/{get_med(arm)}"),
+                medicationReference=Reference(reference=f"Medication/{_med_nam}"),
                 dateAsserted=_dates[visit_num],
-                basedOn=[Reference(reference=f"MedicationRequest/{_tts_id}")],
+                instantiatesCanonical=[
+                    f"ActivityDefinition/H2Q-MC-LZZT-Study-drug-returned"
+                ],
+                basedOn=[Reference(reference=f"MedicationRequest/{_dispensed_id}")],
             )
             self.content.add_resource(_ms)
             if _prior in _dates:
