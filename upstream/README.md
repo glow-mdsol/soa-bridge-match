@@ -49,24 +49,28 @@ Adding resource to bundle: Encounter
 
 The subjects can have medications added for the subject
 
+### Using MedicationAdministration Records
 In this case the subject bundles are in the `subjects` subdirectory.
 ```shell
 python add_medications.py subjects_31
 ```
 
+This will clone the subject to a subject ID + 1000 (ie 2028)
+
 Output will look something like the following
 ```
-Processing file: subjects_31/LZZT_FHIR_Bundle_01-701-1047_All_Resources.json
-Adding medications for 01-701-1047
-Adding medication for 01-701-1047 from 2013-02-12 00:00:00 to 2013-02-25 00:00:00 (13 days)
-Adding medication for 01-701-1047 from 2013-02-26 00:00:00 to 2013-03-09 00:00:00 (11 days)
-Generated 24 medication administrations for 01-701-1047
-Done
-Processing file: subjects_31/LZZT_FHIR_Bundle_01-701-1111_All_Resources.json
-Adding medications for 01-701-1111
-Adding medication for 01-701-1111 from 2012-09-07 00:00:00 to 2012-09-16 00:00:00 (9 days)
-Generated 9 medication administrations for 01-701-1111
-Done
+```
+
+### Using MedicationStatement Records
+In this case the subject bundles are in the `subjects` subdirectory.
+```shell
+python add_medication_statements.py subjects_31
+```
+
+This will clone the subject to a subject ID + 2000 (ie 3028)
+
+Output will look something like the following
+```
 ```
 
 ## Cloning a Research Subject
