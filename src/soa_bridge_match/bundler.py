@@ -252,7 +252,8 @@ class SourcedBundle:
             identifier=_bundle_id,
             filename=self.filename.replace(_old_subject_id, new_subject_id),
         )
-
+        # have a cache for mapping IDs to references
+        cache = {}
         for entry in self._bundle.entry:  # type: BundleEntry
             if (
                 entry.resource.resource_type == "Patient"
@@ -260,6 +261,8 @@ class SourcedBundle:
             ):
                 # remap the patient
                 patient = entry.resource.copy()  # type: Patient
+                # cache the reference ID
+                cache[patient.id] = _new_patient_id
                 # clone the patient
                 patient.id = _new_patient_id
                 # randomise
@@ -340,7 +343,10 @@ class SourcedBundle:
                 _resource = entry.resource.copy()
                 # replace the ID
                 _id = uuid.uuid4()
+                # cache the updates
+                cache[resource.id] = _id
                 _resource.id = str(_id)
+                
                 _new.add_resource(_resource)
                 # _entry = BundleEntry(resource=_resource,
                 #                      request=BundleEntryRequest(method="PUT",
